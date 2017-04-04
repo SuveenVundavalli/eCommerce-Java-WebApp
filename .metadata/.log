@@ -8553,3 +8553,19 @@ java.io.FileNotFoundException: /Users/Suveen/Documents/java/workspace/SLT/SLTPro
 
 !ENTRY org.eclipse.core.resources 2 10035 2017-04-04 09:20:44.427
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-04-04 09:25:58.514 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-04-04 09:26:04.827
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-04 09:26:23.350
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-04-04 09:26:23.375
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

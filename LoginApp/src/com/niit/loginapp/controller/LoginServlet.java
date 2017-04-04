@@ -51,6 +51,7 @@ public class LoginServlet extends HttpServlet {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("/Login.html");
 			
 			PrintWriter writer = response.getWriter();
+			response.setContentType("text/html;charset=UTF-8");
 			writer.append("Invalid Credentials. Please try again");
 			//we have include login.html + this message
 			//show error message
