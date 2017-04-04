@@ -1,0 +1,25 @@
+package com.niit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class HomeController {
+
+
+	@RequestMapping("/")
+	public String goToHome(Model model){
+		model.addAttribute("message", "Thank you for visiting Shopping Cart!");
+		return "Home";
+	}
+
+	@RequestMapping("/LoginPage")
+	public String loginPage() {
+		return "Login";
+	}
+	@RequestMapping("/RegistrationPage")
+	public String registerPage() {
+		return "Register";
+	}
+}

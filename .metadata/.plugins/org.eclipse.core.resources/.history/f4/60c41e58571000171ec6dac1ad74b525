@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+</head>
+<body>
+
+<form action="LoginServlet">
+	<input type="text" name="userID" value="Username">
+	<input type="password" name="password" value="Password">
+	<input type="submit" value="Login">
+</form>
+
+</body>
+</html>

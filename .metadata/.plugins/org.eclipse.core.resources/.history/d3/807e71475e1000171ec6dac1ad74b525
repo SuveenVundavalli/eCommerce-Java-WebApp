@@ -1,0 +1,10 @@
+package com.niit.loginapp.config;
+
+public class DBConnection {
+	
+	private static String id;
+	private static String password;
+	private static String url;
+	private static String driver = "org.h2.Driver";
+
+}
