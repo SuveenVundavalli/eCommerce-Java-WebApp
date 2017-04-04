@@ -1,5 +1,0 @@
-package com.niit.loginapp.config;
-
-public class DBConnection {
-
-}
