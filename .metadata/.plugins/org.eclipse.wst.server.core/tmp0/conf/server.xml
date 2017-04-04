@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/LoginApp" path="/LoginApp" reloadable="true" source="org.eclipse.jst.jee.server:LoginApp"/><Context docBase="/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ShoppingCartFrontEnd" path="/ShoppingCartFrontEnd" reloadable="true" source="org.eclipse.jst.j2ee.server:ShoppingCartFrontEnd"/></Host>
+      <Context docBase="/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ShoppingCartFrontEnd" path="/ShoppingCartFrontEnd" reloadable="true" source="org.eclipse.jst.j2ee.server:ShoppingCartFrontEnd"/></Host>
     </Engine>
   </Service>
 </Server>
