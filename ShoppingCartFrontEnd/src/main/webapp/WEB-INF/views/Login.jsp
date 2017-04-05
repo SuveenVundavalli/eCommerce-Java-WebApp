@@ -9,7 +9,7 @@
 <body>
 
 <div class="container">
-  <h2>Horizontal form</h2>
+  <h2>Login</h2>
   <form class="form-horizontal" action="MainPage">
     <div class="form-group">
       <label class="control-label col-sm-2" for="email">Email:</label>
@@ -20,7 +20,7 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Password:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" required>
       </div>
     </div>
     <div class="form-group">        
