@@ -5,17 +5,18 @@
 <head>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <title>Insert title here</title>
+<link rel="stylesheet" href="src/main/webapp/WEB-INF/resources/css/bootstrap.css">
+<script src="src/main/webapp/WEB-INF/resources/js/jquery-3.2.0.js"></script>
+<script src="src/main/webapp/WEB-INF/resources/js/bootstrap.js"></script>
 </head>
 <body>
 	<center>
 		<h1>Shopping Cart Web site</h1>
 	</center>
-	${message}
-
-	<a href="LoginPage">Login</a>
-	<a href="RegistrationPage">Register</a>
 
 	<hr color="green">
+	<jsp:include page="Menu.jsp"></jsp:include>
+
 
 	<c:if test="${isUserClickedLogin=='true'}">
 		<jsp:include page="Login.jsp"></jsp:include>
