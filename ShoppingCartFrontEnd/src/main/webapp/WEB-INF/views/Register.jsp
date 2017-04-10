@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	<div class="container">
   <h2>Register</h2>
   <form class="form-horizontal" action="MainPage">
@@ -42,5 +43,6 @@
     </div>
   </form>
 </div>
+
 </body>
 </html>
