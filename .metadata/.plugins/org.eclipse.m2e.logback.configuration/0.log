@@ -2180,3 +2180,231 @@ Caused by: java.io.FileNotFoundException: /Users/Suveen/Desktop/h2 2/bin/h2-1.4.
 2017-04-19 15:05:06,345 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-04-19 15:05:06,349 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-19 15:05:06,350 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-20 09:28:59,786 [Worker-4] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-20 09:29:05,123 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:05,124 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/Mobitel/src/main/resources
+2017-04-20 09:29:05,127 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:05,128 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/Mobitel/src/test/resources
+2017-04-20 09:29:05,692 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:05,693 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/OnlineShoppingBackEnd/src/main/resources
+2017-04-20 09:29:05,696 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:05,696 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/OnlineShoppingBackEnd/src/test/resources
+2017-04-20 09:29:05,997 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:05,998 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 09:29:06,000 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:29:06,000 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 09:29:06,196 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 09:29:06,208 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-20 09:29:06,211 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 09:29:06,213 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-20 09:29:08,096 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 09:29:08,106 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-20 09:29:08,109 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 09:29:08,110 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-20 09:35:10,417 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:35:10,428 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 09:35:10,431 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 09:35:10,431 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:07:21,739 [Worker-3] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-20 11:10:29,597 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 11:10:29,608 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-20 11:10:29,614 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 11:10:29,615 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-20 11:18:44,874 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:18:44,874 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:18:44,876 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:18:44,876 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:19:22,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:19:22,976 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:19:22,977 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:19:22,978 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:20:08,455 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:20:08,455 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:20:08,457 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:20:08,458 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:20:18,342 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:20:18,343 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:20:18,345 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:20:18,345 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:25:36,999 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:25:36,999 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:25:37,001 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:25:37,001 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:26:15,569 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:26:15,570 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:26:15,572 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:26:15,572 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:26:23,222 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:26:23,222 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:26:23,228 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:26:23,228 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:29:57,957 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:29:57,957 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:29:57,958 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:29:57,958 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:34:23,860 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:34:23,864 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:34:23,866 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:34:23,866 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:34:26,127 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:34:26,127 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:34:26,129 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:34:26,129 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:38:12,315 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:38:12,317 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:38:12,319 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:38:12,320 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:39:42,005 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:39:42,005 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:39:42,007 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:39:42,007 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:44:39,859 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:44:39,860 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:44:39,862 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:44:39,862 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:45:15,900 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:45:15,901 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:45:15,903 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:45:15,904 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:45:49,968 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:45:49,969 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:45:49,973 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:45:49,974 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:46:46,920 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:46:46,921 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:46:46,922 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:46:46,922 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:46:55,829 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:46:55,829 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:46:55,831 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:46:55,831 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:55:00,357 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:55:00,359 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:55:00,362 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:55:00,362 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:56:30,855 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:30,857 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:56:30,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:30,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:56:46,503 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:46,503 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:56:46,505 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:46,505 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 11:56:52,339 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:52,339 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 11:56:52,341 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 11:56:52,341 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:02:09,044 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:02:09,045 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:02:09,047 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:02:09,047 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:02:33,110 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:02:33,111 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:02:33,112 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:02:33,112 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:03:25,298 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:03:25,299 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:03:25,301 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:03:25,302 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:08:42,230 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:08:42,234 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:08:42,237 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:08:42,237 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:10:49,266 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:10:49,269 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:10:49,270 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:10:49,271 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:27:08,431 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:27:08,432 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:27:08,433 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:27:08,434 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:27:19,590 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-04-20 12:27:19,758 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-20 12:27:19,760 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2017-04-20 12:31:55,973 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:31:55,975 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:31:55,977 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:31:55,977 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:31:56,998 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:31:56,998 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:31:57,000 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:31:57,000 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:34:22,391 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:34:22,394 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:34:22,397 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:34:22,398 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:35:01,099 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:35:01,099 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:35:01,101 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:35:01,101 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:40:17,749 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:40:17,753 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:40:17,758 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-20 12:40:17,759 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:48:01,845 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-20 12:48:04,162 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.pom
+2017-04-20 12:48:04,517 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.pom
+2017-04-20 12:48:04,894 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.pom
+2017-04-20 12:48:05,416 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.pom
+2017-04-20 12:48:05,723 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.pom
+2017-04-20 12:48:06,137 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.pom
+2017-04-20 12:48:06,544 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.pom
+2017-04-20 12:48:06,954 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.pom
+2017-04-20 12:48:07,260 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.3.RELEASE/spring-expression-4.3.3.RELEASE.pom
+2017-04-20 12:48:07,672 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.3.RELEASE/spring-expression-4.3.3.RELEASE.pom
+2017-04-20 12:48:08,051 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.3.RELEASE/spring-orm-4.3.3.RELEASE.pom
+2017-04-20 12:48:08,368 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.3.RELEASE/spring-orm-4.3.3.RELEASE.pom
+2017-04-20 12:48:08,672 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.3.RELEASE/spring-jdbc-4.3.3.RELEASE.pom
+2017-04-20 12:48:08,994 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.3.RELEASE/spring-jdbc-4.3.3.RELEASE.pom
+2017-04-20 12:48:09,309 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.pom
+2017-04-20 12:48:09,729 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.pom
+2017-04-20 12:48:10,180 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.192/h2-1.4.192.pom
+2017-04-20 12:48:10,536 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.192/h2-1.4.192.pom
+2017-04-20 12:48:10,908 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar
+2017-04-20 12:48:16,958 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.3.RELEASE/spring-context-4.3.3.RELEASE.jar
+2017-04-20 12:48:17,308 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar
+2017-04-20 12:48:18,421 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE.jar
+2017-04-20 12:48:18,717 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.jar
+2017-04-20 12:48:20,668 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.3.RELEASE/spring-beans-4.3.3.RELEASE.jar
+2017-04-20 12:48:23,070 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar
+2017-04-20 12:48:46,711 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.3.RELEASE/spring-core-4.3.3.RELEASE.jar
+2017-04-20 12:48:47,116 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.3.RELEASE/spring-expression-4.3.3.RELEASE.jar
+2017-04-20 12:48:49,249 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.3.RELEASE/spring-expression-4.3.3.RELEASE.jar
+2017-04-20 12:48:49,681 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.3.RELEASE/spring-orm-4.3.3.RELEASE.jar
+2017-04-20 12:48:52,208 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.3.RELEASE/spring-orm-4.3.3.RELEASE.jar
+2017-04-20 12:48:52,520 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.3.RELEASE/spring-jdbc-4.3.3.RELEASE.jar
+2017-04-20 12:48:55,289 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.3.RELEASE/spring-jdbc-4.3.3.RELEASE.jar
+2017-04-20 12:48:55,610 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar
+2017-04-20 12:48:57,645 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.3.RELEASE/spring-tx-4.3.3.RELEASE.jar
+2017-04-20 12:48:58,090 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.192/h2-1.4.192.jar
+2017-04-20 12:49:40,063 [Worker-22] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/1.4.192/h2-1.4.192.jar
+2017-04-20 12:49:40,646 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:49:40,649 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:49:40,651 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:49:40,652 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:49:42,272 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:49:42,273 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:49:42,275 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:49:42,276 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:50:17,639 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:50:17,650 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:50:17,651 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:50:17,652 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:50:31,613 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-04-20 12:50:31,695 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-20 12:50:31,695 [Worker-22] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2017-04-20 12:56:27,394 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:56:27,397 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:56:27,399 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:56:27,404 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:59:56,091 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-20 12:59:56,479 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:59:56,482 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:59:56,485 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:59:56,486 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-20 12:59:58,055 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:59:58,055 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-20 12:59:58,057 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-20 12:59:58,058 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources

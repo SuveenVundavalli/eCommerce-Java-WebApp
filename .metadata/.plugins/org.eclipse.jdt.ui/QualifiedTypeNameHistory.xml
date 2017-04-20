@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate3.HibernateTransactionManager"/>
 <fullyQualifiedTypeName name="com.niit.Mobitel.dao.ProductDAO"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBuilder"/>
@@ -22,7 +21,6 @@
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.Min"/>
 <fullyQualifiedTypeName name="javax.validation.constraints.Max"/>
 <fullyQualifiedTypeName name="java.util.List"/>
@@ -31,8 +29,13 @@
 <fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.UserDAO"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.User"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.User"/>
+<fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 </qualifiedTypeNameHistroy>

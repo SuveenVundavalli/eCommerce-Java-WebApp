@@ -7,11 +7,14 @@ import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 
+import org.springframework.stereotype.Component;
+
 
 //Need to create singleton instance of this class
 @Entity 
 //to map the database table
 @Table(name="User")
+@Component // context.scan("com.niit") will scan the package and create singleton instance
 public class User {
 	
 	@Id
@@ -19,8 +22,7 @@ public class User {
 	
 	@Column(name="name") //if the field name in table and property name in class are different, then we require specify column name otherwise no need specify
 	private String name;
-	@Min(5)
-	@Max(15)
+
 	private String password;
 	private String contact;
 	private String role;

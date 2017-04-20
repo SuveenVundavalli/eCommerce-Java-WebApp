@@ -8,7 +8,7 @@ public class DBConnection {
 	
 	private static String id = "sa";
 	private static String password = "sa";
-	private static String url = "jdbc:h2:~/target/filter.db";
+	private static String url = "jdbc:h2:tcp://localhost/~/target/filter.db";
 	private static String driver = "org.h2.Driver";
 	
 	

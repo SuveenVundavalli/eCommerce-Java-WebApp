@@ -8,34 +8,55 @@ public interface UserDAO {
 	
 	//declare the methods
 	
-	//what type of operations you are going to do for user
+	//what type of operations you are going to do for user.
 	
-	/*
-	 * operations
-	 * 1. Create/ register 			- save
-	 * 2. Update the user details 	- update
-	 * 3. Validate the credentials 	- validate
-	 * 4. Get all users				- list
-	 */
-	/*
-	 * declare the methods with proper signatures
-	 * Access Specifier return-type methodName(parameters_list) throws exception_list
-	 */
 	
-	//create/register - save
-	public boolean save(User user);
+	//Operations
+	//1) create/register  - save
+	//2) update the user details  - update
+	//3) validate the credentials  -  validate
+	//4) get all users   - list
 	
-	//Update the user details - update
+	
+	//declare the methods with proper signature
+	//access_specifier return_tye methodName( parameter_list)  throws exception_list
+	
+	
+	
+	// create/register  - save
+	
+	public  boolean save(User user);
+	
+	// update the user details  - update
 	public boolean update(User user);
 	
-	//validate the credentials - validate
+	// validate the credentials  -  validate
+	//WE are going to use spring security in future.
+	//we can delete this method. after using spring security.
 	public boolean validate(String id, String password);
 	
-	//get all users
-	public List<User> list();
+	// get all users   - list
 	
-	//get user details based on user id
+	public List<User>     list();
+	
+	
+	//get user details based on userID
+	
 	public User get(String id);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 
 }
