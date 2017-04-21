@@ -7,13 +7,16 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 @Entity
-@Table(name ="CATEGORY")
+@Table(name = "Supplier")
 @Component
-public class Category {
+public class Supplier {
+
 	@Id
 	private String id;
 	private String name;
 	private String description;
+	
+	
 	public String getId() {
 		return id;
 	}
@@ -34,5 +37,5 @@ public class Category {
 	}
 	
 	
-
+	
 }

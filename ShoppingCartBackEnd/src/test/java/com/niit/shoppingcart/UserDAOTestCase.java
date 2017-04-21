@@ -89,7 +89,7 @@ public class UserDAOTestCase {
 	}
 	
 	@Test
-	public void getAllUserTestCase()
+	public void listAllUserTestCase()
 	{
 		int actualSize =userDAO.list().size();
 		assertEquals(5, actualSize);
