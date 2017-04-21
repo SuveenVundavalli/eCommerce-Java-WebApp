@@ -71,8 +71,8 @@ public class UserDAOImpl implements UserDAO {
 		
 		
 	Query query=	 sessionFactory.getCurrentSession().createQuery(" from User where id = ? and password = ?");
-	query.setString(1, id);     //actually the index will start from zero  - will get once exception.
-	query.setString(2, password);
+	query.setString(0, id);     //actually the index will start from zero  - will get once exception.
+	query.setString(1, password);
 	//in the User table with this id and password there will one or zero records will exist
 	//i.e., uniqueResult
 	//uniqueResult method will return object if a row exist, else it will return null
