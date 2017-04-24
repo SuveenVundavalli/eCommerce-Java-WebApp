@@ -42,7 +42,12 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring-version}</version>
 		</dependency>
-
+		<!-- Shopping card backend project dependency -->
+		<dependency>
+			<groupId>com.niit</groupId>
+			<artifactId>ShoppingCartBackEnd</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
 	</dependencies>
 	<build>

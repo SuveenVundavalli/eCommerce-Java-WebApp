@@ -13,6 +13,7 @@
 <script src="resources/js/bootstrap.js"></script> 
 </head>
 <body>
+
 	<center>
 		<h1>Shopping Cart Web site</h1>
 	</center>
