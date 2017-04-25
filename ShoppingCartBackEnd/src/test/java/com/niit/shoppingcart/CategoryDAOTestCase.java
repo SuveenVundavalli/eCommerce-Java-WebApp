@@ -43,8 +43,8 @@ public class CategoryDAOTestCase {
 	@Test
 	public void createCategoryTestCase()
 	{
-		category.setId("Laptop");
-		category.setName("Mobile");
+		category.setId("Laptop1");
+		category.setName("Mobile1");
 		category.setDescription("This category contains laptops");
 		
 		boolean flag =  categoryDAO.save(category);
@@ -61,8 +61,8 @@ public class CategoryDAOTestCase {
 	@Test
 	public void updateCategoryTestCase()
 	{
-		category.setId("Laptop");
-		category.setName("Laptop");
+		category.setId("Laptop1");
+		category.setName("Laptop1");
 		category.setDescription("This category contains laptops");
 		
 		boolean flag =  categoryDAO.update(category);
@@ -76,6 +76,20 @@ public class CategoryDAOTestCase {
 		
 	}
 	
+	@Test
+	public void deleteCategoryTestCase()
+	{
+		category.setName("Laptop1");
+		boolean flag =  categoryDAO.delete(category.getName());
+		
+		
+
+		//error - if there is in runtime errors  -  Red mark
+		//success  - if expected and actual is same  - green mark
+		//fail  - if expected and actual is different  -  blue mark
+		assertEquals("deleteCategoryTestCase",true,flag);
+		
+	}
 	
 	@Test
 	public void listAllCategoryTestCase()

@@ -21,6 +21,8 @@ public class UserController {
 	//Send these values to userDao.validate
 	//based on response, you can navigate to either login.jsp or home.jsp
 	
+	//Whenever we configure spring security - we can remove this method
+	
 	@RequestMapping("/validate")
 	public ModelAndView login(@RequestParam("userName") String id,@RequestParam("password") String password) {
 		

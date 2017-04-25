@@ -12,7 +12,7 @@ public class HomeController {
 	
 	//@Autowired User
 
-	@RequestMapping("/")
+	@RequestMapping({"/","Home"})
 	public ModelAndView goToHome(){
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("message", "Thank you for visiting Shopping Cart! <br>");

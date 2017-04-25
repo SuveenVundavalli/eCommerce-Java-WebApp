@@ -29,7 +29,7 @@ public class CategoryDAOImpl implements CategoryDAO{
 		{
 		sessionFactory.getCurrentSession().save(category);
 		}catch (Exception e) {
-			//if any excpetion comes during execute of try block, catch will excute
+			//if any exception comes during execute of try block, catch will execute
 			e.printStackTrace();
 			return false;
 		}
@@ -41,7 +41,17 @@ public class CategoryDAOImpl implements CategoryDAO{
 		{
 		sessionFactory.getCurrentSession().update(category);
 		}catch (Exception e) {
-			//if any excpetion comes during execute of try block, catch will excute
+			//if any exception comes during execute of try block, catch will execute
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean delete(String id) {
+		try {
+			sessionFactory.getCurrentSession().delete(getCategoryById(id));
+		} catch (Exception e) {
 			e.printStackTrace();
 			return false;
 		}
@@ -54,7 +64,7 @@ public class CategoryDAOImpl implements CategoryDAO{
 		return  sessionFactory.getCurrentSession().createQuery("from Category").list();
 	}
 
-	public Category get(String id) {
+	public Category getCategoryById(String id) {
 		
 		//get method get the date from user table based on primary key i.e., id
 		// and set it to Category class
@@ -62,5 +72,24 @@ public class CategoryDAOImpl implements CategoryDAO{
 	  return 	(Category)  sessionFactory.getCurrentSession().get(Category.class, id);
 		
 	}
+	
+	
+	public Category getCategoryByName(String name) {
+		
+		//Since name is not a primary key, we cannot use the procedure used in getCategoryById(id).
+		//We write query as follow.
+		return 	(Category)  sessionFactory.getCurrentSession().createQuery("from Category where name = ?").setString(0, name).uniqueResult();
+		/*
+		 * return 	(Category)  sessionFactory.getCurrentSession().createQuery("from Category where name = ?").setString(0, name).uniqueResult(); is same as
+		 * 
+		 * Query query = getCurrentSession().createQuery("from Category where name = ?");
+		 * query.setString(0,name);
+		 * query.uniqueResult();
+		 */
+		
+		
+	}
+
+	
 
 }

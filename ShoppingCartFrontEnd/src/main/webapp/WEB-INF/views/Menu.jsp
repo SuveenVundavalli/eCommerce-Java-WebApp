@@ -14,14 +14,14 @@
 	<nav class="navbar navbar-inverse">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="#">WebSiteName</a>
+				<a class="navbar-brand" href="Home">Shopping Cart Web App</a>
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active">
-					<a href="#">Home</a>
+					<a href="Home">Home</a>
 				</li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Electronics <span class="caret"></span>
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
 						<li>
