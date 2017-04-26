@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <title>Bootstrap Case</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,38 +18,36 @@
 				<a class="navbar-brand" href="Home">Shopping Cart Web App</a>
 			</div>
 			<ul class="nav navbar-nav">
-				<li class="active">
-					<a href="Home">Home</a>
-				</li>
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span>
-					</a>
+				<li class="active"><a href="Home">Home</a></li>
+				
+				<!-- Dropdown of category -->
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span>
+				</a>
 					<ul class="dropdown-menu">
-						<li>
-							<a href="#">Mobiles</a>
-						</li>
-						<li>
-							<a href="#">Laptops</a>
-						</li>
-						<li>
-							<a href="#">Smart Watches</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#">Men</a>
-				</li>
-				<li>
-					<a href="#">Women</a>
-				</li>
+
+						<c:forEach var="category" items="${categoryList}">
+							<li><a href="#">${category.name}</a></li>
+
+						</c:forEach>
+
+						
+					</ul></li>
+				<!-- Dropdown of product -->
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span>
+				</a>
+					<ul class="dropdown-menu">
+
+						<c:forEach var="product" items="${productList}">
+							<li><a href="#">${product.name}</a></li>
+
+						</c:forEach>
+					</ul></li>
+				<li><a href="#">Men</a></li>
+				<li><a href="#">Women</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li>
-					<a href="RegistrationPage"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
-				</li>
-				<li>
-					<a href="LoginPage"><span class="glyphicon glyphicon-log-in"></span> Login</a>
-				</li>
+				<li><a href="RegistrationPage"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="LoginPage"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 			</ul>
 		</div>
 	</nav>
