@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.niit.shoppingcart.dao.ProductDAO;
+import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.User;
 
@@ -50,18 +51,35 @@ public class ProductDAOImpl implements ProductDAO {
 	}
 
 	public List<Product> list() {
-		
-		return  sessionFactory.getCurrentSession().createQuery("from Product").list();
-	
+
+		return sessionFactory.getCurrentSession().createQuery("from Product").list();
+
 	}
 
-	public Product get(String id) {
-		
-		//get method get the date from user table based on primary key i.e., id
+	public boolean delete(String id) {
+		try {
+			sessionFactory.getCurrentSession().delete(getProductById(id));
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+
+	public Product getProductById(String id) {
+		// get method get the date from user table based on primary key i.e., id
 		// and set it to User class
-		//like select * from user where id = ?
-	  return 	(Product)  sessionFactory.getCurrentSession().get(Product.class, id);
+		// like select * from user where id = ?
+		return (Product) sessionFactory.getCurrentSession().get(Product.class, id);
+	}
+
+	public Product getProductByName(String name) {
+		return 	(Product)  sessionFactory.getCurrentSession().createQuery("from Product where name = ?").setString(0, name).uniqueResult();
+	}
+
+	public List<Product> getProductByCategory(String category_id) {
 		
+		return  sessionFactory.getCurrentSession().createQuery("from Product where category_id = ?").setString(0, category_id).list();
 	}
 
 }

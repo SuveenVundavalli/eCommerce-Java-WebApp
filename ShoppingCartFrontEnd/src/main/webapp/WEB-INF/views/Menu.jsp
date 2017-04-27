@@ -19,21 +19,30 @@
 			</div>
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="Home">Home</a></li>
-				
+
 				<!-- Dropdown of category -->
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Categories <span class="caret"></span>
-				</a>
-					<ul class="dropdown-menu">
 
-						<c:forEach var="category" items="${categoryList}">
-							<li><a href="#">${category.name}</a></li>
 
-						</c:forEach>
+				<c:forEach var="category" items="${categoryList}">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">${category.name} <span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu">
+							<c:forEach var="product" items="${productList}">
+								<c:if test="${product.category_id == category.id}">
+									<li><a href="#">${product.name}</a></li>
+								</c:if>
 
-						
-					</ul></li>
-				<!-- Dropdown of product -->
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span>
+								<!-- <li><a href="#">${product.name}</a></li> -->
+							</c:forEach>
+
+
+						</ul></li>
+				</c:forEach>
+
+
+
+				<%-- Toggle Product--%>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">All Products <span class="caret"></span>
 				</a>
 					<ul class="dropdown-menu">
 
@@ -42,6 +51,7 @@
 
 						</c:forEach>
 					</ul></li>
+				<%----%>
 				<li><a href="#">Men</a></li>
 				<li><a href="#">Women</a></li>
 			</ul>

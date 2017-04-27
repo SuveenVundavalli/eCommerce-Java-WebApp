@@ -1,5 +1,6 @@
 package com.niit.controller;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
@@ -45,12 +46,14 @@ public class HomeController {
 		session.setAttribute("category", category);
 		
 		
-		//get all products
+		//get products
 		List<Product> productList = productDAO.list();
+		//List<Product> productByCategory = productDAO.getProductByCategory("Tablets");
 		
 		//attach to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
+		//session.setAttribute("productByCategory", productByCategory);
 		
 		
 		return mv;
@@ -60,6 +63,9 @@ public class HomeController {
 	@RequestMapping("/LoginPage")
 	public String loginPage(Model model) {
 		model.addAttribute("isUserClickedLogin", "true");
+		
+		Long currentTime = System.currentTimeMillis();
+		Date currentDate = new Date(currentTime);
 		return "Home";
 	}
 	@RequestMapping("/RegistrationPage")

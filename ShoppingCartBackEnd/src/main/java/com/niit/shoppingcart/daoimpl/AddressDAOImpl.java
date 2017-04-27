@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 
 import com.niit.shoppingcart.dao.AddressDAO;
 import com.niit.shoppingcart.domain.Address;
+import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
 
 @Repository("addressDAO")
@@ -59,5 +60,27 @@ public class AddressDAOImpl implements AddressDAO {
 	  return 	(Address)  sessionFactory.getCurrentSession().get(Address.class, id);
 		
 	}
+
+	public boolean delete(String id) {
+		try {
+			sessionFactory.getCurrentSession().delete(getAddressById(id));
+		} catch (Exception e) {
+			// if any exception comes during execute of try block, catch will
+			// execute
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+
+	public Address getAddressById(String id) {
+		return 	(Address)  sessionFactory.getCurrentSession().get(Address.class, id);
+	}
+
+	public Address getAddressByUserid(String userid) {
+		return 	(Address)  sessionFactory.getCurrentSession().createQuery("from Address where user_id = ?").setString(0, userid).uniqueResult();
+	}
+
+	
 
 }

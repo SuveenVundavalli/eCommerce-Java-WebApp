@@ -11,7 +11,11 @@ public interface AddressDAO {
 	public boolean update(Address address);
 
 	public List<Address> list();
-
-	public Address get(String id);
+	
+	public boolean delete(String id);
+	
+	public Address getAddressById(String id);
+	
+	public Address getAddressByUserid(String userid);
 
 }

@@ -58,6 +58,7 @@ public class ApplicationContextConfig {
 		sessionBuilder.addAnnotatedClass(Address.class);
 		sessionBuilder.addAnnotatedClass(Product.class);
 		sessionBuilder.addAnnotatedClass(My_Cart.class);
+		sessionBuilder.scanPackages("com.niit");
 
 		return sessionBuilder.buildSessionFactory();
 	}

@@ -83,5 +83,12 @@ public class ProductDAOTestCase {
 		int actualSize = productDAO.list().size();
 		assertEquals(2, actualSize);
 	} 
+	
+	@Test
+	public void listProductByCategory()
+	{
+		int actualSize = productDAO.getProductByCategory("Mobiles").size();
+		assertEquals(4, actualSize);
+	}
 
 }

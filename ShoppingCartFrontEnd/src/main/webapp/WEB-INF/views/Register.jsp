@@ -12,27 +12,27 @@
   <h2>Register</h2>
   <form class="form-horizontal" action="MainPage">
     <div class="form-group">
-      <label class="control-label col-sm-2" for="fName">First Name:</label>
+      <label class="control-label col-sm-2" for="fName">Full Name:</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="fName" placeholder="Enter First Name">
+        <input type="text" class="form-control" id="fName" placeholder="Enter Full Name">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="lName">Last Name:</label>
+      <label class="control-label col-sm-2" for="uName">Username:</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="lName" placeholder="Enter Last Name">
+        <input type="text" class="form-control" id="uName" placeholder="Enter Username">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="email">Email:</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Enter Email">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <label class="control-label col-sm-2" for="uMobile">Mobile:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="pwd" placeholder="Enter Password">
+        <input type="password" class="form-control" id="uMobile" placeholder="Enter Mobile Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="uPassword">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="uPassword" placeholder="Enter Password">
       </div>
     </div>
    

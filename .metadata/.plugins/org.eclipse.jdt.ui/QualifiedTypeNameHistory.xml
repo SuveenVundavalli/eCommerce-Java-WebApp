@@ -35,7 +35,6 @@
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.SupplierDAO"/>
-<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Supplier"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.AddressDAO"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Address"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -55,4 +54,5 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.ProductDAO"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Product"/>
+<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Supplier"/>
 </qualifiedTypeNameHistroy>
