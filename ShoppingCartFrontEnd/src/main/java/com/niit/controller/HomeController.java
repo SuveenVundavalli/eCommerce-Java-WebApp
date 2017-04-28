@@ -19,60 +19,66 @@ import com.niit.shoppingcart.domain.Product;
 @Controller
 public class HomeController {
 
-	
-	//@Autowired User
-	
-	@Autowired HttpSession session;
-	
-	@Autowired Category category;
-	
-	@Autowired CategoryDAO categoryDAO;
-	
-	@Autowired Product product;
-	
-	@Autowired ProductDAO productDAO;
+	// @Autowired User
 
-	@RequestMapping({"/","/Home"})
-	public ModelAndView goToHome(){
+	@Autowired
+	HttpSession session;
+
+	@Autowired
+	Category category;
+
+	@Autowired
+	CategoryDAO categoryDAO;
+
+	@Autowired
+	Product product;
+
+	@Autowired
+	ProductDAO productDAO;
+
+	@RequestMapping({ "/", "/Home" })
+	public ModelAndView goToHome() {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("message", "Thank you for visiting Shopping Cart! <br>");
-		//model.addAttribute("message", "Thank you for visiting Shopping Cart! <br>");
-		
-		//get all categories
+		// model.addAttribute("message", "Thank you for visiting Shopping Cart!
+		// <br>");
+
+		// get all categories
 		List<Category> categoryList = categoryDAO.list();
-		
-		//attach to session
+
+		// attach to session
 		session.setAttribute("categoryList", categoryList);
 		session.setAttribute("category", category);
-		
-		
-		//get products
+
+		// get products
 		List<Product> productList = productDAO.list();
-		//List<Product> productByCategory = productDAO.getProductByCategory("Tablets");
-		
-		//attach to session
+		// List<Product> productByCategory =
+		// productDAO.getProductByCategory("Tablets");
+
+		// attach to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
-		//session.setAttribute("productByCategory", productByCategory);
-		
-		
+		// session.setAttribute("productByCategory", productByCategory);
+
 		return mv;
-		//return "Home";
+		// return "Home";
 	}
 
 	@RequestMapping("/LoginPage")
 	public String loginPage(Model model) {
 		model.addAttribute("isUserClickedLogin", "true");
-		
+
 		Long currentTime = System.currentTimeMillis();
 		Date currentDate = new Date(currentTime);
 		return "Home";
 	}
+
 	@RequestMapping("/RegistrationPage")
 	public String registerPage(Model model) {
 		model.addAttribute("isUserClickedRegistration", "true");
 		return "Home";
 	}
+
 	@RequestMapping("/MainPage")
 	public String mainPage(Model model) {
 		model.addAttribute("isUserClickedMain", "true");

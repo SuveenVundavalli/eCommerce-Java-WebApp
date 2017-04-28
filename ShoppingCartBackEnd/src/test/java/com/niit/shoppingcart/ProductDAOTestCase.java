@@ -46,7 +46,7 @@ public class ProductDAOTestCase {
 		product.setName("Samsung S8 64gb");
 		product.setDescription("Brand new Samsung S8 64gb blue");
 		product.setPrice("70000");
-		product.setCategory_id("Mobile");
+		product.setCategory_id("Mobiles");
 		product.setSupplier_id("Sangeetha");
 		
 		boolean flag =  productDAO.save(product);
@@ -65,7 +65,7 @@ public class ProductDAOTestCase {
 		product.setName("Samsung S8 64gb");
 		product.setDescription("Brand new Samsung S8 64gb blue");
 		product.setPrice("71999");
-		product.setCategory_id("Mobile");
+		product.setCategory_id("Mobiles");
 		product.setSupplier_id("Sangeetha");
 		
 		boolean flag =  productDAO.update(product);
@@ -83,12 +83,5 @@ public class ProductDAOTestCase {
 		int actualSize = productDAO.list().size();
 		assertEquals(2, actualSize);
 	} 
-	
-	@Test
-	public void listProductByCategory()
-	{
-		int actualSize = productDAO.getProductByCategory("Mobiles").size();
-		assertEquals(4, actualSize);
-	}
 
 }

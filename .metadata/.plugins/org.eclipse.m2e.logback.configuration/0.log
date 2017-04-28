@@ -3962,3 +3962,1065 @@ org.eclipse.core.runtime.CoreException: Launch configuration AppTest references 
 2017-04-27 12:53:28,122 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-04-27 12:53:28,125 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-04-27 12:53:28,126 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-27 16:05:07,098 [Worker-6] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-27 16:05:11,105 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:05:11,119 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-27 16:05:11,124 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:05:11,125 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-27 16:14:54,375 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:14:54,378 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-27 16:14:54,381 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:14:54,381 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-27 16:15:00,903 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:15:00,904 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-27 16:15:00,907 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 16:15:00,908 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-27 22:37:33,296 [Worker-13] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-27 22:37:35,540 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 22:37:35,554 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-27 22:37:35,559 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-27 22:37:35,559 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 11:10:48,165 [Worker-15] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-28 11:10:50,989 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:10:51,002 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 11:10:51,004 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:10:51,005 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 11:50:10,026 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:10,029 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:50:10,031 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:10,032 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:50:22,890 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:22,890 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:50:22,893 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:22,894 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:50:46,211 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:46,211 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:50:46,213 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:50:46,214 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:52:56,873 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:52:56,875 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:52:56,881 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:52:56,882 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:52:58,993 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:52:58,994 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:52:58,995 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:52:58,996 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:54:47,622 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:54:47,623 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:54:47,624 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:54:47,625 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:54:50,264 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:54:50,265 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:54:50,266 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:54:50,267 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 11:57:35,001 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:57:35,004 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 11:57:35,010 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 11:57:35,011 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:04:20,122 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 12:07:02,961 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.pom
+2017-04-28 12:07:02,972 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:04,943 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.pom
+2017-04-28 12:07:04,948 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-orm:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:06,871 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar
+2017-04-28 12:07:09,513 [Worker-30] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.jar
+2017-04-28 12:07:09,584 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 12:07:09,929 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:09,933 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-orm:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:10,378 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:07:10,379 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:07:10,381 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:07:10,382 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:07:11,868 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:11,869 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-orm:jar:4.3.9.RELEASE is missing, no dependency information available
+2017-04-28 12:07:11,998 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:07:12,008 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:07:12,011 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:07:12,011 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:08:37,079 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:08:37,081 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:08:37,083 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:08:37,084 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:08:44,399 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:08:44,408 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:08:44,409 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:08:44,410 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:09:01,751 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 12:09:04,445 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.pom
+2017-04-28 12:09:04,483 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.pom
+2017-04-28 12:09:04,970 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.pom
+2017-04-28 12:09:04,976 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.pom
+2017-04-28 12:09:05,293 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.pom
+2017-04-28 12:09:05,324 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.pom
+2017-04-28 12:09:05,873 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.pom
+2017-04-28 12:09:05,873 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.pom
+2017-04-28 12:09:06,475 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.pom
+2017-04-28 12:09:06,476 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.pom
+2017-04-28 12:09:07,099 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.pom
+2017-04-28 12:09:07,100 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.pom
+2017-04-28 12:09:07,704 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.jar
+2017-04-28 12:09:07,704 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.jar
+2017-04-28 12:09:18,129 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.jar
+2017-04-28 12:09:18,558 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.jar
+2017-04-28 12:09:23,849 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.jar
+2017-04-28 12:09:24,212 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar
+2017-04-28 12:09:26,160 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-orm/4.3.8.RELEASE/spring-orm-4.3.8.RELEASE.jar
+2017-04-28 12:09:27,163 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.jar
+2017-04-28 12:09:28,071 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar
+2017-04-28 12:09:37,778 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.8.RELEASE/spring-jdbc-4.3.8.RELEASE.jar
+2017-04-28 12:09:39,413 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar
+2017-04-28 12:09:51,363 [Worker-36] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar
+2017-04-28 12:09:51,492 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 12:09:51,946 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:51,948 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:09:51,950 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:51,951 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:09:53,155 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:53,168 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:09:53,174 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:53,175 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:09:53,514 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:53,519 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:09:53,522 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:09:53,522 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:10:16,145 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:16,147 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:10:16,150 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:16,151 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:10:17,171 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:17,172 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:10:17,174 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:17,175 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:10:27,426 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:27,430 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:10:27,432 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:27,432 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:10:35,908 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:35,909 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:10:35,911 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:35,911 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:10:49,163 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:49,164 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:10:49,166 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:10:49,167 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:11:11,347 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:11:11,348 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:11:11,349 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:11:11,350 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:11:31,446 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:11:31,447 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:11:31,449 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:11:31,449 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:12:55,678 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:12:55,680 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:12:55,682 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:12:55,683 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:01,635 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:01,637 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:13:01,638 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:01,639 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:10,228 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:10,229 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:13:10,230 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:10,231 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:14,217 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:14,218 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:13:14,220 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:14,220 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:18,289 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:18,290 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:13:18,292 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:18,293 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:22,370 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:22,371 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:13:22,373 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:22,373 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:13:33,497 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:33,498 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:13:33,499 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:33,500 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:13:46,513 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:46,515 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:13:46,518 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:13:46,518 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:14:53,646 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:14:53,647 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:14:53,648 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:14:53,649 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:18:15,210 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 12:18:15,488 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 12:18:15,972 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:15,974 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:18:15,976 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:15,976 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:18:16,608 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:16,609 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:18:16,611 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:16,612 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:18:18,117 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:18,118 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:18:18,119 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:18,121 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:18:52,509 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:52,510 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:18:52,511 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:18:52,512 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:19:02,344 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:19:02,345 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:19:02,379 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:19:02,380 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:20:38,139 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 12:20:45,050 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.pom
+2017-04-28 12:20:46,493 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.pom
+2017-04-28 12:20:54,266 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.11/logback-parent-1.1.11.pom
+2017-04-28 12:20:59,191 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.11/logback-parent-1.1.11.pom
+2017-04-28 12:21:00,205 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.pom
+2017-04-28 12:21:01,442 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.pom
+2017-04-28 12:21:13,312 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-04-28 12:21:15,368 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.22/slf4j-api-1.7.22.pom
+2017-04-28 12:21:26,611 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-04-28 12:21:54,077 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.22/slf4j-parent-1.7.22.pom
+2017-04-28 12:21:55,705 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+2017-04-28 12:22:27,049 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar
+2017-04-28 12:22:29,088 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+2017-04-28 12:22:56,130 [Worker-33] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar
+2017-04-28 12:22:56,258 [Worker-33] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 12:22:57,267 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:57,269 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:22:57,271 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:57,272 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:22:58,096 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:58,098 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:22:58,100 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:58,101 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:22:58,601 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:58,608 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 12:22:58,612 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:22:58,613 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 12:44:08,404 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:44:08,416 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:44:08,422 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:44:08,422 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:45:27,951 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:45:27,953 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:45:27,954 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:45:27,955 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 12:47:12,713 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:47:12,714 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 12:47:12,715 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 12:47:12,716 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:27:15,107 [Worker-18] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-28 14:29:51,540 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 14:29:52,368 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:29:52,371 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:29:52,374 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:29:52,376 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:29:54,280 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:29:54,292 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:29:54,295 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:29:54,296 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:34:47,347 [Worker-14] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1121) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2216) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2017-04-28 14:34:47,529 [Worker-22] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+ for project  at /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+ for project  at /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.DependencyTreePage$1.run(DependencyTreePage.java:216) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:579) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:273) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161) ~[maven-core-3.3.9.jar:3.3.9]
+	... 15 common frames omitted
+2017-04-28 14:34:47,536 [Worker-22] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+ for project  at /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml
+org.apache.maven.project.ProjectBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+ for project  at /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:816) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:967) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:192) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:732) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readDependencyTree(MavenPomEditor.java:676) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.editor.pom.DependencyTreePage$1.run(DependencyTreePage.java:222) [org.eclipse.m2e.editor_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 1 problem was encountered while building the effective model
+[FATAL] Non-parseable POM /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4)  @ line 17, column 4
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.readModel(DefaultModelBuilder.java:579) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:273) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161) ~[maven-core-3.3.9.jar:3.3.9]
+	... 16 common frames omitted
+2017-04-28 14:34:47,635 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.niit:ShoppingCartBackEnd:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2017-04-28 14:34:49,095 [Worker-4] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1121) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2216) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2017-04-28 14:34:51,312 [Worker-21] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:542) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:498) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:351) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:298) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200) [org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.8.0.v20160509-1230.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235) [org.eclipse.core.resources_3.11.1.v20161107-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:122) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:86) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563) ~[org.eclipse.m2e.core_1.7.0.20160603-1933.jar:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected START_TAG or END_TAG not TEXT (position: TEXT seen ...</servlet-webflow-version>>\n\t</... @17:4) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1121) ~[plexus-utils-3.0.22.jar:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2216) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3845) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[maven-model-3.3.9.jar:3.3.9]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117) ~[maven-model-builder-3.3.9.jar:3.3.9]
+	... 26 common frames omitted
+2017-04-28 14:35:39,414 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:35:41,201 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:41,207 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:35:41,208 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:41,209 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:35:41,212 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:35:41,213 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:35:41,222 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:42,010 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:42,016 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:35:42,019 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:42,020 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:35:50,810 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:35:53,450 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/webflow/spring-webflow/spring-webflow-version/spring-webflow-spring-webflow-version.pom
+2017-04-28 14:35:53,453 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.webflow:spring-webflow:jar:spring-webflow-version is missing, no dependency information available
+2017-04-28 14:35:55,070 [Worker-21] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/webflow/spring-webflow/spring-webflow-version/spring-webflow-spring-webflow-version.jar
+2017-04-28 14:35:55,158 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.webflow:spring-webflow:jar:spring-webflow-version is missing, no dependency information available
+2017-04-28 14:35:55,823 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:55,824 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:35:55,825 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:55,826 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:35:55,827 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:35:55,827 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:35:55,834 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:55,873 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.webflow:spring-webflow:jar:spring-webflow-version is missing, no dependency information available
+2017-04-28 14:35:56,085 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework.webflow:spring-webflow:jar:spring-webflow-version is missing, no dependency information available
+2017-04-28 14:35:56,962 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:56,971 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:35:56,972 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:56,973 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:35:58,208 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:35:59,124 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:59,125 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:35:59,129 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:35:59,129 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:35:59,130 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:35:59,130 [Worker-15] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:35:59,136 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:36:00,406 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:36:00,409 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:36:00,411 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:36:00,411 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:40:40,359 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:40:42,199 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom
+2017-04-28 14:40:42,577 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.pom
+2017-04-28 14:40:42,973 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.7/logback-parent-1.1.7.pom
+2017-04-28 14:40:43,285 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.7/logback-parent-1.1.7.pom
+2017-04-28 14:40:43,581 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom
+2017-04-28 14:40:43,887 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.pom
+2017-04-28 14:40:44,183 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.pom
+2017-04-28 14:40:44,496 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.20/slf4j-api-1.7.20.pom
+2017-04-28 14:40:45,491 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.20/slf4j-parent-1.7.20.pom
+2017-04-28 14:40:45,834 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-parent/1.7.20/slf4j-parent-1.7.20.pom
+2017-04-28 14:40:46,146 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.pom
+2017-04-28 14:40:47,069 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.pom
+2017-04-28 14:40:47,386 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.pom
+2017-04-28 14:40:47,683 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.pom
+2017-04-28 14:40:47,989 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.pom
+2017-04-28 14:40:48,318 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.pom
+2017-04-28 14:40:48,618 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-taglibs/4.1.4.RELEASE/spring-security-taglibs-4.1.4.RELEASE.pom
+2017-04-28 14:40:48,925 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-taglibs/4.1.4.RELEASE/spring-security-taglibs-4.1.4.RELEASE.pom
+2017-04-28 14:40:49,221 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-acl/4.1.4.RELEASE/spring-security-acl-4.1.4.RELEASE.pom
+2017-04-28 14:40:49,535 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-acl/4.1.4.RELEASE/spring-security-acl-4.1.4.RELEASE.pom
+2017-04-28 14:40:49,832 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.pom
+2017-04-28 14:40:50,148 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.5.RELEASE/spring-jdbc-4.3.5.RELEASE.pom
+2017-04-28 14:40:50,551 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE.pom
+2017-04-28 14:40:50,859 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.5.RELEASE/spring-tx-4.3.5.RELEASE.pom
+2017-04-28 14:40:51,183 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+2017-04-28 14:40:53,066 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar
+2017-04-28 14:40:53,369 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+2017-04-28 14:40:55,944 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar
+2017-04-28 14:40:56,301 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar
+2017-04-28 14:40:58,356 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/4.1.4.RELEASE/spring-security-core-4.1.4.RELEASE.jar
+2017-04-28 14:40:58,742 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar
+2017-04-28 14:41:01,208 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/4.1.4.RELEASE/spring-security-web-4.1.4.RELEASE.jar
+2017-04-28 14:41:01,507 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.jar
+2017-04-28 14:41:04,691 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/4.1.4.RELEASE/spring-security-config-4.1.4.RELEASE.jar
+2017-04-28 14:41:05,093 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-taglibs/4.1.4.RELEASE/spring-security-taglibs-4.1.4.RELEASE.jar
+2017-04-28 14:41:05,510 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-taglibs/4.1.4.RELEASE/spring-security-taglibs-4.1.4.RELEASE.jar
+2017-04-28 14:41:05,911 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-acl/4.1.4.RELEASE/spring-security-acl-4.1.4.RELEASE.jar
+2017-04-28 14:41:06,943 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-acl/4.1.4.RELEASE/spring-security-acl-4.1.4.RELEASE.jar
+2017-04-28 14:41:08,064 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:41:08,066 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:41:08,068 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:41:08,069 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:41:08,070 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:41:08,070 [Worker-25] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:41:08,076 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:41:09,306 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:41:09,307 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:41:09,309 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:41:09,309 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:42:37,104 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:42:38,802 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:42:38,805 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:42:38,808 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:42:38,808 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:42:38,809 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:42:38,809 [Worker-11] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:42:38,814 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:42:40,009 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:42:40,010 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:42:40,012 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:42:40,012 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:44:35,884 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 14:44:36,414 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:44:36,417 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:44:36,419 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:44:36,420 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:44:36,529 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:44:36,530 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:44:36,532 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:44:36,532 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:44:36,533 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:44:36,533 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:44:36,589 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:45:00,357 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:45:00,367 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:45:00,369 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:45:00,370 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:45:43,590 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 14:46:06,746 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 14:46:06,747 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 14:46:22,737 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 14:46:31,653 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 14:46:31,654 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 14:49:45,075 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 14:49:45,420 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:45,424 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:49:45,428 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:45,429 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:49:47,049 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:47,050 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:49:47,052 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:47,053 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:49:49,466 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 14:49:49,831 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:49,832 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:49:49,833 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:49:49,834 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:52:46,640 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 14:52:47,038 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:52:47,040 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:52:47,042 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:52:47,043 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:52:47,188 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:52:47,192 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:52:47,194 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:52:47,195 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:52:47,195 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:52:47,195 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:52:47,201 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:53:06,661 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:53:06,671 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:53:06,672 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:53:06,673 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:55:55,604 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:55:55,609 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:55:55,612 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:55:55,612 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:59:30,509 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 14:59:30,827 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:59:31,736 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:31,740 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:59:31,742 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:31,743 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:59:32,819 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:32,821 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:59:32,822 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:32,823 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:59:33,955 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:33,956 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 14:59:33,958 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:33,959 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 14:59:34,280 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:34,289 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:59:34,291 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:34,291 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:59:47,070 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 14:59:49,232 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:49,235 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:59:49,237 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:49,238 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 14:59:49,238 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 14:59:49,238 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 14:59:49,244 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:50,797 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:50,803 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 14:59:50,806 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 14:59:50,807 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:01:52,969 [Worker-3] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 15:01:53,416 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:53,416 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:01:53,418 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:53,419 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:01:53,515 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:53,516 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:01:53,517 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:53,518 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:01:53,518 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:01:53,519 [Worker-7] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:01:53,524 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:54,248 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:54,249 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:01:54,250 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:01:54,251 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:02:29,661 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:02:44,597 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 15:02:44,598 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 15:03:00,170 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:03:11,026 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 15:03:11,026 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 15:03:30,897 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:03:30,910 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:03:30,913 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:03:30,914 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:03:31,054 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:03:31,063 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:03:31,065 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:03:31,066 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:04:12,382 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:12,383 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:04:12,385 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:12,386 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:04:13,516 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:13,524 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:04:13,529 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:13,530 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:04:14,560 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:14,568 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:04:14,570 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:04:14,571 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:05:28,825 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:05:28,827 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:05:28,830 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:05:28,832 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:08:49,837 [main] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-28 15:09:00,147 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:09:00,157 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:09:00,169 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:09:00,170 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:09:02,514 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:09:02,526 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:09:02,532 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:09:02,533 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:14:34,944 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:14:34,954 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:14:34,957 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:14:34,958 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:15:56,316 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:15:56,326 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:15:56,329 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:15:56,330 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:18:47,590 [Worker-92] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 15:18:50,401 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.0.RELEASE/spring-expression-4.3.0.RELEASE.jar
+2017-04-28 15:18:52,356 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.3.0.RELEASE/spring-expression-4.3.0.RELEASE.jar
+2017-04-28 15:18:52,784 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE.jar
+2017-04-28 15:18:54,378 [Worker-92] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.3.0.RELEASE/spring-webmvc-4.3.0.RELEASE.jar
+2017-04-28 15:18:55,674 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:18:55,677 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:18:55,679 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:18:55,681 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:18:55,687 [Worker-92] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:18:55,692 [Worker-92] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:18:55,703 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:18:57,454 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:18:57,458 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:18:57,461 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:18:57,462 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:19:16,515 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:19:44,347 [Worker-95] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 15:19:44,348 [Worker-95] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 15:21:06,306 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:21:06,313 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:21:06,315 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:21:06,316 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:21:36,968 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:21:36,978 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:21:36,980 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:21:36,980 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:28:01,883 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:01,887 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:28:01,888 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:01,889 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:28:21,405 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:21,411 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:28:21,413 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:21,413 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:28:48,536 [Worker-98] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 15:28:48,848 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:48,849 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:28:48,852 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:48,852 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:28:48,853 [Worker-104] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:28:48,853 [Worker-104] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:28:48,884 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:28:54,690 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:29:42,417 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:29:42,422 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:29:42,424 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:29:42,425 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:29:42,558 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 15:29:42,558 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 15:43:40,846 [Worker-116] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 15:43:41,135 [Worker-116] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 15:43:42,221 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:42,224 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:43:42,226 [Worker-116] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:42,227 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:43:43,624 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:43,625 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:43:43,626 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:43,627 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:43:43,994 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:43,997 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:43:44,005 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:44,005 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:43:44,006 [Worker-114] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:43:44,006 [Worker-114] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:43:44,011 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:45,125 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:45,126 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:43:45,135 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:43:45,136 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:44:51,325 [Worker-117] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 15:44:52,717 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:44:52,721 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:44:52,723 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:44:52,724 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:44:52,724 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:44:52,725 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:44:52,742 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:44:53,741 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:44:53,750 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:44:53,753 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:44:53,769 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:46:52,790 [Worker-121] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 15:46:53,081 [Worker-121] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 15:46:53,676 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:53,686 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:46:53,691 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:53,692 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:46:54,321 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:54,330 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:46:54,335 [Worker-121] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:54,336 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:46:54,918 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:54,919 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:46:54,920 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:46:54,921 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:46:59,797 [Worker-128] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartBackEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/pom.xml.
+2017-04-28 15:47:00,065 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:47:00,080 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:47:00,083 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:47:00,084 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:47:01,564 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:47:01,571 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:47:01,572 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:47:01,572 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:49:26,269 [Worker-128] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 15:49:26,828 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:26,831 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:49:26,834 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:26,835 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:49:27,028 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:27,031 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:49:27,036 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:27,041 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:49:27,043 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:49:27,049 [Worker-117] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:49:27,129 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:28,270 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:28,271 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:49:28,273 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:28,275 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:49:28,287 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:28,289 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:49:28,291 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:49:28,292 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:50:06,681 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:50:13,390 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 15:50:13,390 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 15:50:25,609 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:50:28,953 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 15:50:28,953 [Worker-128] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 15:52:34,742 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:34,755 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:52:34,758 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:34,759 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:52:53,328 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:53,330 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:52:53,333 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:53,333 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:52:53,457 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:53,458 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:52:53,460 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:52:53,461 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:53:43,638 [Worker-140] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:ShoppingCartFrontEnd:0.0.1-SNAPSHOT @ /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/pom.xml.
+2017-04-28 15:53:44,884 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:44,885 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:53:44,887 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:44,888 [Worker-140] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:53:44,889 [Worker-140] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:53:44,889 [Worker-140] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:53:44,894 [Worker-140] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:46,376 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:46,377 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:53:46,378 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:46,379 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:53:46,556 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:46,557 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:53:46,560 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:46,561 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:53:55,356 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:55,357 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:53:55,358 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:55,359 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:53:56,421 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:56,422 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:53:56,423 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:53:56,424 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:54:11,812 [Worker-140] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ShoppingCartFrontEnd
+2017-04-28 15:54:12,270 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:12,271 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:54:12,273 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:12,274 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:54:12,418 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:12,420 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:54:12,424 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:12,425 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:54:12,425 [Worker-138] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:54:12,426 [Worker-138] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:54:12,430 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:21,622 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:54:25,908 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:25,917 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:54:25,918 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:54:25,919 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:54:34,337 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 15:54:34,338 [Worker-137] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 15:54:56,384 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 15:55:00,404 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd
+2017-04-28 15:55:00,404 [Worker-138] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install
+2017-04-28 15:55:15,271 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:15,276 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:55:15,279 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:15,283 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:55:15,285 [Worker-141] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ShoppingCartFrontEnd
+2017-04-28 15:55:15,285 [Worker-141] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ShoppingCartFrontEnd
+2017-04-28 15:55:15,303 [Worker-141] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:16,474 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:16,474 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:55:16,476 [Worker-138] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:16,480 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 15:55:20,338 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:20,339 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 15:55:20,342 [Worker-139] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:55:20,343 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 15:59:33,232 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:59:33,237 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 15:59:33,240 [Worker-143] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 15:59:33,241 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 16:00:00,457 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:00:00,458 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 16:00:00,460 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:00:00,461 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 16:01:46,750 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:01:46,758 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 16:01:46,760 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:01:46,761 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 16:14:55,851 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:14:55,856 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 16:14:55,858 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:14:55,862 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 16:14:56,970 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:14:56,978 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 16:14:56,980 [Worker-158] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:14:56,981 [Worker-158] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 16:26:35,192 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 16:26:50,837 [Worker-164] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 16:26:50,840 [Worker-164] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 16:45:52,663 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 16:46:29,536 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:29,547 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 16:46:29,549 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:29,550 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 16:46:36,127 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:36,131 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 16:46:36,132 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:36,133 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 16:46:45,923 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 16:46:45,925 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-04-28 16:46:49,572 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:49,579 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 16:46:49,580 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:46:49,581 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 16:46:58,672 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 16:46:58,673 [Worker-176] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2017-04-28 16:47:15,678 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:47:15,683 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 16:47:15,685 [Worker-177] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:47:15,685 [Worker-177] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 16:48:57,353 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 16:49:05,427 [Worker-178] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 16:49:05,427 [Worker-178] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install -DskipTests
+2017-04-28 16:49:23,033 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:49:23,038 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 16:49:23,040 [Worker-182] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 16:49:23,041 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:02:06,193 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:02:06,198 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:02:06,201 [Worker-189] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:02:06,202 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:12:38,505 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:12:38,510 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:12:38,512 [Worker-199] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:12:38,513 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:13:17,960 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:13:17,962 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:13:17,974 [Worker-198] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:13:17,975 [Worker-198] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:34:08,859 [Worker-205] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:34:08,863 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:34:08,865 [Worker-205] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:34:08,866 [Worker-205] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:37:53,129 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:37:53,133 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:37:53,135 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:37:53,136 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:38:54,913 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:38:54,915 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:38:54,916 [Worker-219] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:38:54,917 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:40:13,091 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:40:13,094 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:40:13,096 [Worker-213] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:40:13,097 [Worker-213] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 17:48:19,883 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:48:19,887 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 17:48:19,889 [Worker-218] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 17:48:19,890 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:18:07,335 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:18:07,339 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:18:07,340 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:18:07,341 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:18:40,715 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-04-28 18:18:52,567 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd
+2017-04-28 18:18:52,568 [Worker-243] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean install -DskipTests
+2017-04-28 18:19:09,310 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:19:09,312 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:19:09,314 [Worker-243] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:19:09,314 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:22:12,505 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:22:12,508 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:22:12,568 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:22:12,569 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:24:04,217 [Worker-246] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE-sources.jar
+2017-04-28 18:24:07,085 [Worker-246] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/4.3.3.RELEASE/spring-aop-4.3.3.RELEASE-sources.jar
+2017-04-28 18:24:07,126 [Worker-246] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-aop:4.3.3.RELEASE
+2017-04-28 18:24:07,702 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:24:07,704 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:24:07,706 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:24:07,707 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:26:04,654 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:26:04,657 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:26:04,659 [Worker-244] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:26:04,660 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:31:47,498 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:31:47,502 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:31:47,503 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:31:47,504 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:34:53,337 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:34:53,342 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:34:53,344 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:34:53,345 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:36:31,225 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:36:31,226 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:36:31,228 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:36:31,228 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:36:47,389 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:36:47,389 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:36:47,390 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:36:47,391 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:37:10,567 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:37:10,573 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:37:10,574 [Worker-252] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:37:10,575 [Worker-252] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:37:18,292 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:37:18,295 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:37:18,296 [Worker-245] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:37:18,297 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:38:16,630 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:38:16,631 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:38:16,632 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:38:16,633 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:39:23,880 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:39:23,881 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:39:23,883 [Worker-249] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:39:23,884 [Worker-249] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:39:43,385 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:39:43,386 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:39:43,387 [Worker-251] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:39:43,388 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 18:44:28,618 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:44:28,621 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 18:44:28,623 [Worker-258] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 18:44:28,623 [Worker-258] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 20:35:37,212 [Worker-1] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2017-04-28 20:35:40,157 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:40,159 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/main/resources
+2017-04-28 20:35:40,164 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:40,164 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartBackEnd/src/test/resources
+2017-04-28 20:35:44,467 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:44,483 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 20:35:44,489 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:44,489 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-04-28 20:35:47,639 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:47,654 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-04-28 20:35:47,656 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-04-28 20:35:47,657 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources

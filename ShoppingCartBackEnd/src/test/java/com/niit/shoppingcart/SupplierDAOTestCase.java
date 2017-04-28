@@ -7,9 +7,7 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
-import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Supplier;
 
 public class SupplierDAOTestCase {
@@ -77,7 +75,7 @@ public class SupplierDAOTestCase {
 	public void listAllSupplierTestCase()
 	{
 		int actualSize = supplierDAO.list().size();
-		assertEquals(2, actualSize);
+		assertEquals(6, actualSize);
 	} 
 	
 	

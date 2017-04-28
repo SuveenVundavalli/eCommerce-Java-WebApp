@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
-<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-<fullyQualifiedTypeName name="com.Student"/>
-<fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
-<fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
-<fullyQualifiedTypeName name="org.springframework.orm.hibernate3.HibernateTransactionManager"/>
-<fullyQualifiedTypeName name="com.niit.Mobitel.dao.ProductDAO"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="org.springframework.orm.hibernate5.LocalSessionFactoryBuilder"/>
@@ -22,7 +15,6 @@
 <fullyQualifiedTypeName name="javax.validation.constraints.Max"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.daoimpl.UserDAOImpl"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
-<fullyQualifiedTypeName name="org.hibernate.Query"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
@@ -41,7 +33,6 @@
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.My_CartDAO"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.My_Cart"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.UserDAO"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.User"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
@@ -50,9 +41,23 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.CategoryDAO"/>
-<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Category"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.dao.ProductDAO"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Product"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+<fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Supplier"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+<fullyQualifiedTypeName name="javax.persistence.Transient"/>
+<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+<fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="javax.persistence.ElementCollection"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="com.niit.shoppingcart.domain.Category"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
 </qualifiedTypeNameHistroy>

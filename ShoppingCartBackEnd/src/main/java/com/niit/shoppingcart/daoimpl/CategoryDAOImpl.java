@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -60,8 +61,10 @@ public class CategoryDAOImpl implements CategoryDAO{
 
 	public List<Category> list() {
 		
-		
-		return  sessionFactory.getCurrentSession().createQuery("from Category").list();
+		System.out.println();
+		Query q = sessionFactory.getCurrentSession().createQuery("from Category");
+		List<Category> l = (List<Category>) q.list();
+		return l;
 	}
 
 	public Category getCategoryById(String id) {

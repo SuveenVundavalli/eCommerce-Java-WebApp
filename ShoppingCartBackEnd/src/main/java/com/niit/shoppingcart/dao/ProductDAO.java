@@ -19,6 +19,4 @@ public interface ProductDAO {
 	
 	public Product getProductByName(String name);
 	
-	public List<Product> getProductByCategory(String category_id);
-
 }

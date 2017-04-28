@@ -7,15 +7,42 @@
 <title>Insert title here</title>
 </head>
 <body>
-<br>
-Registration Page
-<hr color="green">
-<form action="MainPage">
-	<input type="text" placeholder="First Name">
-	<input type="text" placeholder="Last Name">
-	<input type="Email" placeholder="Email">
-	<input type="password" placeholder="Password">
-	<input type="submit" placeholder="First Name">
-</form>
+
+	<div class="container">
+  <h2>Register</h2>
+  <form class="form-horizontal" action="MainPage">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="fName">Full Name:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="fName" placeholder="Enter Full Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="uName">Username:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="uName" placeholder="Enter Username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="uMobile">Mobile:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="uMobile" placeholder="Enter Mobile Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="uPassword">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="uPassword" placeholder="Enter Password">
+      </div>
+    </div>
+   
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Register</button>
+      </div>
+    </div>
+  </form>
+</div>
+
 </body>
 </html>

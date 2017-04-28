@@ -7,13 +7,36 @@
 <title>Insert title here</title>
 </head>
 <body>
-<br>
-Login Page
-<hr/>
-<form action="MainPage">
-	<input type="text" name="uName" placeholder="Username">
-	<input type="password" name="pWord" placeholder="Password">
-	<input type="submit">
-</form>
+
+<div class="container">
+  <h2>Login</h2>
+  <form class="form-horizontal" action="validate">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="userName">Username:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" name="userName" id="userName" placeholder="Enter Username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" name="password" id="pwd" placeholder="Enter password" required>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
 </body>
 </html>

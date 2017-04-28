@@ -6,6 +6,7 @@ import javax.transaction.Transactional;
 
 import org.hibernate.Query;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -18,6 +19,7 @@ import com.niit.shoppingcart.domain.User;
 @Transactional
 public class UserDAOImpl implements UserDAO {
 	
+	//Transaction tx;
 	@Autowired
 	private SessionFactory sessionFactory;
 	
@@ -39,10 +41,13 @@ public class UserDAOImpl implements UserDAO {
 		try
 		{
 		sessionFactory.getCurrentSession().save(user);
+		//tx = sessionFactory.getCurrentSession().getTransaction();
 		}catch (Exception e) {
 			//if any excpetion comes during execute of try block, catch will excute
 			e.printStackTrace();
 			return false;
+		}finally {
+			sessionFactory.getCurrentSession().close();
 		}
 		return true;
 	}
@@ -56,7 +61,7 @@ public class UserDAOImpl implements UserDAO {
 		{
 		sessionFactory.getCurrentSession().update(user);
 		}catch (Exception e) {
-			//if any excpetion comes during execute of try block, catch will excute
+			//if any exception comes during execute of try block, catch will execute
 			e.printStackTrace();
 			return false;
 		}

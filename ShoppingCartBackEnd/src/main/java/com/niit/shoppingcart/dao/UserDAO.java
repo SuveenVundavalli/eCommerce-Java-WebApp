@@ -37,7 +37,7 @@ public interface UserDAO {
 	
 	// get all users   - list
 	
-	public List<User>     list();
+	public List<User> list();
 	
 	
 	//get user details based on userID
