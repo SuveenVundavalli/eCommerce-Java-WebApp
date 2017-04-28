@@ -22,14 +22,15 @@ public class Category {
 	private String description;
 
 	// If the relation is one-to-many we need to use the following
+
 	@OneToMany(mappedBy = "category", fetch = FetchType.EAGER)
-	private Set<Product> products=new HashSet<Product>(0);
+	private Set<Product> products;
 
 	/*
 	 * Each category may have n number of products. We use Set instead of List
 	 * because Set does not have duplicates.
 	 */
-	
+
 	public Set<Product> getProducts() {
 		return products;
 	}

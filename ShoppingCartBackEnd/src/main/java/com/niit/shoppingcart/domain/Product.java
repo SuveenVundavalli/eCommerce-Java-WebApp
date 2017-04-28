@@ -30,7 +30,7 @@ public class Product {
 	private Category category;
 
 	@ManyToOne
-	@JoinColumn(name = "category_id", updatable = false, insertable = false, nullable = false)
+	@JoinColumn(name = "supplier_id", updatable = false, insertable = false, nullable = false)
 	private Supplier supplier;
 
 	@Transient

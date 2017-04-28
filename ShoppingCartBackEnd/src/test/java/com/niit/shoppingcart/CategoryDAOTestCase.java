@@ -95,7 +95,7 @@ public class CategoryDAOTestCase {
 	public void listAllCategoryTestCase()
 	{
 		int actualSize = categoryDAO.list().size();
-		assertEquals(3, actualSize);
+		assertEquals(7, actualSize);
 	}
 	
 	
