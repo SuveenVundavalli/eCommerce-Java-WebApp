@@ -9,9 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.niit.shoppingcart.dao.ProductDAO;
-import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
-import com.niit.shoppingcart.domain.User;
 
 @Repository("productDAO")
 @Transactional

@@ -11,7 +11,6 @@ import org.springframework.stereotype.Repository;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.domain.Category;
-import com.niit.shoppingcart.domain.User;
 
 @Repository("categoryDAO")
 @Transactional
