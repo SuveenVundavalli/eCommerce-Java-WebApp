@@ -1,8 +1,5 @@
-com/niit/controller/CategoryController.class
-com/niit/controller/SupplierController.class
 com/niit/controller/HomeController.class
 com/niit/controller/AdminController.class
-com/niit/controller/CartController.class
-com/niit/controller/ProductController.class
-com/niit/controller/SecurityController.class
 com/niit/controller/UserController.class
+com/niit/controller/CategoryController.class
+com/niit/controller/SupplierController.class

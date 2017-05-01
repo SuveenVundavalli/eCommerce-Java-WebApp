@@ -31,11 +31,11 @@ public class CategoryController {
 		mv.addObject("isAdmin", "true");
 
 		if (categoryDAO.getCategoryById(id) != null) {
-			mv.addObject("message", "Category already exists with id : "+id);
+			mv.addObject("cMessage", "Category already exists with id : "+id);
 			return mv;
 		} else {
 			categoryDAO.save(category);
-			mv.addObject("message", "Category creation success with id : "+id);
+			mv.addObject("cMessage", "Category creation success with id : "+id);
 
 		}
 		// Before calling save method, check whether category_id already exists

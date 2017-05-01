@@ -7,14 +7,13 @@
 </head>
 <body>
 	<div class="container">
-		<a href="manageCategories">Manage Categories</a> &nbsp;
-		<a href="manageSuppliers">Manage Suppliers</a> &nbsp;
-		<a href="manageProducts">Manage Products</a> &nbsp;
+		<div class="btn-group btn-group-justified">
+			<a href="manageCategories" class="btn btn-primary">Manage Categories</a>
+			<a href="manageSuppliers" class="btn btn-primary">Manage Suppliers</a>
+			<a href="manageProducts" class="btn btn-primary">Manage Products</a>
+		</div>
 		
-<%-- 		${message} --%>
 	</div>
-
-
 
 </body>
 </html>

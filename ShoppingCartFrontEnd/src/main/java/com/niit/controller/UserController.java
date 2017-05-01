@@ -8,9 +8,11 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.ProductDAO;
+import com.niit.shoppingcart.dao.SupplierDAO;
 import com.niit.shoppingcart.dao.UserDAO;
 import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
+import com.niit.shoppingcart.domain.Supplier;
 import com.niit.shoppingcart.domain.User;
 
 @Controller
@@ -32,6 +34,10 @@ public class UserController {
 	@Autowired
 	ProductDAO productDAO;
 
+	@Autowired
+	SupplierDAO supplierDAO;
+	@Autowired
+	Supplier supplier;
 	// Get the user id and password from login page
 	// Send these values to userDao.validate
 	// based on response, you can navigate to either login.jsp or home.jsp
@@ -48,6 +54,9 @@ public class UserController {
 			
 			mv.addObject("categoryList", categoryDAO.list());
 			mv.addObject("category", categoryDAO);
+			
+			mv.addObject("supplierList", supplierDAO.list());
+			mv.addObject("supplier", supplierDAO);
 			
 			// check whether user role is admin or user
 

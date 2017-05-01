@@ -62,7 +62,7 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="container">${message}</div>
+	
 
 </body>
 </html>

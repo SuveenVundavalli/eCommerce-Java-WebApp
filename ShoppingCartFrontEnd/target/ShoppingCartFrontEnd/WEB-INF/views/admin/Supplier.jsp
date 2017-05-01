@@ -7,7 +7,36 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2>Manage Supplier</h2>
+<div class="container">
+		<div class="h2">Manage Supplier</div>
+		<form class="form-horizontal" action="manage_supplier_add">
+			<div class="form-group">
+				<label class="control-label col-sm-3" for="sId">Supplier Id:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="sId" placeholder="Enter Supplier Id" name="sId" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-3" for="sName">Supplier Name:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="sName" placeholder="Enter Supplier Name" name="sName" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-3" for="sDescription">Supplier Description:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="sDescription" placeholder="Enter Supplier Description" name="sDescription" required>
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-offset-3 col-sm-9">
+					<button type="submit" class="btn btn-default">Submit</button>
+				</div>
+			</div>
+		</form>
+
+	</div>
 
 </body>
 </html>

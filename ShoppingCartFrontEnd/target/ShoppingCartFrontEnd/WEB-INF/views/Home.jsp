@@ -24,17 +24,20 @@
 	<c:if test="${isAdmin=='true'}">
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
-	
+
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${cMessage}</div>
 	</c:if>
-	
-	<c:if test="${isAdminClickedCategories=='true' }">
+
+	<c:if test="${isAdminClickedSupplier=='true' }">
 		<jsp:include page="admin/Supplier.jsp"></jsp:include>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${sMessage}</div>
 	</c:if>
-	
-	<c:if test="${isAdminClickedCategories=='true' }">
+
+	<c:if test="${isAdminClickedProduct=='true' }">
 		<jsp:include page="admin/Product.jsp"></jsp:include>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${pMessage}</div>
 	</c:if>
 
 
