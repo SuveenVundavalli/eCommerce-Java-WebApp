@@ -2,7 +2,6 @@ INDEX VERSION 1.3+/Users/Suveen/Documents/java/workspace/SLT/SLTProject/.metadat
 1756274783.index
 2333383914.index
 4083641845.index
-1872444721.index
 3470197531.index
 3386107275.index
 1872444721.index

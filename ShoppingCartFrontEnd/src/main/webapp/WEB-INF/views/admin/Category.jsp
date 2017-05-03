@@ -89,10 +89,10 @@
 						<td>${category.id}</td>
 						<td>${category.name}</td>
 						<td>${category.description}</td>
-						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a> 
-						<a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td>
-						<%-- <td><a href="<c:url value='manage-category-delete/${category.id}'/>" class="btn btn-danger">Delete</a>
-						<a href="<c:url value='manage-category-edit/${category.id}'/>" class="btn btn-info">Edit</a></td> --%>
+<%-- 						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
+<%-- 						<a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
+						<td><a href="<c:url value='manage-category-delete/${category.id}'/>" class="btn btn-danger">Delete</a>
+						<a href="<c:url value='manage-category-edit/${category.id}'/>" class="btn btn-info">Edit</a></td>
 					</tr>
 				</c:forEach>
 			</table>

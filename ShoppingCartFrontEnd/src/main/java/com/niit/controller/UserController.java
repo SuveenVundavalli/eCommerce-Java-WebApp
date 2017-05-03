@@ -85,5 +85,42 @@ public class UserController {
 		return mv;
 
 	}
+	
+	@RequestMapping("/Register")
+	public ModelAndView register(@RequestParam("uId") String id, @RequestParam("uPassword") String password, @RequestParam("uName") String name, @RequestParam("uContact") String contact) {
+
+		ModelAndView mv = new ModelAndView("/Home");
+		log.debug("Starting of the method register");
+		log.debug("Assigning values");
+		
+		user.setId(id);
+		user.setName(name);
+		user.setPassword(password);
+		user.setContact(contact);
+		user.setRole("ROLE_USER");
+		
+		
+		log.info("You are signing up with username : "+id);
+		
+		if (userDAO.save(user) == true) {
+			log.debug("saving credentials");
+			user = userDAO.get(id);
+			mv.addObject("message", "Welcome " + user.getName() + "!");
+
+			mv.addObject("categoryList", categoryDAO.list());
+			mv.addObject("category", categoryDAO);
+
+			mv.addObject("supplierList", supplierDAO.list());
+			mv.addObject("supplier", supplierDAO);
+
+			
+		} else {
+			log.debug("Error");
+			mv.addObject("message", "invalid credentials");
+		}
+		log.debug("Ending of the method login");
+		return mv;
+
+	}
 
 }

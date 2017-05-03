@@ -22,7 +22,6 @@
 <script src="resources/js/bootstrap.js"></script> -->
 </head>
 <body>
-
 	<center>
 		<h1>Shopping Cart Web Application</h1>
 	</center>
@@ -52,12 +51,14 @@
 
 	<c:if test="${isUserClickedLogin=='true'}">
 		<jsp:include page="Login.jsp"></jsp:include>
+		
 	</c:if>
+	
 	<c:if test="${isUserClickedRegistration=='true'}">
 		<jsp:include page="Register.jsp"></jsp:include>
 	</c:if>
-	<c:if test="${isUserClickedMain=='true'}">
-		<jsp:include page="Main.jsp"></jsp:include>
-	</c:if>
+	
+	${message}
+
 </body>
 </html>

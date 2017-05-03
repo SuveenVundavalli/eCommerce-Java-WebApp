@@ -46,8 +46,6 @@ public class UserDAOImpl implements UserDAO {
 			//if any excpetion comes during execute of try block, catch will excute
 			e.printStackTrace();
 			return false;
-		}finally {
-			sessionFactory.getCurrentSession().close();
 		}
 		return true;
 	}
