@@ -21,7 +21,7 @@ public class CategoryController {
 
 	// Logger Statements
 	// SLF4J - Simple Logging Facade for Java
-	private static Logger log = LoggerFactory.getLogger(UserController.class);
+	private static Logger log = LoggerFactory.getLogger(CategoryController.class);
 
 	@Autowired
 	HttpSession session;

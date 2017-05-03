@@ -13,8 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.ProductDAO;
+import com.niit.shoppingcart.dao.SupplierDAO;
 import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
+import com.niit.shoppingcart.domain.Supplier;
 
 @Controller
 public class HomeController {
@@ -35,6 +37,12 @@ public class HomeController {
 
 	@Autowired
 	ProductDAO productDAO;
+	
+	@Autowired
+	Supplier supplier;
+	
+	@Autowired
+	SupplierDAO supplierDAO;
 
 	@RequestMapping({ "/", "/Home" })
 	public ModelAndView goToHome() {
@@ -52,13 +60,17 @@ public class HomeController {
 
 		// get products
 		List<Product> productList = productDAO.list();
-		// List<Product> productByCategory =
-		// productDAO.getProductByCategory("Tablets");
 
 		// attach to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
-		// session.setAttribute("productByCategory", productByCategory);
+		
+		// get products
+		List<Supplier> supplierList = supplierDAO.list();
+		
+		// attach to session
+		session.setAttribute("supplierList", supplierList);
+		session.setAttribute("supplier", supplier);
 
 		return mv;
 		// return "Home";
