@@ -2199,3 +2199,387 @@ java.net.UnknownHostException: download.eclipse.org
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 09:02:40.357
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-05-03 11:05:54.470 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/Suveen/Documents/java/workspace/SLT/SLTProject -product org.eclipse.epp.package.jee.product -keyring /Users/Suveen/.eclipse_keyring
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.457
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.463
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.521
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.521
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.566
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:06:06.566
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface 2 0 2017-05-03 11:06:12.356
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-05-03 11:06:12.356
+!MESSAGE A conflict occurred for COMMAND+D:
+Binding(COMMAND+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b7f7b6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+D,
+	ParameterizedCommand(Command(io.emmet.eclipse.commands.match_pair_outward,Match Pair Outward,
+		,
+		Category(io.emmet.eclipse.commands.category,Emmet,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6a65daed,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:06:14.513
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:06:17.068
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:06:17.108
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:14:32.510
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:14:32.527
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:14:51.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:14:51.533
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:17:00.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:17:00.228
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:18:49.873
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:18:49.876
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:20:58.913
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:20:58.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:22:30.856
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:22:30.858
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:23:11.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:23:11.874
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:28:40.530
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:28:40.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:30:00.527
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:30:00.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:30:51.846
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:30:51.846
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:30:51.922
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-05-03 11:30:51.922
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:32:08.908
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:32:08.918
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:32:35.680
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:32:35.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:38:33.180
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:38:33.184
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2017-05-03 11:40:49.873
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2017-05-03 11:40:49.873
+!MESSAGE session context was:(profile=_Applications_jee-neon2_Eclipse.app_Contents_Eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.importer,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.873
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jaxrs,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jpa,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jsf,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay.ui,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jaxrs.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jpa.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.874
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jsf.feature,1.3.2.20161026-1738
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2017-05-03 11:40:49.877
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2017-05-03 11:40:49.877
+!MESSAGE session context was:(profile=_Applications_jee-neon2_Eclipse.app_Contents_Eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.archetype.common,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.core.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.discovery,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.editor.xml,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.importer,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.jdt.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.launching,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.lifecyclemapping.defaults,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.indexer,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.maven.runtime.slf4j.simple,1.7.1.20161104-1803
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.model.edit,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.core,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.profiles.ui,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.refactoring,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.scm,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jaxrs,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jpa,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.jsf,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.m2e.wtp.overlay.ui,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.feature,1.7.1.20161104-1805
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jaxrs.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jpa.feature,1.3.2.20161026-1738
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2017-05-03 11:40:49.877
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.m2e.wtp.jsf.feature,1.3.2.20161026-1738
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:41:20.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:41:20.649
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:44:03.004
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:44:03.016
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:49:24.485
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:49:24.493
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:53:53.950
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:53:53.961
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:58:54.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 11:58:54.932
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:04:30.967
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:04:30.972
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:16:21.683
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:16:21.693
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:18:22.912
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:18:22.915
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:19:54.522
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:19:54.526
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:28:10.288
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:28:10.292
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:42:35.798
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:42:35.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:49:15.833
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:49:15.838
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:49:48.212
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:49:48.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:51:15.359
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:51:15.365
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:52:40.485
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:52:40.492
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:55:14.531
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:55:14.536
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:59:33.735
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 12:59:33.740
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 13:00:10.652
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 13:00:10.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 13:00:18.408
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-05-03 13:00:18.413
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

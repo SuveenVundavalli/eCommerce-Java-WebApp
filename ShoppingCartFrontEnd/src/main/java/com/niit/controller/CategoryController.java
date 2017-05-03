@@ -75,7 +75,7 @@ public class CategoryController {
 		log.debug("Starting of delete Category");
 		log.info("You are about to delete a category with id : " + id);
 		
-		ModelAndView mv = new ModelAndView("/Home");
+		ModelAndView mv = new ModelAndView("forward:/manageCategories");
 		if (categoryDAO.delete(id) == true) {
 			mv.addObject("message", "Successfullly deleted");
 		} else {
@@ -88,6 +88,59 @@ public class CategoryController {
 		// attach to session
 		session.setAttribute("categoryList", categoryList);
 		session.setAttribute("category", category);
+		return mv;
+	}
+	
+	//Edit category
+	@RequestMapping("/manage-category-edit/{id}")
+	public ModelAndView editCategory(@PathVariable("id") String id){
+		log.debug("Starting of editCategory");
+		log.info("You are about to edit a category with id : " + id);
+		
+		category = categoryDAO.getCategoryById(id);
+		
+		//Selected category details we have to store in another instance
+		//i.e., ModelAndView instance
+		ModelAndView mv = new ModelAndView("forward:/manageCategories");
+		mv.addObject("selectedCategory", category);	
+		
+		log.debug("Ending of editCategory");
+
+		return mv;
+	}
+	
+	@RequestMapping("manage-category-edit/manage_category_update")
+	public ModelAndView updateCategory(@RequestParam("cId") String id, @RequestParam("cName") String name,
+			@RequestParam("cDescription") String description) {
+		log.debug("Starting of updateCategory");
+		ModelAndView mv = new ModelAndView("forward:/manageCategories");
+
+		category.setId(id);
+		category.setName(name);
+		category.setDescription(description);
+
+		mv.addObject("isAdminClickedCategories", "true");
+		mv.addObject("isAdmin", "true");
+
+		if (categoryDAO.getCategoryById(id) == null) {
+			mv.addObject("cMessage", "Category does not exists with id : " + id);
+			return mv;
+		} else {
+			categoryDAO.update(category);
+			mv.addObject("cMessage", "Category updated success with id : " + id);
+
+		}
+
+		// get all categories
+		List<Category> categoryList = categoryDAO.list();
+		// attach to session
+		session.setAttribute("categoryList", categoryList);
+		session.setAttribute("category", category);
+
+		// Before calling save method, check whether category_id already exists
+		// in db
+		// if it does not exist, then only call save method.
+		log.debug("Ending of updateCategory");
 		return mv;
 	}
 
