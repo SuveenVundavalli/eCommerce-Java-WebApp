@@ -22,11 +22,6 @@
 <script src="resources/js/bootstrap.js"></script> -->
 </head>
 <body>
-	<center>
-		<h1>Shopping Cart Web Application</h1>
-	</center>
-
-	<hr color="green">
 	<jsp:include page="Menu.jsp"></jsp:include>
 
 	<c:if test="${isAdmin=='true'}">

@@ -67,7 +67,7 @@
 
 				<div class="form-group">
 					<div class="col-sm-offset-3 col-sm-9">
-						<button type="submit" class="btn btn-warning">Update Category</button>
+						<button type="submit" class="btn btn-info">Update Category</button>
 					</div>
 				</div>
 			</form>
