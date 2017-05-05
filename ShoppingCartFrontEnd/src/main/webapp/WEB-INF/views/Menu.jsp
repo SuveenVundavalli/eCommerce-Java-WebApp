@@ -11,7 +11,7 @@
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+	<nav class="navbar navbar-inverse bg-warning navbar-fixed-top" id="my-navbar">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">

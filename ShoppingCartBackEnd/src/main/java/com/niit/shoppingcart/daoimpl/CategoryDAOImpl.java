@@ -60,10 +60,7 @@ public class CategoryDAOImpl implements CategoryDAO{
 
 	public List<Category> list() {
 		
-		System.out.println();
-		Query q = sessionFactory.getCurrentSession().createQuery("from Category");
-		List<Category> l = (List<Category>) q.list();
-		return l;
+		return sessionFactory.getCurrentSession().createQuery("from Category").list();
 	}
 
 	public Category getCategoryById(String id) {

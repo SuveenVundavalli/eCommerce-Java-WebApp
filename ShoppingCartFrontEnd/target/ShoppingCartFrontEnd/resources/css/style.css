@@ -1,5 +1,20 @@
-.scrollable-menu {
-    height: auto;
-    max-height: 200px;
-    overflow-x: hidden;
+body {
+	/*padding-top: 125px;*/
 }
+
+.scrollable-menu {
+	height: auto;
+	max-height: 200px;
+	overflow-x: hidden;
+}
+
+.container {
+	padding: 5px;
+}
+
+/* menu color */
+/* 
+#my-navbar {
+background-color: #ffb733;
+color:white;
+} */

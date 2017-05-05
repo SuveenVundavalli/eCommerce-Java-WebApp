@@ -6,45 +6,48 @@
 <title>Bootstrap Case</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="resources/css/style.css"> 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
+	<nav class="navbar navbar-inverse bg-warning navbar-fixed-top" id="my-navbar">
+		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="Home">Shopping Cart Web App</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a href="Home" class="navbar-brand">Shopping Cart</a>
 			</div>
-			<ul class="nav navbar-nav">
-				<li><a href="Home">Home</a></li>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<a href="RegistrationPage" class="btn btn-warning navbar-btn navbar-right"> SignUp </a>
+				<a href="LoginPage" class="btn btn-warning navbar-btn navbar-right"> Login </a>
+				<ul class="nav navbar-nav">
 
-				<!-- Dropdown of category -->
+					<!-- Dropdown of category -->
 
 
-				<c:forEach var="category" items="${categoryList}">
-					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">${category.name} <span class="caret"></span>
+					<c:forEach var="category" items="${categoryList}">
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">${category.name}
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu scrollable-menu" role="menu">
+								<c:forEach var="product" items="${productList}">
+									<c:if test="${product.category_id == category.id}">
+										<li><a href="#">${product.name}</a></li>
+									</c:if>
+
+									<!-- <li><a href="#">${product.name}</a></li> -->
+								</c:forEach>
+
+
+							</ul></li>
+					</c:forEach>
+					
+					<%-- Toggle Product--%>
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						All Products <span class="caret"></span>
 					</a>
-						<ul class="dropdown-menu scrollable-menu" role="menu">
-							<c:forEach var="product" items="${productList}">
-								<c:if test="${product.category_id == category.id}">
-									<li><a href="#">${product.name}</a></li>
-								</c:if>
-
-								<!-- <li><a href="#">${product.name}</a></li> -->
-							</c:forEach>
-
-
-						</ul></li>
-				</c:forEach>
-
-
-
-				<%-- Toggle Product--%>
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">All Products <span class="caret"></span>
-				</a>
 					<ul class="dropdown-menu scrollable-menu">
 
 						<c:forEach var="product" items="${productList}">
@@ -53,16 +56,13 @@
 						</c:forEach>
 					</ul></li>
 				<%----%>
-				<li><a href="#">Men</a></li>
-				<li><a href="#">Women</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="RegistrationPage"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-				<li><a href="LoginPage"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-			</ul>
+
+
+				</ul>
+			</div>
 		</div>
 	</nav>
-	
+
 
 </body>
 </html>

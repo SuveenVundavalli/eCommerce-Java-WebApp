@@ -10,35 +10,35 @@
 
 	<div class="container">
   <h2>Register</h2>
-  <form class="form-horizontal" action="MainPage">
+  <form class="form-horizontal" action="Register" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-2" for="fName">Full Name:</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="fName" placeholder="Enter Full Name">
+        <input type="text" class="form-control" id="fName" placeholder="Enter Full Name" name="uName">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="uName">Username:</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="uName" placeholder="Enter Username">
+        <input type="text" class="form-control" id="uName" placeholder="Enter Username" name="uId">
       </div>
     </div>
     <div class="form-group">
-      <label class="control-label col-sm-2" for="uMobile">Mobile:</label>
+      <label class="control-label col-sm-2" for="uContact">Mobile:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="uMobile" placeholder="Enter Mobile Number">
+        <input type="text" class="form-control" id="uContact" placeholder="Enter Mobile Number" name="uContact">
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="uPassword">Password:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" id="uPassword" placeholder="Enter Password">
+        <input type="password" class="form-control" id="uPassword" placeholder="Enter Password" name="uPassword">
       </div>
     </div>
    
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Register</button>
+        <button type="submit" class="btn btn-warning">Register</button>
       </div>
     </div>
   </form>

@@ -9,12 +9,15 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
+import com.niit.shoppingcart.dao.ProductDAO;
 import com.niit.shoppingcart.domain.Category;
+import com.niit.shoppingcart.domain.Product;
 
 @Controller
 public class CategoryController {
@@ -30,6 +33,12 @@ public class CategoryController {
 	CategoryDAO categoryDAO;
 	@Autowired
 	Category category;
+	
+	@Autowired
+	ProductDAO productDAO;
+	
+	@Autowired
+	Product product;
 
 	// crud category
 	@RequestMapping("/manage_category_add")
@@ -75,11 +84,20 @@ public class CategoryController {
 		log.debug("Starting of delete Category");
 		log.info("You are about to delete a category with id : " + id);
 		
-		ModelAndView mv = new ModelAndView("forward:/manageCategories");
+		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
+		//Check whether products are there for this category or not
+		int noOfProducts = productDAO.getAllProductsByCategoryId(id).size();
+		if(noOfProducts != 0){
+			log.debug("Few products are there under this category, you cannot delete!");
+			session.setAttribute("categoryMessage", "There are "+noOfProducts+" products under this "+id+" category, you cannot delete!");
+			return mv;
+		}
+		
+		
 		if (categoryDAO.delete(id) == true) {
-			mv.addObject("message", "Successfullly deleted");
+			mv.addObject("categoryMessage", "Successfullly deleted");
 		} else {
-			mv.addObject("message", "Failed to delete");
+			mv.addObject("categoryMessage", "Failed to delete");
 		}
 		log.debug("Ending of delete Category");
 
@@ -101,7 +119,7 @@ public class CategoryController {
 		
 		//Selected category details we have to store in another instance
 		//i.e., ModelAndView instance
-		ModelAndView mv = new ModelAndView("forward:/manageCategories");
+		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
 		mv.addObject("selectedCategory", category);	
 		
 		log.debug("Ending of editCategory");
@@ -109,11 +127,11 @@ public class CategoryController {
 		return mv;
 	}
 	
-	@RequestMapping("manage-category-edit/manage_category_update")
+	@PostMapping("/manage_category_update")
 	public ModelAndView updateCategory(@RequestParam("cId") String id, @RequestParam("cName") String name,
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateCategory");
-		ModelAndView mv = new ModelAndView("forward:/manageCategories");
+		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
 
 		category.setId(id);
 		category.setName(name);

@@ -5,7 +5,7 @@
 	id="WebApp_ID" version="3.0">
 	<display-name>Archetype Created Web Application</display-name>
 	<welcome-file-list>
-		<welcome-file>home.jsp</welcome-file>
+		<welcome-file>Home.jsp</welcome-file>
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>

@@ -17,6 +17,7 @@
 
 <script src="<c:url value="/resources/js/jquery-3.2.0.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.js" />"></script>
+<script src="<c:url value="/resources/js/CustomJS.js" />"></script>
 
 <!-- <script src="resources/js/jquery-3.2.0.js"></script>
 <script src="resources/js/bootstrap.js"></script> -->
@@ -31,6 +32,8 @@
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${cMessage}</div>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${categoryMessage}</div>
+		
 	</c:if>
 
 	<c:if test="${isAdminClickedSuppliers=='true' }">
@@ -53,7 +56,9 @@
 		<jsp:include page="Register.jsp"></jsp:include>
 	</c:if>
 	
-	${message}
+	<%-- <div class="container">
+		${message}
+	</div> --%>
 
 </body>
 </html>

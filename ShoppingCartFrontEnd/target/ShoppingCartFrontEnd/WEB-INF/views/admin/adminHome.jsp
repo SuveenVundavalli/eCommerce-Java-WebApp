@@ -8,9 +8,9 @@
 <body>
 	<div class="container">
 		<div class="btn-group btn-group-justified">
-			<a href="manageCategories" class="btn btn-primary">Manage Categories</a>
-			<a href="manageSuppliers" class="btn btn-primary">Manage Suppliers</a>
-			<a href="manageProducts" class="btn btn-primary">Manage Products</a>
+			<a href="manageCategories" class="btn btn-warning">Manage Categories</a>
+			<a href="manageSuppliers" class="btn btn-warning">Manage Suppliers</a>
+			<a href="manageProducts" class="btn btn-warning">Manage Products</a>
 		</div>
 		
 	</div>

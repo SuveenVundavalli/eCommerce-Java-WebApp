@@ -45,7 +45,7 @@
 		</div>
 
 		<div id="UpdateCategory">
-			<form class="form-horizontal" action="manage_category_update">
+			<form class="form-horizontal" action="manage_category_update" method="post">
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="cId">Customer Id:</label>
 					<div class="col-sm-9">

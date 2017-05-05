@@ -1,5 +1,5 @@
 body {
-	padding-top: 125px;
+	/*padding-top: 125px;*/
 }
 
 .scrollable-menu {
@@ -11,3 +11,10 @@ body {
 .container {
 	padding: 5px;
 }
+
+/* menu color */
+/* 
+#my-navbar {
+background-color: #ffb733;
+color:white;
+} */
