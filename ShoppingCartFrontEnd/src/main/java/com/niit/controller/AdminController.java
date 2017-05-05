@@ -1,14 +1,26 @@
 package com.niit.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.niit.shoppingcart.dao.CategoryDAO;
+import com.niit.shoppingcart.dao.SupplierDAO;
+import com.niit.shoppingcart.domain.Category;
+import com.niit.shoppingcart.domain.Supplier;
+
 @Controller
 public class AdminController {
-	
+	@Autowired HttpSession session;
+	@Autowired Category category;
+	@Autowired CategoryDAO categoryDAO;
+	@Autowired Supplier supplier;
+	@Autowired SupplierDAO supplierDAO;
 	
 	//Logger Statements
 	//SLF4J - Simple Logging Facade for Java
@@ -21,6 +33,8 @@ public class AdminController {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("isAdminClickedCategories", "true");
 		mv.addObject("isAdmin", "true");
+		session.setAttribute("categoryList", categoryDAO.list());
+		session.setAttribute("category", category);
 		log.debug("Ending of the method manageCategories");
 		
 		return mv;
@@ -33,6 +47,8 @@ public class AdminController {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("isAdminClickedSuppliers", "true");
 		mv.addObject("isAdmin", "true");
+		session.setAttribute("supplierList", supplierDAO.list());
+		session.setAttribute("supplier", supplier);
 		log.debug("Ending of the method manageSuppliers");
 
 		return mv;

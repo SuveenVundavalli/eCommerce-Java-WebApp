@@ -33,12 +33,12 @@
 		<jsp:include page="admin/Category.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${cMessage}</div>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${categoryMessage}</div>
-		
 	</c:if>
 
 	<c:if test="${isAdminClickedSuppliers=='true' }">
 		<jsp:include page="admin/Supplier.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${sMessage}</div>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${supplierMessage}</div>
 	</c:if>
 
 	<c:if test="${isAdminClickedProduct=='true' }">
@@ -49,13 +49,13 @@
 
 	<c:if test="${isUserClickedLogin=='true'}">
 		<jsp:include page="Login.jsp"></jsp:include>
-		
+
 	</c:if>
-	
+
 	<c:if test="${isUserClickedRegistration=='true'}">
 		<jsp:include page="Register.jsp"></jsp:include>
 	</c:if>
-	
+
 	<%-- <div class="container">
 		${message}
 	</div> --%>

@@ -101,11 +101,7 @@ public class CategoryController {
 		}
 		log.debug("Ending of delete Category");
 
-		// get all categories
-		List<Category> categoryList = categoryDAO.list();
-		// attach to session
-		session.setAttribute("categoryList", categoryList);
-		session.setAttribute("category", category);
+		
 		return mv;
 	}
 	
@@ -121,6 +117,7 @@ public class CategoryController {
 		//i.e., ModelAndView instance
 		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
 		mv.addObject("selectedCategory", category);	
+		session.setAttribute("selectedCategory", category);	
 		
 		log.debug("Ending of editCategory");
 
@@ -149,11 +146,6 @@ public class CategoryController {
 
 		}
 
-		// get all categories
-		List<Category> categoryList = categoryDAO.list();
-		// attach to session
-		session.setAttribute("categoryList", categoryList);
-		session.setAttribute("category", category);
 
 		// Before calling save method, check whether category_id already exists
 		// in db

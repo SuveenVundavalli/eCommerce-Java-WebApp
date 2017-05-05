@@ -38,6 +38,37 @@
 			</form>
 		</div>
 		
+		<div id="UpdateSupplier">
+			<form class="form-horizontal" action="manage_supplier_update" method="post">
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="cId">Supplier Id:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="cId" placeholder="Enter Supplier Id" name="cId" value="${selectedSupplier.id}" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="cName">Supplier Name:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="cName" placeholder="Enter Supplier Name" name="cName" value="${selectedSupplier.name}" required>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-3" for="cDescription">Supplier Description:</label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" id="cDescription" placeholder="Enter Supplier Description" name="cDescription" value="${selectedSupplier.description}" required>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-9">
+						<button type="submit" class="btn btn-info">Update Supplier</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		
+		
+		
 		<div id="ShowSupplier">
 			<table class="table table-striped">
 			<thead>
@@ -55,7 +86,7 @@
 						<td>${supplier.description}</td>
 						<td>
 							<a href = "manage-supplier-delete/${supplier.id}" class="btn btn-danger">Delete</a>
-							<a href = "" class="btn btn-info">Update</a>
+							<a href = "manage-supplier-edit/${supplier.id}" class="btn btn-info">Update</a>
 						</td>
 					</tr>
 				</c:forEach>
