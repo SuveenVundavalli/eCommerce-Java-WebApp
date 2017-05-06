@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -23,7 +22,7 @@
 						<td>Contact Mobile</td>
 						<td>Contact Message</td>
 						<td>Manage</td>
-						
+
 					</tr>
 				</thead>
 				<c:forEach var="contact" items="${contactUsList}">
@@ -35,9 +34,7 @@
 						<td>${contact.message}</td>
 						<%-- 						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
 						<%-- 						<a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
-						<td>
-							<a href="manage-contactus-delete/${contact.id}" class="btn btn-danger">Delete</a> 
-						</td>
+						<td><a href="manage-contactus-delete/${contact.id}" class="btn btn-danger">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>

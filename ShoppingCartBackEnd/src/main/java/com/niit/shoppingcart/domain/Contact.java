@@ -1,5 +1,6 @@
 package com.niit.shoppingcart.domain;
 
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -16,6 +17,15 @@ public class Contact {
 	private String contact;
 	private String email;
 	private String message;
+	/*private String date_added;
+
+	public String getDate() {
+		return date_added;
+	}
+
+	public void setDate(String date_added) {
+		this.date_added = date_added;
+	}*/
 
 	public int getId() {
 		return id;
