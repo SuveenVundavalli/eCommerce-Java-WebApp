@@ -1,5 +1,4 @@
 .metadata
-.idea
 bin/
 tmp/
 *.tmp
@@ -10,7 +9,7 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-# Eclipse
+
 # External tool builders
 .externalToolBuilders/
 
