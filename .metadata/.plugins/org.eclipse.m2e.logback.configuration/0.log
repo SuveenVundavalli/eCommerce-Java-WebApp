@@ -7233,3 +7233,7 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: expected ST
 2017-05-06 15:35:08,884 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-06 15:35:08,885 [Worker-120] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-06 15:35:08,886 [Worker-120] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
+2017-05-06 15:45:11,866 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-06 15:45:11,887 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-06 15:45:11,892 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-06 15:45:11,893 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Suveen/Documents/java/workspace/SLT/SLTProject/ShoppingCartFrontEnd/src/test/resources
