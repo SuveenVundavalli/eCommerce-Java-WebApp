@@ -11,6 +11,7 @@
 			<a href="manageCategories" class="btn btn-warning">Manage Categories</a>
 			<a href="manageSuppliers" class="btn btn-warning">Manage Suppliers</a>
 			<a href="manageProducts" class="btn btn-warning">Manage Products</a>
+			<a href="manageContactUs" class="btn btn-warning">Manage Contact Us</a>
 		</div>
 		
 	</div>

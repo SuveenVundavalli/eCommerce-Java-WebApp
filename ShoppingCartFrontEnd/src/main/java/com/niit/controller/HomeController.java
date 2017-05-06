@@ -96,4 +96,10 @@ public class HomeController {
 		model.addAttribute("isUserClickedMain", "true");
 		return "Home";
 	}
+	
+	@RequestMapping("/ContactUs")
+	public String contactUsPage(Model model) {
+		model.addAttribute("isUserClickedContactUs","true");
+		return "Home";
+	}
 }

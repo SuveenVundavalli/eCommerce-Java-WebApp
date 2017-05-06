@@ -10,8 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
+import com.niit.shoppingcart.dao.ContactDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
 import com.niit.shoppingcart.domain.Category;
+import com.niit.shoppingcart.domain.Contact;
 import com.niit.shoppingcart.domain.Supplier;
 
 @Controller
@@ -21,6 +23,8 @@ public class AdminController {
 	@Autowired CategoryDAO categoryDAO;
 	@Autowired Supplier supplier;
 	@Autowired SupplierDAO supplierDAO;
+	@Autowired Contact contact;
+	@Autowired ContactDAO contactDAO;
 	
 	//Logger Statements
 	//SLF4J - Simple Logging Facade for Java
@@ -60,8 +64,22 @@ public class AdminController {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("isAdminClickedProducts", "true");
 		mv.addObject("isAdmin", "true");
+		
 		log.debug("Ending of the method manageProducts");
 
+		return mv;
+	}
+	
+	@RequestMapping("/manageContactUs")
+	public ModelAndView manageContactUs() {
+		log.debug("Starting of the method manageContactUs");
+		ModelAndView mv = new ModelAndView("Home");
+		mv.addObject("isAdminClickedContactUs", "true");
+		mv.addObject("isAdmin", "true");
+		session.setAttribute("contactUsList", contactDAO.list());
+		session.setAttribute("contact", contact);
+		log.debug("Ending of the method manageContactUs");
+		
 		return mv;
 	}
 }
