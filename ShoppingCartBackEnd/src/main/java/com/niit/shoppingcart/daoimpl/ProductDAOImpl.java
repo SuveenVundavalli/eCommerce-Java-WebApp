@@ -86,4 +86,8 @@ public class ProductDAOImpl implements ProductDAO {
 
 		// TODO Auto-generated method stub
 	}
+
+	public List<Product> getAllProductsBySupplierId(String supplierId) {
+		return sessionFactory.getCurrentSession().createQuery("from Product where supplier_Id = ?").setString(0, supplierId).list();
+	}
 }
