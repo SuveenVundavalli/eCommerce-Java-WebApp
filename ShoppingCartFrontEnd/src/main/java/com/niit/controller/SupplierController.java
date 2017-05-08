@@ -112,6 +112,7 @@ public class SupplierController {
 		ModelAndView mv = new ModelAndView("redirect:/manageSuppliers");
 		mv.addObject("selectedSupplier", supplier);
 		session.setAttribute("selectedSupplier", supplier);
+		session.setAttribute("isAdminClickedManageSupplierEdit", "true");	
 
 		log.debug("Ending of editSupplier");
 
@@ -143,6 +144,7 @@ public class SupplierController {
 		// Before calling save method, check whether supplier_id already exists
 		// in db
 		// if it does not exist, then only call save method.
+		session.setAttribute("isAdminClickedManageSupplierEdit", "false");	
 		log.debug("Ending of updateSupplier");
 		return mv;
 	}

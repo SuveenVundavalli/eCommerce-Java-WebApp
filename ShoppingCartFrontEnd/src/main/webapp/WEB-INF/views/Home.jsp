@@ -29,6 +29,12 @@
 	<c:if test="${isAdmin=='true'}">
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
+	
+	<c:if test="${isUserAtHomePage=='true'}">
+		<jsp:include page="Carousel.jsp"></jsp:include>
+	</c:if>
+	
+	
 
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>
@@ -42,7 +48,7 @@
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${supplierMessage}</div>
 	</c:if>
 
-	<c:if test="${isAdminClickedProduct=='true' }">
+	<c:if test="${isAdminClickedProducts=='true' }">
 		<jsp:include page="admin/Product.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${pMessage}</div>
 	</c:if>

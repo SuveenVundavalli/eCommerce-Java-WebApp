@@ -25,9 +25,9 @@ public class ProductDAOImpl implements ProductDAO {
 		this.sessionFactory = sessionFactory;
 	}
 
-	public boolean save(Product product) {
+	public boolean saveOrUpdate(Product product) {
 		try {
-			sessionFactory.getCurrentSession().save(product);
+			sessionFactory.getCurrentSession().saveOrUpdate(product);
 		} catch (Exception e) {
 			// if any excpetion comes during execute of try block, catch will
 			// excute
@@ -37,7 +37,7 @@ public class ProductDAOImpl implements ProductDAO {
 		return true;
 	}
 
-	public boolean update(Product product) {
+	/*public boolean update(Product product) {
 		try {
 			sessionFactory.getCurrentSession().update(product);
 		} catch (Exception e) {
@@ -47,7 +47,7 @@ public class ProductDAOImpl implements ProductDAO {
 			return false;
 		}
 		return true;
-	}
+	}*/
 
 	public List<Product> list() {
 
