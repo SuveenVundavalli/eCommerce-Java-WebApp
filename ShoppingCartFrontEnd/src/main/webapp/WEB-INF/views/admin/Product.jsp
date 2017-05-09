@@ -3,11 +3,6 @@
 <html>
 <head>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> origin/master
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -16,12 +11,7 @@
 <body>
 	<div class="container">
 		<div class="h2">Manage Products</div>
-
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-		<c:url var="addAction" value="/manage_product_add?${_csrf.parameterName}=${_csrf.token}"></c:url>
+		<c:url var="addAction" value="/manage-product-add?${_csrf.parameterName}=${_csrf.token}"></c:url>
 		<form:form action="${addAction}" commandName="product" enctype="multipart/form-data" method="post" cssClass="form-horizontal">
 			<div class="form-group">
 				<form:label path="id" cssClass="control-label col-sm-3">
@@ -114,11 +104,8 @@
 					</c:if>
 			</div>
 
-<<<<<<< HEAD
 			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
-=======
-			<%-- 		<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" /> --%>
->>>>>>> origin/master
+
 		</form:form>
 		<br>
 
@@ -144,24 +131,15 @@
 						<td>${product.price}</td>
 						<td>${product.category.name}</td>
 						<td>${product.supplier.name}</td>
-<<<<<<< HEAD
-						<td><a href="<c:url value='manage_product_edit/${product.id}' />" class="btn btn-info">Edit</a> <a href="<c:url value='manage_product_delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
-=======
-						<td>
-							<a href="<c:url value='manage_product_edit/${product.id}' />" class="btn btn-info">Edit</a> 
-							<a href="<c:url value='manage_product_delete/${product.id}' />" class="btn btn-danger">Delete</a>
-						</td>
->>>>>>> origin/master
+
+						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info">Edit</a> <a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>
 		</c:if>
 
 	</div>
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 
 </body>
 </html>

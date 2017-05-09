@@ -28,8 +28,6 @@ public class ProductDAOImpl implements ProductDAO {
 	public boolean saveOrUpdate(Product product) {
 		try {
 			sessionFactory.getCurrentSession().saveOrUpdate(product);
-<<<<<<< HEAD
-=======
 		} catch (Exception e) {
 			// if any excpetion comes during execute of try block, catch will
 			// excute

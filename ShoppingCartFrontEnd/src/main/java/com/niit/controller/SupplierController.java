@@ -124,6 +124,8 @@ public class SupplierController {
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateSupplier");
 		ModelAndView mv = new ModelAndView("redirect:/manageSuppliers");
+		session.setAttribute("isAdminClickedManageSupplierEdit", "false");	
+
 
 		supplier.setId(id);
 		supplier.setName(name);

@@ -72,11 +72,8 @@
 		<c:if test="${isAdminClickedManageSupplierEdit=='true'}">
 			<div id="UpdateSupplier">
 			<div class="h3">Update Supplier</div>
-<<<<<<< HEAD
+
 				<form class="form-horizontal" action="manage-supplier-update" method="post">
-=======
-				<form class="form-horizontal" action="manage_supplier_update" method="post">
->>>>>>> origin/master
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Supplier Id:</label>
 						<div class="col-sm-9">
@@ -108,11 +105,8 @@
 		<c:if test="${!isAdminClickedManageSupplierEdit=='true'}">
 			<div id="CreateSupplier">
 			<div class="h3">Create Supplier</div>
-<<<<<<< HEAD
+
 				<form class="form-horizontal" action="manage-supplier-add">
-=======
-				<form class="form-horizontal" action="manage_supplier_add">
->>>>>>> origin/master
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="sId">Supplier Id:</label>
 						<div class="col-sm-9">

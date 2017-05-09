@@ -131,6 +131,7 @@ public class CategoryController {
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateCategory");
 		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
+		session.setAttribute("isAdminClickedManageCategoryEdit", "false");	
 
 		category.setId(id);
 		category.setName(name);

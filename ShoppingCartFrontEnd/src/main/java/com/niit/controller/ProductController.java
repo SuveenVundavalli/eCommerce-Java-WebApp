@@ -2,6 +2,8 @@ package com.niit.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-<<<<<<< HEAD
 import org.springframework.web.bind.annotation.RequestMethod;
-=======
->>>>>>> origin/master
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
@@ -28,10 +27,8 @@ import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
 import com.niit.util.FileUtil;
-<<<<<<< HEAD
 import com.niit.util.Util;
-=======
->>>>>>> origin/master
+
 
 
 @Controller
@@ -57,12 +54,15 @@ public class ProductController {
 	@Autowired
 	Category category;
 	
+	@Autowired
+	HttpSession session;
+	
 	
 	// Setting Path to store images
 	private String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
 
 	// Add or Update Product
-	@PostMapping("/manage_product_add")
+	@PostMapping("/manage-product-add")
 	public String addPorduct(@ModelAttribute("product") Product product, @RequestParam("image") MultipartFile file,
 			Model model) {
 		log.debug("Starting of method addProduct");
@@ -78,11 +78,7 @@ public class ProductController {
 		productDAO.saveOrUpdate(product);
 		
 		
-<<<<<<< HEAD
 		FileUtil.upload(path, file, product.getId() + ".jpeg");
-=======
-		FileUtil.upload(path, file, product.getId() + ".jpg");
->>>>>>> origin/master
 
 		model.addAttribute("isAdminClickedProducts", "true");
 		model.addAttribute("isAdmin", "true");
@@ -97,7 +93,7 @@ public class ProductController {
 	}
 
 	// Delete Product
-	@RequestMapping("/manage_product_delete/{id}")
+	@RequestMapping("/manage-product-delete/{id}")
 	public String deleteProduct(@PathVariable("id") String id, ModelMap model) {
 		log.debug("Starting of the method deleteProduct");
 		try {
@@ -113,17 +109,18 @@ public class ProductController {
 	}
 	
 	//Edit Products
-	@RequestMapping("/manage_product_edit/{id}")
+	@RequestMapping("/manage-product-edit/{id}")
 	public String editProduct(@PathVariable("id") String id, Model model) {
 		log.debug("Starting of the method editProduct");
 		product = productDAO.getProductById(id);
 		model.addAttribute("selectedProduct", product);
+		session.setAttribute("selectedProduct", product);
 		log.debug("Ending of the method editProduct");
 		return "redirect:/manageProducts";
 	}
 	
 	//Get select product details
-	@RequestMapping("/manage_product_get/{id}")
+	@RequestMapping("/manage-product-get/{id}")
 	public ModelAndView getSelectedProduct(@PathVariable("id") String id, RedirectAttributes redirectAttributes) {
 		log.debug("Starting of the method getSelectedProduct");
 		ModelAndView mv = new ModelAndView("redirect:/");
@@ -131,30 +128,6 @@ public class ProductController {
 		log.debug("ending of method getSelectedProduct");
 		return mv;
 	}
-	
-<<<<<<< HEAD
-	/*@RequestMapping("/search_product/{search_string}")
-=======
-	@RequestMapping("/search_product/{search_string}")
->>>>>>> origin/master
-	public ModelAndView getAllProductsBySearchString(@PathVariable("search_string") String search_string) {
-		
-		List<Product> products = productDAO.getSimilarProducts("search_string");
-		ModelAndView mv = new ModelAndView("/Home");
-		
-		if(products.isEmpty()) {
-			mv.addObject("message", "No products are available with the search test :"+search_string);
-		} else {
-			mv.addObject("productList", products);
-		}
-		return mv;
-		
-		
-<<<<<<< HEAD
-	}*/
-=======
-	}
->>>>>>> origin/master
 	
 	
 

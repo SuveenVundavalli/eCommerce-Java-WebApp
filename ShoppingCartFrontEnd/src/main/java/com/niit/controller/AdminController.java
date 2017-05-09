@@ -64,24 +64,7 @@ public class AdminController {
 		return mv;
 	}
 
-<<<<<<< HEAD
-	@RequestMapping("/manageProducts")
-	public String manageProducts(Model model) {
-=======
-	/*@RequestMapping("/manageProducts")
-	public ModelAndView manageProducts() {
->>>>>>> origin/master
-		log.debug("Starting of the method manageProducts");
-		model.addAttribute("isAdminClickedProducts", "true");
-		model.addAttribute("isAdmin", "true");
-		model.addAttribute("product", product);
-		model.addAttribute("productList", productDAO.list());
-		log.debug("Ending of the method manageProducts");
-<<<<<<< HEAD
-=======
-
-		return mv;
-	}*/
+	
 	
 	@RequestMapping("/manageProducts")
 	public String manageProducts(Model model) {
@@ -91,7 +74,6 @@ public class AdminController {
 		model.addAttribute("product", product);
 		model.addAttribute("productList", productDAO.list());
 		log.debug("Ending of the method manageProducts");
->>>>>>> origin/master
 		return "Home";
 	}
 
