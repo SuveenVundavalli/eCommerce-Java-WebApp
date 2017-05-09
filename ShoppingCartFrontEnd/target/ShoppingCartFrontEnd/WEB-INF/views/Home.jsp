@@ -12,6 +12,7 @@
 
 <link href="<c:url value="/resources/css/bootstrap.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/style.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/font-awesome.css" />" rel="stylesheet">
 
 <!-- <link rel="stylesheet" href="resources/css/style.css">  -->
 
@@ -33,32 +34,41 @@
 		<jsp:include page="admin/Category.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${cMessage}</div>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${categoryMessage}</div>
-		
 	</c:if>
 
 	<c:if test="${isAdminClickedSuppliers=='true' }">
 		<jsp:include page="admin/Supplier.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${sMessage}</div>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${supplierMessage}</div>
 	</c:if>
 
-	<c:if test="${isAdminClickedProduct=='true' }">
+	<c:if test="${isAdminClickedProducts=='true' }">
 		<jsp:include page="admin/Product.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${pMessage}</div>
 	</c:if>
+	
+	<c:if test="${isAdminClickedContactUs=='true' }">
+		<jsp:include page="admin/AdminContactUs.jsp"></jsp:include>
+		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${contactUsMessage}</div>
+	</c:if>
 
+	<c:if test="${isUserClickedContactUs=='true' }">
+		<jsp:include page="ContactUs.jsp"></jsp:include>
+	</c:if>
 
 	<c:if test="${isUserClickedLogin=='true'}">
 		<jsp:include page="Login.jsp"></jsp:include>
-		
 	</c:if>
-	
+
 	<c:if test="${isUserClickedRegistration=='true'}">
 		<jsp:include page="Register.jsp"></jsp:include>
 	</c:if>
-	
+
 	<div class="container">
 		${message}
 	</div>
+	
+	<jsp:include page="Footer.jsp"></jsp:include>
 
 </body>
 </html>

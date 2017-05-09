@@ -49,7 +49,7 @@ public class ProductDAOTestCase {
 		product.setCategory_id("Mobiles");
 		product.setSupplier_id("Sangeetha");
 		
-		boolean flag =  productDAO.save(product);
+		boolean flag =  productDAO.saveOrUpdate(product);
 
 		//error - if there is in runtime errors  -  Red mark
 		//success  - if expected and actual is same  - green mark
@@ -57,7 +57,7 @@ public class ProductDAOTestCase {
 		assertEquals("createProductTestCase",true,flag);
 		
 	}
-	@Test
+	/*@Test
 	public void updateProductTestCase()
 	{
 		
@@ -75,7 +75,7 @@ public class ProductDAOTestCase {
 		//fail  - if expected and actual is different  -  blue mark
 		assertEquals("updateProductTestCase",true,flag);
 		
-	}
+	}*/
 	
 	@Test
 	public void listAllProductTestCase()

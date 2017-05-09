@@ -15,7 +15,7 @@
 		<div class="h2">Manage Categories</div>
 
 		<!-- Add Category -->
-		<div id="CreateCategory">
+		<%-- <div id="CreateCategory">
 			<form class="form-horizontal" action="manage_category_add">
 				<div class="form-group">
 					<label class="control-label col-sm-3" for="cId">Customer Id:</label>
@@ -71,10 +71,78 @@
 					</div>
 				</div>
 			</form>
-		</div>
+		</div> --%>
 
+		<!-- isAdminClickedManageCategoryEdit -->
+		<!-- Update Category -->
+		<c:if test="${isAdminClickedManageCategoryEdit=='true'}">
+			<div id="UpdateCategory">
+				<div class="h3">Update Category</div>
+				<form class="form-horizontal" action="manage-category-update" method="get">
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="cId">Customer Id:</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="cId" placeholder="Enter Customer Id" name="cId" value="${selectedCategory.id}" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="cName">Customer Name:</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="cName" placeholder="Enter Customer Name" name="cName" value="${selectedCategory.name}" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="cDescription">Customer Description:</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="cDescription" placeholder="Enter Customer Description" name="cDescription" value="${selectedCategory.description}" required>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<div class="col-sm-offset-3 col-sm-9">
+							<button type="submit" class="btn btn-info">Update Category</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</c:if>
+		<!-- Create Category -->
+		<c:if test="${!isAdminClickedManageCategoryEdit=='true'}">
+				<!-- Add Category -->
+				<div id="CreateCategory">
+					<div class="h3">Create Category</div>
+					<form class="form-horizontal" action="manage-category-add">
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="cId">Customer Id:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" id="cId" placeholder="Enter Customer Id" name="cId" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="cName">Customer Name:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" id="cName" placeholder="Enter Customer Name" name="cName" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="cDescription">Customer Description:</label>
+							<div class="col-sm-9">
+								<input type="text" class="form-control" id="cDescription" placeholder="Enter Customer Description" name="cDescription" required>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<div class="col-sm-offset-3 col-sm-9">
+								<button type="submit" class="btn btn-success">Create Category</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		</c:if>
+ 
 		<!-- Show Category -->
 		<div id="ShowCategories">
+			<div class="h3">Show Categories</div>
 			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -89,10 +157,9 @@
 						<td>${category.id}</td>
 						<td>${category.name}</td>
 						<td>${category.description}</td>
-<%-- 						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
-<%-- 						<a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
-						<td><a href="<c:url value='manage-category-delete/${category.id}'/>" class="btn btn-danger">Delete</a>
-						<a href="<c:url value='manage-category-edit/${category.id}'/>" class="btn btn-info">Edit</a></td>
+						<%-- <td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
+						<%-- <a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
+						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a> <a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td>
 					</tr>
 				</c:forEach>
 			</table>

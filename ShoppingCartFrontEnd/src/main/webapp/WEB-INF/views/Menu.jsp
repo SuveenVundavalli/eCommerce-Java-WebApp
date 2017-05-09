@@ -22,7 +22,7 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="RegistrationPage"> SignUp </a></li>
-					<li><a href="LoginPage"> Login </a></li>
+					<li><a href="Login"> Login </a></li>
 				</ul>
 
 

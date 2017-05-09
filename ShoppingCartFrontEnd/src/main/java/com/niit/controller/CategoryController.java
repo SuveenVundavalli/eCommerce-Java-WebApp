@@ -41,7 +41,7 @@ public class CategoryController {
 	Product product;
 
 	// crud category
-	@RequestMapping("/manage_category_add")
+	@RequestMapping("/manage-category-add")
 	public ModelAndView createCategory(@RequestParam("cId") String id, @RequestParam("cName") String name,
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of create category");
@@ -72,6 +72,7 @@ public class CategoryController {
 		// Before calling save method, check whether category_id already exists
 		// in db
 		// if it does not exist, then only call save method.
+		session.setAttribute("isAdminClickedManageCategoryEdit", "false");
 		log.debug("Ending of create category");
 		return mv;
 
@@ -100,7 +101,6 @@ public class CategoryController {
 			mv.addObject("categoryMessage", "Failed to delete");
 		}
 		log.debug("Ending of delete Category");
-
 		
 		return mv;
 	}
@@ -117,6 +117,8 @@ public class CategoryController {
 		//i.e., ModelAndView instance
 		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
 		mv.addObject("selectedCategory", category);	
+		session.setAttribute("isAdminClickedManageCategoryEdit", "true");	
+		
 		session.setAttribute("selectedCategory", category);	
 		
 		log.debug("Ending of editCategory");
@@ -124,7 +126,7 @@ public class CategoryController {
 		return mv;
 	}
 	
-	@PostMapping("/manage_category_update")
+	@RequestMapping("/manage-category-update")
 	public ModelAndView updateCategory(@RequestParam("cId") String id, @RequestParam("cName") String name,
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateCategory");
@@ -145,12 +147,14 @@ public class CategoryController {
 			mv.addObject("cMessage", "Category updated success with id : " + id);
 
 		}
-
-
+		//session.setAttribute("selectedCategory", newCategory());
 		// Before calling save method, check whether category_id already exists
 		// in db
 		// if it does not exist, then only call save method.
+		
+		session.setAttribute("isAdminClickedManageCategoryEdit", "false");
 		log.debug("Ending of updateCategory");
+		
 		return mv;
 	}
 

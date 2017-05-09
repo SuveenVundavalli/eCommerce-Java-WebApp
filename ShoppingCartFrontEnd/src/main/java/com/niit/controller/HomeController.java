@@ -76,7 +76,7 @@ public class HomeController {
 		// return "Home";
 	}
 
-	@RequestMapping("/LoginPage")
+	@RequestMapping("/Login")
 	public String loginPage(Model model) {
 		model.addAttribute("isUserClickedLogin", "true");
 

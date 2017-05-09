@@ -36,7 +36,7 @@ public class SupplierController {
 	@Autowired Product product;
 
 	// crud supplier
-	@RequestMapping("/manage_supplier_add")
+	@RequestMapping("/manage-supplier-add")
 	public ModelAndView createSupplier(@RequestParam("sId") String id, @RequestParam("sName") String name,
 			@RequestParam("sDescription") String description) {
 		ModelAndView mv = new ModelAndView("Home");
@@ -112,13 +112,14 @@ public class SupplierController {
 		ModelAndView mv = new ModelAndView("redirect:/manageSuppliers");
 		mv.addObject("selectedSupplier", supplier);
 		session.setAttribute("selectedSupplier", supplier);
+		session.setAttribute("isAdminClickedManageSupplierEdit", "true");	
 
 		log.debug("Ending of editSupplier");
 
 		return mv;
 	}
 
-	@PostMapping("/manage_supplier_update")
+	@PostMapping("/manage-supplier-update")
 	public ModelAndView updateSupplier(@RequestParam("cId") String id, @RequestParam("cName") String name,
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateSupplier");
@@ -143,6 +144,7 @@ public class SupplierController {
 		// Before calling save method, check whether supplier_id already exists
 		// in db
 		// if it does not exist, then only call save method.
+		session.setAttribute("isAdminClickedManageSupplierEdit", "false");	
 		log.debug("Ending of updateSupplier");
 		return mv;
 	}

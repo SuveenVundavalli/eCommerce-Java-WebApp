@@ -1,9 +1,12 @@
 package com.niit.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -25,6 +28,10 @@ public class UserController {
 	private static Logger log = LoggerFactory.getLogger(UserController.class);
 
 	// To connect to user in backend
+	
+	@Autowired
+	HttpSession session;
+	
 	@Autowired
 	UserDAO userDAO;
 	@Autowired
@@ -51,7 +58,7 @@ public class UserController {
 	// Whenever we configure spring security - we can remove this method
 
 	@RequestMapping("/validate")
-	public ModelAndView login(@RequestParam("userName") String id, @RequestParam("password") String password) {
+	public ModelAndView login(@RequestParam("username") String id, @RequestParam("password") String password) {
 
 		ModelAndView mv = new ModelAndView("/Home");
 		log.debug("Starting of the method login");
@@ -67,15 +74,21 @@ public class UserController {
 
 			mv.addObject("supplierList", supplierDAO.list());
 			mv.addObject("supplier", supplierDAO);
+			
+			session.setAttribute("logedInUserID", id);
+
 
 			// check whether user role is admin or user
 
 			if (user.getRole().equals("ROLE_ADMIN")) {
 				log.debug("You are admin");
 				mv.addObject("isAdmin", "true");
+				 session.setAttribute("role", "ROLE_ADMIN");
+
 			} else {
 				log.debug("You are a customer");
 				mv.addObject("isAdmin", "false");
+				session.setAttribute("role", "ROLE_USER");
 			}
 		} else {
 			log.debug("Invalid user");
@@ -112,6 +125,7 @@ public class UserController {
 
 			mv.addObject("supplierList", supplierDAO.list());
 			mv.addObject("supplier", supplierDAO);
+			
 
 			
 		} else {

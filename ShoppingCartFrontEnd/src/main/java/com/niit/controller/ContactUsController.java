@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -21,7 +22,9 @@ public class ContactUsController {
 	@Autowired Contact contact;
 	@Autowired ContactDAO contactDAO;
 	
-	@PostMapping("/saveContact")
+	
+	//@RequestMapping(value="saveContact", method=RequestMethod.POST)
+	@RequestMapping("/saveContact")
 	public ModelAndView submitContact(@RequestParam("contactName") String name, @RequestParam("contactEmail") String email, @RequestParam("contactContact") String mobile, @RequestParam("contactMessage") String message){
 		log.debug("Starting to save Contact Us Request");
 		ModelAndView mv = new ModelAndView("/Home");

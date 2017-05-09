@@ -11,17 +11,22 @@
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 </head>
 <body>
-	<nav class="navbar navbar-inverse bg-warning navbar-fixed-top" id="my-navbar">
+	<nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a href="Home" class="navbar-brand">Shopping Cart</a>
+				<a href="Home" class="navbar-brand"><img src="<c:url value="/resources/images/logo.png"/>"  style="max-height:50px; margin-top: -15px;" alt="logo" /></a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
-				<a href="RegistrationPage" class="btn btn-warning navbar-btn navbar-right"> SignUp </a>
-				<a href="LoginPage" class="btn btn-warning navbar-btn navbar-right"> Login </a>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="RegistrationPage"> SignUp </a></li>
+					<li><a href="Login"> Login </a></li>
+				</ul>
+
+
+
 				<ul class="nav navbar-nav">
 
 					<!-- Dropdown of category -->
@@ -43,25 +48,28 @@
 
 							</ul></li>
 					</c:forEach>
-					
+
 					<%-- Toggle Product--%>
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
-						All Products <span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu scrollable-menu">
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							All Products <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu scrollable-menu">
 
-						<c:forEach var="product" items="${productList}">
-							<li><a href="#">${product.name}</a></li>
+							<c:forEach var="product" items="${productList}">
+								<li><a href="#">${product.name}</a></li>
 
-						</c:forEach>
-					</ul></li>
-				<%----%>
-
+							</c:forEach>
+						</ul></li>
+					<%----%>
+					
+					<li><a href="ContactUs"> Contact Us </a></li>
 
 				</ul>
 			</div>
 		</div>
 	</nav>
+
+
 
 
 </body>

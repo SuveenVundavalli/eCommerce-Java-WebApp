@@ -6,9 +6,9 @@ import com.niit.shoppingcart.domain.Product;
 
 public interface ProductDAO {
 
-	public boolean save(Product product);
+	public boolean saveOrUpdate(Product product);
 
-	public boolean update(Product product);
+	//public boolean update(Product product);
 
 	// delete category
 	public boolean delete(String id);

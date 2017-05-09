@@ -42,7 +42,7 @@
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${supplierMessage}</div>
 	</c:if>
 
-	<c:if test="${isAdminClickedProduct=='true' }">
+	<c:if test="${isAdminClickedProducts=='true' }">
 		<jsp:include page="admin/Product.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${pMessage}</div>
 	</c:if>

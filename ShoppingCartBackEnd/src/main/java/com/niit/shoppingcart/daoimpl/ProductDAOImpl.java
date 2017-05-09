@@ -25,21 +25,9 @@ public class ProductDAOImpl implements ProductDAO {
 		this.sessionFactory = sessionFactory;
 	}
 
-	public boolean save(Product product) {
+	public boolean saveOrUpdate(Product product) {
 		try {
-			sessionFactory.getCurrentSession().save(product);
-		} catch (Exception e) {
-			// if any excpetion comes during execute of try block, catch will
-			// excute
-			e.printStackTrace();
-			return false;
-		}
-		return true;
-	}
-
-	public boolean update(Product product) {
-		try {
-			sessionFactory.getCurrentSession().update(product);
+			sessionFactory.getCurrentSession().saveOrUpdate(product);
 		} catch (Exception e) {
 			// if any excpetion comes during execute of try block, catch will
 			// excute

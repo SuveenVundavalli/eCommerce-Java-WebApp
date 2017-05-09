@@ -6,14 +6,17 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.ContactDAO;
+import com.niit.shoppingcart.dao.ProductDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
 import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Contact;
+import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
 
 @Controller
@@ -23,6 +26,8 @@ public class AdminController {
 	@Autowired CategoryDAO categoryDAO;
 	@Autowired Supplier supplier;
 	@Autowired SupplierDAO supplierDAO;
+	@Autowired Product product;
+	@Autowired ProductDAO productDAO;
 	@Autowired Contact contact;
 	@Autowired ContactDAO contactDAO;
 	
@@ -59,15 +64,14 @@ public class AdminController {
 	}
 
 	@RequestMapping("/manageProducts")
-	public ModelAndView manageProducts() {
+	public String manageProducts(Model model) {
 		log.debug("Starting of the method manageProducts");
-		ModelAndView mv = new ModelAndView("Home");
-		mv.addObject("isAdminClickedProducts", "true");
-		mv.addObject("isAdmin", "true");
-		
+		model.addAttribute("isAdminClickedProducts", "true");
+		model.addAttribute("isAdmin", "true");
+		model.addAttribute("product", product);
+		model.addAttribute("productList", productDAO.list());
 		log.debug("Ending of the method manageProducts");
-
-		return mv;
+		return "Home";
 	}
 	
 	@RequestMapping("/manageContactUs")
