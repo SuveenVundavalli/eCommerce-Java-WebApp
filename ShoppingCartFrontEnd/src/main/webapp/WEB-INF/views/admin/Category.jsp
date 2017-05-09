@@ -78,7 +78,11 @@
 		<c:if test="${isAdminClickedManageCategoryEdit=='true'}">
 			<div id="UpdateCategory">
 				<div class="h3">Update Category</div>
+<<<<<<< HEAD
 				<form class="form-horizontal" action="manage-category-update" method="get">
+=======
+				<form class="form-horizontal" action="manage_category_update" method="post">
+>>>>>>> origin/master
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Customer Id:</label>
 						<div class="col-sm-9">
@@ -111,7 +115,11 @@
 				<!-- Add Category -->
 				<div id="CreateCategory">
 					<div class="h3">Create Category</div>
+<<<<<<< HEAD
 					<form class="form-horizontal" action="manage-category-add">
+=======
+					<form class="form-horizontal" action="manage_category_add">
+>>>>>>> origin/master
 						<div class="form-group">
 							<label class="control-label col-sm-3" for="cId">Customer Id:</label>
 							<div class="col-sm-9">

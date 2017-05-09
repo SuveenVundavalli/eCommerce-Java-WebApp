@@ -42,12 +42,13 @@ public class ProductDAOTestCase {
 	public void createProductTestCase()
 	{
 		
-		product.setId("Samsung S8 64gb");
-		product.setName("Samsung S8 64gb");
+		product.setId("SamsungTest1");
+		product.setName("Samsung S8 256gb");
 		product.setDescription("Brand new Samsung S8 64gb blue");
 		product.setPrice("70000");
 		product.setCategory_id("Mobiles");
 		product.setSupplier_id("Sangeetha");
+		product.setQuantity("4");
 		
 		boolean flag =  productDAO.saveOrUpdate(product);
 
@@ -67,6 +68,7 @@ public class ProductDAOTestCase {
 		product.setPrice("71999");
 		product.setCategory_id("Mobiles");
 		product.setSupplier_id("Sangeetha");
+		product.setQuantity("4");
 		
 		boolean flag =  productDAO.update(product);
 		

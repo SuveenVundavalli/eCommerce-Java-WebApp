@@ -8,6 +8,11 @@ public interface ProductDAO {
 
 	public boolean saveOrUpdate(Product product);
 
+<<<<<<< HEAD
+	//public boolean update(Product product);
+=======
+//	public boolean update(Product product);
+>>>>>>> origin/master
 
 	// delete category
 	public boolean delete(String id);

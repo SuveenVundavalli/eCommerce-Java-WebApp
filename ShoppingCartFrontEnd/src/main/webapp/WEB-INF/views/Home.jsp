@@ -29,6 +29,12 @@
 	<c:if test="${isAdmin=='true'}">
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
+	
+	<c:if test="${isUserAtHomePage=='true'}">
+		<jsp:include page="Carousel.jsp"></jsp:include>
+	</c:if>
+	
+	
 
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>

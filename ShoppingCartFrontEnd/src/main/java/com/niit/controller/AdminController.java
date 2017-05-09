@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
@@ -45,7 +46,7 @@ public class AdminController {
 		session.setAttribute("categoryList", categoryDAO.list());
 		session.setAttribute("category", category);
 		log.debug("Ending of the method manageCategories");
-		
+		//mv.addObject("isAdminClickedManageCategoryEdit", "false");
 		return mv;
 	}
 	
@@ -63,6 +64,25 @@ public class AdminController {
 		return mv;
 	}
 
+<<<<<<< HEAD
+	@RequestMapping("/manageProducts")
+	public String manageProducts(Model model) {
+=======
+	/*@RequestMapping("/manageProducts")
+	public ModelAndView manageProducts() {
+>>>>>>> origin/master
+		log.debug("Starting of the method manageProducts");
+		model.addAttribute("isAdminClickedProducts", "true");
+		model.addAttribute("isAdmin", "true");
+		model.addAttribute("product", product);
+		model.addAttribute("productList", productDAO.list());
+		log.debug("Ending of the method manageProducts");
+<<<<<<< HEAD
+=======
+
+		return mv;
+	}*/
+	
 	@RequestMapping("/manageProducts")
 	public String manageProducts(Model model) {
 		log.debug("Starting of the method manageProducts");
@@ -71,8 +91,12 @@ public class AdminController {
 		model.addAttribute("product", product);
 		model.addAttribute("productList", productDAO.list());
 		log.debug("Ending of the method manageProducts");
+>>>>>>> origin/master
 		return "Home";
 	}
+
+	
+	
 	
 	@RequestMapping("/manageContactUs")
 	public ModelAndView manageContactUs() {

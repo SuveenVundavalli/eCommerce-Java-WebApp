@@ -12,7 +12,10 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.RequestMethod;
+=======
+>>>>>>> origin/master
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
@@ -25,7 +28,10 @@ import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
 import com.niit.util.FileUtil;
+<<<<<<< HEAD
 import com.niit.util.Util;
+=======
+>>>>>>> origin/master
 
 
 @Controller
@@ -72,7 +78,11 @@ public class ProductController {
 		productDAO.saveOrUpdate(product);
 		
 		
+<<<<<<< HEAD
 		FileUtil.upload(path, file, product.getId() + ".jpeg");
+=======
+		FileUtil.upload(path, file, product.getId() + ".jpg");
+>>>>>>> origin/master
 
 		model.addAttribute("isAdminClickedProducts", "true");
 		model.addAttribute("isAdmin", "true");
@@ -122,7 +132,11 @@ public class ProductController {
 		return mv;
 	}
 	
+<<<<<<< HEAD
 	/*@RequestMapping("/search_product/{search_string}")
+=======
+	@RequestMapping("/search_product/{search_string}")
+>>>>>>> origin/master
 	public ModelAndView getAllProductsBySearchString(@PathVariable("search_string") String search_string) {
 		
 		List<Product> products = productDAO.getSimilarProducts("search_string");
@@ -136,7 +150,11 @@ public class ProductController {
 		return mv;
 		
 		
+<<<<<<< HEAD
 	}*/
+=======
+	}
+>>>>>>> origin/master
 	
 	
 

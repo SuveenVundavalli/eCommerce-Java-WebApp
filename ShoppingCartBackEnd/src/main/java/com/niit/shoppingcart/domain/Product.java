@@ -21,7 +21,10 @@ public class Product {
 	private String description;
 	private String price;
 	private String quantity;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> origin/master
 	// We need to specify many-to-one
 	private String category_id;
 
@@ -38,6 +41,7 @@ public class Product {
 	@Transient
 	private MultipartFile image;
 	
+<<<<<<< HEAD
 	public Category getCategory() {
 		return category;
 	}
@@ -68,6 +72,8 @@ public class Product {
 		this.supplier = supplier;
 	}
 
+=======
+>>>>>>> origin/master
 	public MultipartFile getImage() {
 		return image;
 	}
@@ -75,7 +81,11 @@ public class Product {
 	public void setImage(MultipartFile image) {
 		this.image = image;
 	}
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> origin/master
 	public String getId() {
 		return id;
 	}
@@ -108,6 +118,14 @@ public class Product {
 		this.price = price;
 	}
 
+	public String getQuantity() {
+		return quantity;
+	}
+
+	public void setQuantity(String quantity) {
+		this.quantity = quantity;
+	}
+
 	public String getCategory_id() {
 		return category_id;
 	}
@@ -123,5 +141,23 @@ public class Product {
 	public void setSupplier_id(String supplier_id) {
 		this.supplier_id = supplier_id;
 	}
+
+	public Category getCategory() {
+		return category;
+	}
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+
+	public Supplier getSupplier() {
+		return supplier;
+	}
+
+	public void setSupplier(Supplier supplier) {
+		this.supplier = supplier;
+	}
+	
+	
 
 }
