@@ -19,7 +19,7 @@
 				<img alt="${product.name}" width="25%" src="<c:url value="/resources/img/${product.id}.jpeg" />">
 			</td>
 			<td>
-				<a href="">Add to Cart</a>
+				<a href="mycart/add/${product.id}">Add to Cart</a>
 			</td>
 		</tr>
 		</c:forEach>

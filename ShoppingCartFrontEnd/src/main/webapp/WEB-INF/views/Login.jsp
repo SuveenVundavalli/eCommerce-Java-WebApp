@@ -14,22 +14,22 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="userName">Username:</label>
       <div class="col-sm-10">
-        <input type="text" class="form-control" name="username" id="userName" placeholder="Enter Username">
+        <input type="text" class="form-control" name="username" id="userName" placeholder="Enter Username" pattern=".{5,15}" title="Username must have 5 to 15 characters" required>
       </div>
     </div>
     <div class="form-group">
       <label class="control-label col-sm-2" for="pwd">Password:</label>
       <div class="col-sm-10">          
-        <input type="password" class="form-control" name="password" id="pwd" placeholder="Enter password" required>
+        <input type="password" class="form-control" name="password" id="pwd" placeholder="Enter password" pattern=".{5,15}" title="Password must have 5 to 15 characters" required>
       </div>
     </div>
-    <div class="form-group">        
+    <!-- <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
           <label><input type="checkbox"> Remember me</label>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-warning">Submit</button>

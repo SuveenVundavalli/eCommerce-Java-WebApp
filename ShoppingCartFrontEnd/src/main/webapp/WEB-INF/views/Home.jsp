@@ -32,9 +32,8 @@
 	
 	<c:if test="${isUserAtHomePage=='true'}">
 		<jsp:include page="Carousel.jsp"></jsp:include>
+		<jsp:include page="AllProducts.jsp"></jsp:include>
 	</c:if>
-	
-	<jsp:include page="AllProducts.jsp"></jsp:include>
 
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>

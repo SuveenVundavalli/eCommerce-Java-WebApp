@@ -116,9 +116,9 @@ public class CategoryController {
 		//Selected category details we have to store in another instance
 		//i.e., ModelAndView instance
 		ModelAndView mv = new ModelAndView("redirect:/manageCategories");
-		mv.addObject("selectedCategory", category);	
-		session.setAttribute("isAdminClickedManageCategoryEdit", "true");	
-		
+
+		session.setAttribute("isAdminClickedManageCategoryEdit", "true");
+		mv.addObject("selectedCategory", category);		
 		session.setAttribute("selectedCategory", category);	
 		
 		log.debug("Ending of editCategory");

@@ -82,21 +82,21 @@
 				<form class="form-horizontal" action="manage-category-update" method="post">
 
 					<div class="form-group">
-						<label class="control-label col-sm-3" for="cId">Customer Id:</label>
+						<label class="control-label col-sm-3" for="cId">Category Id:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cId" placeholder="Enter Customer Id" name="cId" value="${selectedCategory.id}" required>
+							<input type="text" class="form-control" id="cId" placeholder="Enter Category Id" name="cId" value="${selectedCategory.id}" pattern=".{5,15}" title="Category Id must have 5 to 15 characters" required>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-sm-3" for="cName">Customer Name:</label>
+						<label class="control-label col-sm-3" for="cName">Category Name:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cName" placeholder="Enter Customer Name" name="cName" value="${selectedCategory.name}" required>
+							<input type="text" class="form-control" id="cName" placeholder="Enter Category Name" name="cName" value="${selectedCategory.name}" pattern=".{5,40}" title="Category Name must have 5 to 40 characters" required>
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-sm-3" for="cDescription">Customer Description:</label>
+						<label class="control-label col-sm-3" for="cDescription">Category Description:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cDescription" placeholder="Enter Customer Description" name="cDescription" value="${selectedCategory.description}" required>
+							<input type="text" class="form-control" id="cDescription" placeholder="Enter Category Description" name="cDescription" value="${selectedCategory.description}" pattern=".{5,}" title="Category Description must have minimum of 5 characters" required>
 						</div>
 					</div>
 

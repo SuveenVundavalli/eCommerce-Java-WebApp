@@ -29,8 +29,6 @@ import com.niit.shoppingcart.domain.Supplier;
 import com.niit.util.FileUtil;
 import com.niit.util.Util;
 
-
-
 @Controller
 public class ProductController {
 
@@ -53,14 +51,14 @@ public class ProductController {
 
 	@Autowired
 	Category category;
-	
+
 	@Autowired
 	HttpSession session;
-	
-	
+
 	// Setting Path to store images
 	private String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
-	//private String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
+	// private String path =
+	// "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
 
 	// Add or Update Product
 	@PostMapping("/manage-product-add")
@@ -71,14 +69,14 @@ public class ProductController {
 		Supplier supplier = supplierDAO.getSupplierByName(product.getSupplier().getName());
 
 		product.setCategory(category);
-		product.setSupplier(supplier);
-
 		product.setCategory_id(category.getId());
+		
+		product.setSupplier(supplier);
 		product.setSupplier_id(supplier.getId());
+		
 		product.setId(Util.removeComman(product.getId()));
 		productDAO.saveOrUpdate(product);
-		
-		
+
 		FileUtil.upload(path, file, product.getId() + ".jpeg");
 
 		model.addAttribute("isAdminClickedProducts", "true");
@@ -90,6 +88,21 @@ public class ProductController {
 		model.addAttribute("category", new Category());
 
 		log.debug("Ending of the method add Product");
+		return "Home";
+	}
+
+	@RequestMapping("/manageProducts")
+	public String manageProducts(Model model) {
+		log.debug("Starting of the method manageProducts");
+		model.addAttribute("isAdminClickedProducts", "true");
+		model.addAttribute("isAdmin", "true");
+		model.addAttribute("product", product);
+		model.addAttribute("productList", productDAO.list());
+		model.addAttribute("supplier", supplier);
+		model.addAttribute("supplierList", supplierDAO.list());
+		model.addAttribute("category", category);
+		model.addAttribute("categoryList", categoryDAO.list());
+		log.debug("Ending of the method manageProducts");
 		return "Home";
 	}
 
@@ -106,21 +119,20 @@ public class ProductController {
 		}
 		log.debug("ending of method deleteProduct");
 		return "redirect:/manageProducts";
-		
+
 	}
-	
-	//Edit Products
+
+	// Edit Products
 	@RequestMapping("/manage-product-edit/{id}")
 	public String editProduct(@PathVariable("id") String id, Model model) {
 		log.debug("Starting of the method editProduct");
 		product = productDAO.getProductById(id);
-		model.addAttribute("selectedProduct", product);
-		session.setAttribute("selectedProduct", product);
+		model.addAttribute("product", product);
 		log.debug("Ending of the method editProduct");
 		return "redirect:/manageProducts";
 	}
-	
-	//Get select product details
+
+	// Get select product details
 	@RequestMapping("/manage-product-get/{id}")
 	public ModelAndView getSelectedProduct(@PathVariable("id") String id, RedirectAttributes redirectAttributes) {
 		log.debug("Starting of the method getSelectedProduct");
@@ -129,9 +141,5 @@ public class ProductController {
 		log.debug("ending of method getSelectedProduct");
 		return mv;
 	}
-	
-	
 
 }
-
-

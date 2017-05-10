@@ -66,16 +66,20 @@ public class AdminController {
 
 	
 	
-	@RequestMapping("/manageProducts")
+	/*@RequestMapping("/manageProducts")
 	public String manageProducts(Model model) {
 		log.debug("Starting of the method manageProducts");
 		model.addAttribute("isAdminClickedProducts", "true");
 		model.addAttribute("isAdmin", "true");
 		model.addAttribute("product", product);
 		model.addAttribute("productList", productDAO.list());
+		model.addAttribute("supplier", supplier);
+		model.addAttribute("supplierList", supplierDAO.list());
+		model.addAttribute("category", category);
+		model.addAttribute("categoryList", categoryDAO.list());
 		log.debug("Ending of the method manageProducts");
 		return "Home";
-	}
+	}*/
 
 	
 	

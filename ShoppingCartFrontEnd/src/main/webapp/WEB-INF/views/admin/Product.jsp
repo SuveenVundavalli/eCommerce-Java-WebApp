@@ -132,7 +132,8 @@
 						<td>${product.category.name}</td>
 						<td>${product.supplier.name}</td>
 
-						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info">Edit</a> <a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
+						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info">Edit</a> 
+						<a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>
