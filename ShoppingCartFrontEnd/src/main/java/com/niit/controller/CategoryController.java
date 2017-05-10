@@ -69,8 +69,7 @@ public class CategoryController {
 		session.setAttribute("categoryList", categoryList);
 		session.setAttribute("category", category);
 
-		// Before calling save method, check whether category_id already exists
-		// in db
+		// Before calling save method, check whether category_id already exists in db
 		// if it does not exist, then only call save method.
 		session.setAttribute("isAdminClickedManageCategoryEdit", "false");
 		log.debug("Ending of create category");
