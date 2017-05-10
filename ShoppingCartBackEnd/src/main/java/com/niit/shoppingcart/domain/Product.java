@@ -19,8 +19,8 @@ public class Product {
 	private String id;
 	private String name;
 	private String description;
-	private String price;
-	private String quantity;
+	private int price;
+	private int quantity;
 
 	// We need to specify many-to-one
 	private String category_id;
@@ -62,19 +62,19 @@ public class Product {
 		this.description = description;
 	}
 
-	public String getPrice() {
+	public int getPrice() {
 		return price;
 	}
 
-	public void setPrice(String price) {
+	public void setPrice(int price) {
 		this.price = price;
 	}
 
-	public String getQuantity() {
+	public int getQuantity() {
 		return quantity;
 	}
 
-	public void setQuantity(String quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 

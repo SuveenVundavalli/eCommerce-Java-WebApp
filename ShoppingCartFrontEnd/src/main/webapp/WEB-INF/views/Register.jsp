@@ -26,7 +26,7 @@
     <div class="form-group">
       <label class="control-label col-sm-2" for="uContact">Mobile:</label>
       <div class="col-sm-10">          
-        <input type="text" class="form-control" id="uContact" placeholder="Enter Mobile Number" name="uContact">
+        <input type="number" class="form-control" id="uContact" placeholder="Enter Mobile Number" name="uContact">
       </div>
     </div>
     <div class="form-group">

@@ -55,21 +55,21 @@ public class HomeController {
 		// get all categories
 		List<Category> categoryList = categoryDAO.list();
 
-		// attach to session
+		// attach category to session
 		session.setAttribute("categoryList", categoryList);
 		session.setAttribute("category", category);
 
 		// get products
 		List<Product> productList = productDAO.list();
 
-		// attach to session
+		// attach products to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
 		
 		// get products
 		List<Supplier> supplierList = supplierDAO.list();
 		
-		// attach to session
+		// attach supplier to session
 		session.setAttribute("supplierList", supplierList);
 		session.setAttribute("supplier", supplier);
 

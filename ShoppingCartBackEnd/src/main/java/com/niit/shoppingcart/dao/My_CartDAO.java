@@ -10,8 +10,13 @@ public interface My_CartDAO {
 
 	public boolean update(My_Cart my_Cart);
 
-	public List<My_Cart> list();
+	public List<My_Cart> list(String userID);
+	
+	public double getTotalAmount(String userID);
+	
+	//no. of products also should display in UI
+	//This we can get from list().size()
 
-	public My_Cart get(String id);
+	//public My_Cart get(String id);
 
 }

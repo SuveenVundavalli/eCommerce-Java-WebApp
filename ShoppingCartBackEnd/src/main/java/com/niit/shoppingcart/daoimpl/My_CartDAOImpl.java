@@ -47,19 +47,14 @@ public class My_CartDAOImpl implements My_CartDAO {
 		return true;
 	}
 
-	public List<My_Cart> list() {
-		
-		
-		return  sessionFactory.getCurrentSession().createQuery("from My_Cart").list();
+	public List<My_Cart> list(String userID) {
+		return  sessionFactory.getCurrentSession().createQuery("from My_Cart where user_id=?").setString(0, userID).list();
 	}
 
-	public My_Cart get(String id) {
-		
-		//get method get the date from user table based on primary key i.e., id
-		// and set it to Category class
-		//like select * from category where id = ?
-	  return 	(My_Cart)  sessionFactory.getCurrentSession().get(My_Cart.class, id);
-		
+	public double getTotalAmount(String userID) {
+		return (Double) sessionFactory.getCurrentSession().createQuery("select sum(price) from My_Cart where user_Id=?").setString(0, userID).uniqueResult();
 	}
+
+	
 
 }
