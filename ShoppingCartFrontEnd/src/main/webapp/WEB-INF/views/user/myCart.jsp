@@ -10,7 +10,17 @@
 	<div class="container">
 
 		<div id="viewCart">
-			<div class="h3">My Cart</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="h3">My Cart</span></div>
+					</div>
+					<div class="col-md-4">
+						<td><a href="myCart/deleteAll/${cart.user_id}" class="btn btn-danger">Delete All Products</a></td>
+					</div>
+				</div>
+			</div>
 			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -30,10 +40,10 @@
 				</c:forEach>
 				<hr />
 				<tr>
-					<td><a href="Home" class="btn btn-danger">Continue Shopping</a></td>
+					<td><a href="Home" class="btn btn-warning">Continue Shopping</a></td>
 					<td></td>
 					<td>Total Rs. ${totalAmount}</td>
-					<td><a href="" class="btn btn-danger">Check Out</a></td>
+					<td><a href="myCart/checkOut/${cart.user_id}" class="btn btn-success">Check Out</a></td>
 				</tr>
 
 			</table>

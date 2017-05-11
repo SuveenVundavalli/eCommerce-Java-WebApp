@@ -90,8 +90,6 @@ public class HomeController {
 		session.setAttribute("isUserLoggedIn", "false");
 		session.setAttribute("isAdmin", "false");
 		
-		
-		
 		return mv;
 	}
 	
@@ -131,6 +129,7 @@ public class HomeController {
 	@RequestMapping("/Login")
 	public String loginPage(Model model) {
 		model.addAttribute("isUserClickedLogin", "true");
+		model.addAttribute("isUserAtHomePage", "false");
 
 		Long currentTime = System.currentTimeMillis();
 		Date currentDate = new Date(currentTime);
@@ -140,6 +139,7 @@ public class HomeController {
 	@RequestMapping("/RegistrationPage")
 	public String registerPage(Model model) {
 		model.addAttribute("isUserClickedRegistration", "true");
+		model.addAttribute("isUserAtHomePage", "false");
 		return "Home";
 	}
 
@@ -152,6 +152,7 @@ public class HomeController {
 	@RequestMapping("/ContactUs")
 	public String contactUsPage(Model model) {
 		model.addAttribute("isUserClickedContactUs","true");
+		model.addAttribute("isUserAtHomePage", "false");
 		return "Home";
 	}
 }

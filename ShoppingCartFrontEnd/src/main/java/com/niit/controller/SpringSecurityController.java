@@ -84,6 +84,16 @@ public class SpringSecurityController {
 		// session = request.getSession(true);
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
+		mv.addObject("categoryList", categoryDAO.list());
+		mv.addObject("category", categoryDAO);
+
+		mv.addObject("supplierList", supplierDAO.list());
+		mv.addObject("supplier", supplierDAO);
+		
+		mv.addObject("productList", productDAO.list());
+		mv.addObject("product", productDAO);
+		
+		
 		String userID = auth.getName();
 		session.setAttribute("loggedInUser", userID);
 		session.setAttribute("loggedInUserID", userID);
@@ -103,6 +113,10 @@ public class SpringSecurityController {
 			mv.addObject("isAdmin", "false");
 			session.setAttribute("role", "ROLE_USER");
 			session.setAttribute("isUserLoggedIn", "true");
+			
+			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+			int cartSize = cartDAO.list(loggedInUserID).size();
+			session.setAttribute("cartSize", cartSize);
 			// Fetch the myCart list based on user ID
 			/*
 			 * List<MyCart> cartList = cartDAO.list(userID);
@@ -124,7 +138,7 @@ public class SpringSecurityController {
 		// session.removeAttribute("loggedInUserID");
 		session.invalidate();
 
-		ModelAndView mv = new ModelAndView("Home");
+		ModelAndView mv = new ModelAndView("redirect:/Login");
 
 		// After logout also use should able to browse the categories and
 		// products

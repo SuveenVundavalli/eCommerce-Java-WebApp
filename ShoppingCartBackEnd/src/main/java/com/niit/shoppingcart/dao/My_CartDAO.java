@@ -11,6 +11,8 @@ public interface My_CartDAO {
 	public boolean update(My_Cart my_Cart);
 	
 	public boolean delete(int id);
+	
+	public boolean deleteAllProductsInCart(String user_id);
 
 	public List<My_Cart> list(String userID);
 	

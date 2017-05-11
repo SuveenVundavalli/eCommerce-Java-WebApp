@@ -44,7 +44,7 @@ public class My_CartDAOTestCase {
 		
 	}
 	
-	@Test
+	//@Test
 	public void createCartTestCase() {
 		my_Cart.setUser_id("Suveen");
 		my_Cart.setPrice(10000);
@@ -53,9 +53,14 @@ public class My_CartDAOTestCase {
 		boolean flag = my_CartDAO.save(my_Cart);
 		
 		assertEquals("createCartTestCase",true,flag);
-		
 	}
 	
+	@Test
+	public void deleteCartTestCase(){
+		boolean flag = my_CartDAO.deleteAllProductsInCart("suveen");
+		
+		assertEquals(true, flag);
+	}
 	
 
 }

@@ -72,6 +72,18 @@ public class My_CartDAOImpl implements My_CartDAO {
 		return 	(My_Cart)  sessionFactory.getCurrentSession().createQuery("from My_Cart where id = ?").setInteger(0, id).uniqueResult();
 	}
 
+	public boolean deleteAllProductsInCart(String user_id) {
+		try {
+			sessionFactory.getCurrentSession().createQuery("delete from My_Cart where user_id = ?").setString(0, user_id).executeUpdate();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+		
+	}
+
 	
 
 }

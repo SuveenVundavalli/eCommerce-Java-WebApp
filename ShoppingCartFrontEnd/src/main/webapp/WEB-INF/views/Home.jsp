@@ -24,59 +24,77 @@
 <script src="resources/js/bootstrap.js"></script> -->
 </head>
 <body>
+	<!-- Display Menu -->
 	<jsp:include page="Menu.jsp"></jsp:include>
 
+	<!-- Display Admin Control Panel -->
 	<c:if test="${isAdmin=='true'}">
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
 	
+	<!-- Display Checkout Message -->
+	<c:if test="${isUserCheckedOut=='true'}"> 
+		<jsp:include page="user/checkOut.jsp"></jsp:include>
+	</c:if>
+	
+	<!-- Display cart content -->
 	<c:if test="${isUserClickedCart=='true'}">
 		<jsp:include page="user/myCart.jsp"></jsp:include>
 	</c:if>
-	
-	<c:if test="${isUserAtHomePage=='true' || isUserLoggedIn == 'true'}">
-		<jsp:include page="Carousel.jsp"></jsp:include>
-		<jsp:include page="AllProducts.jsp"></jsp:include>
-	</c:if>
 
+	<!-- Display admin Category -->
 	<c:if test="${isAdminClickedCategories=='true' }">
 		<jsp:include page="admin/Category.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${cMessage}</div>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${categoryMessage}</div>
 	</c:if>
-
+	
+	<!-- Displayadmin  Supplier -->
 	<c:if test="${isAdminClickedSuppliers=='true' }">
 		<jsp:include page="admin/Supplier.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${sMessage}</div>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${supplierMessage}</div>
 	</c:if>
 
+	<!-- Display admin Products -->
 	<c:if test="${isAdminClickedProducts=='true' }">
 		<jsp:include page="admin/Product.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${pMessage}</div>
 	</c:if>
 	
+	<!-- Display admin Contact Us -->
 	<c:if test="${isAdminClickedContactUs=='true' }">
 		<jsp:include page="admin/AdminContactUs.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${contactUsMessage}</div>
 	</c:if>
 
+	<!-- Display user Contact us -->
 	<c:if test="${isUserClickedContactUs=='true' }">
 		<jsp:include page="ContactUs.jsp"></jsp:include>
 	</c:if>
 
+	<!-- Display LoginPage -->
 	<c:if test="${isUserClickedLogin=='true'}">
 		<jsp:include page="Login.jsp"></jsp:include>
 	</c:if>
 
+	<!-- Display Registration Page -->
 	<c:if test="${isUserClickedRegistration=='true'}">
 		<jsp:include page="Register.jsp"></jsp:include>
 	</c:if>
+	
+	<!-- Display Carousel and Products -->
+	<c:if test="${isUserAtHomePage=='true' || isUserLoggedIn == 'true'}">
+		<jsp:include page="Carousel.jsp"></jsp:include>
+		<jsp:include page="AllProducts.jsp"></jsp:include>
+	</c:if>
 
+	<!-- Display messages -->
 	<div class="container">
 		${message}
 	</div>
 	
+	<!-- Display Footer -->
 	<jsp:include page="Footer.jsp"></jsp:include>
 
 </body>

@@ -24,18 +24,18 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${isUserLoggedIn=='true'}"> 
-						<c:url var="Logout" value="/j_spring_security_Logout"/> 
-						<li><a href="myCart"> My Cart </a></li>
-						<li><a href="${Logout}"> Sign Out </a></li>
+						<!--<c:url var="Logout" value="/j_spring_security_Logout"/>--> 
+						<li><a href="myCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart <span class="label label-warning">${cartSize}</span></a></li>
+						<li><a href="secure_logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out </a></li>
 
 					</c:if>
 					<c:if test="${isAdmin=='true'}">
-						<li><a href="SignOut"> Sign Out </a></li>
+						<li><a href="<c:url value="secure_logout" />"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out </a></li>
 
 					</c:if>
 					<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
-						<li><a href="RegistrationPage"> SignUp </a></li>
-						<li><a href="Login"> Login </a></li>
+						<li><a href="RegistrationPage"><i class="fa fa-user-plus" aria-hidden="true"></i> SignUp </a></li>
+						<li><a href="Login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login </a></li>
 					</c:if>
 
 

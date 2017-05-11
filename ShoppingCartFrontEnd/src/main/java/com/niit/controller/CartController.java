@@ -25,32 +25,31 @@ import com.niit.shoppingcart.domain.Product;
 public class CartController {
 
 	private static Logger log = LoggerFactory.getLogger(CartController.class);
-	
+
 	@Autowired
 	My_Cart myCart;
-	
+
 	@Autowired
 	My_CartDAO myCartDAO;
-	
+
 	@Autowired
 	ProductDAO productDAO;
-	
+
 	@Autowired
 	HttpSession session;
-	
-	
+
 	@RequestMapping("/myCart")
-	public String myCart(Model model){
+	public String myCart(Model model) {
 		log.debug("Starting of myCart in CartController");
-		
+
 		model.addAttribute("myCart", myCart);
-		
+
 		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
-		
-		if(loggedInUserID != null){
+
+		if (loggedInUserID != null) {
 			int cartSize = myCartDAO.list(loggedInUserID).size();
-			
-			if(cartSize == 0){
+
+			if (cartSize == 0) {
 				model.addAttribute("errorMessage", "You do not have any products in your cart!");
 			} else {
 				model.addAttribute("cart", myCart);
@@ -60,57 +59,104 @@ public class CartController {
 				long totalAmount = (long) myCartDAO.getTotalAmount(loggedInUserID);
 				session.setAttribute("totalAmount", totalAmount);
 				session.setAttribute("isAdmin", "false");
-				//System.out.println(totalAmount);
+				session.setAttribute("cartSize", cartSize);
+				// session.setAttribute("isUserAtHomePage", "false");
+				// System.out.println(totalAmount);
 			}
-			
+
 		}
-		
+
 		log.debug("Ending of myCart in CartController");
 		return "Home";
 	}
-	
-	
-	@GetMapping("mycart/add/{id}")
-	public ModelAndView addToCart(@PathVariable("id") String id){
+
+	@GetMapping("myCart/add/{id}")
+	public ModelAndView addToCart(@PathVariable("id") String id) {
 		log.debug("Starting of addToCart in CartController");
-		
+
 		Product product = productDAO.getProductById(id);
-		
+
 		myCart.setProduct_name(product.getName());
 		myCart.setPrice(product.getPrice());
-		
+
 		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+
 		
+
 		myCart.setUser_id(loggedInUserID);
 		myCart.setStatus("N");
 		myCart.setQuantity(1);
 		myCart.setDate_added(new Date(System.currentTimeMillis()));
 		session.setAttribute("isAdmin", "false");
 		myCartDAO.save(myCart);
-		
-		//This way it will redirect to Home.jsp
+
+		// This way it will redirect to Home.jsp
 		ModelAndView mv = new ModelAndView("redirect:/Home");
-		mv.addObject("successMessage", "Successfully added message to your cart");
-		
+		mv.addObject("successMessage", "Successfully added product to your cart");
+		session.setAttribute("successMessage", "Successfully added product to your cart");
+		int cartSize = myCartDAO.list(loggedInUserID).size();
+		session.setAttribute("cartSize", cartSize);
+
 		log.debug("Ending of addToCart in CartController");
 		return mv;
-		
+
 	}
+
 	@GetMapping("myCart/delete/{id}")
-	public ModelAndView removeFromCart(@PathVariable("id") int id){
+	public ModelAndView removeFromCart(@PathVariable("id") int id) {
 		log.debug("Starting of removeFromCart in CartController");
-		
+
 		ModelAndView mv = new ModelAndView("redirect:/myCart");
-		//Check whether products are there for this category or not
-		
+		// Check whether products are there for this category or not
+
 		if (myCartDAO.delete(id) == true) {
 			mv.addObject("cartMessage", "Successfullly deleted from cart");
 		} else {
 			mv.addObject("cartMessage", "Failed to delete from cart");
 		}
-		
+
 		log.debug("Ending of removeFromCart in CartController");
 		return mv;
-		
+
 	}
+
+	@GetMapping("myCart/deleteAll/{user_id}")
+	public ModelAndView removeAllProductsFromCart(@PathVariable("user_id") String id) {
+		log.debug("Starting of removeAllProductsFromCart in CartController");
+
+		ModelAndView mv = new ModelAndView("redirect:/myCart");
+		// Check whether products are there for this category or not
+
+		if (myCartDAO.deleteAllProductsInCart(id) == true) {
+			mv.addObject("cartMessage", "Successfully deleted cart");
+		} else {
+			mv.addObject("cartMessage", "Failed to delete cart");
+		}
+
+		log.debug("Ending of removeFromCart in CartController");
+		return mv;
+
+	}
+
+	@GetMapping("myCart/checkOut/{user_id}")
+	public ModelAndView cartCheckout(@PathVariable("user_id") String id) {
+		log.debug("Starting of cartCheckout in CartController");
+
+		ModelAndView mv = new ModelAndView("redirect:/Home");
+		// Check whether products are there for this category or not
+		if (myCartDAO.deleteAllProductsInCart(id) == true) {
+			mv.addObject("isUserCheckedOut", "true");
+			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+
+			int cartSize = myCartDAO.list(loggedInUserID).size();
+			session.setAttribute("cartSize", cartSize);
+		} else {
+			mv.addObject("cartMessage", "Failed to checkout");
+		}
+
+		log.debug("Ending of cartCheckout in CartController");
+		return mv;
+
+	}
+
 }
