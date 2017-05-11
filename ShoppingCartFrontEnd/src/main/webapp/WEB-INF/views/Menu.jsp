@@ -24,12 +24,12 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${isUserLoggedIn=='true'}"> 
-					
+						<c:url var="Logout" value="/j_spring_security_Logout"/> 
 						<li><a href="myCart"> My Cart </a></li>
-						<li><a href="SignOut"> Sign Out </a></li>
+						<li><a href="${Logout}"> Sign Out </a></li>
 
 					</c:if>
-					<c:if test="${isAdmin=='true'}"> --%>
+					<c:if test="${isAdmin=='true'}">
 						<li><a href="SignOut"> Sign Out </a></li>
 
 					</c:if>
