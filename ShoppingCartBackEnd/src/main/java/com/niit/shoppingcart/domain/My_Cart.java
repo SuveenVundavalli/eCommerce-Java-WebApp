@@ -19,9 +19,11 @@ public class My_Cart {
 	private int id;
 	private String user_id;
 	private String product_name;
-	private int price;
+	private double price;
 	private int quantity;
-	private Date date_dded;
+	private Date date_added;
+	private String status;
+
 	
 	public int getId() {
 		return id;
@@ -41,10 +43,10 @@ public class My_Cart {
 	public void setProduct_name(String product_name) {
 		this.product_name = product_name;
 	}
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	public int getQuantity() {
@@ -53,13 +55,19 @@ public class My_Cart {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public Date getDate_dded() {
-		return date_dded;
+	public Date getDate_added() {
+		return date_added;
 	}
-	public void setDate_dded(Date date_dded) {
-		this.date_dded = date_dded;
+	public void setDate_added(Date date_added) {
+		this.date_added = date_added;
 	}
-	 
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
 	
 	
 	

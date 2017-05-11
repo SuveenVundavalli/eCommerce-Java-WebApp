@@ -86,7 +86,6 @@ public class ProductController {
 		model.addAttribute("product", new Product());
 		model.addAttribute("categoryList", this.categoryDAO.list());
 		model.addAttribute("category", new Category());
-
 		log.debug("Ending of the method add Product");
 		return "Home";
 	}
@@ -102,6 +101,7 @@ public class ProductController {
 		model.addAttribute("supplierList", supplierDAO.list());
 		model.addAttribute("category", category);
 		model.addAttribute("categoryList", categoryDAO.list());
+		session.setAttribute("isUserLoggedIn", "false");
 		log.debug("Ending of the method manageProducts");
 		return "Home";
 	}

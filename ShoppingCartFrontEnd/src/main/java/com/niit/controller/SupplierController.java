@@ -47,6 +47,8 @@ public class SupplierController {
 
 		mv.addObject("isAdminClickedSuppliers", "true");
 		mv.addObject("isAdmin", "true");
+		session.setAttribute("isUserLoggedIn", "false");
+
 
 		if (supplierDAO.getSupplierById(id) != null) {
 			mv.addObject("sMessage", "Supplier already exists with id : " + id);

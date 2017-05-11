@@ -19,7 +19,7 @@ public class Product {
 	private String id;
 	private String name;
 	private String description;
-	private int price;
+	private double price;
 	private int quantity;
 
 	// We need to specify many-to-one
@@ -62,11 +62,11 @@ public class Product {
 		this.description = description;
 	}
 
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 

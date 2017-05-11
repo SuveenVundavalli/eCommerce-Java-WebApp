@@ -68,6 +68,7 @@ public class CategoryController {
 		// attach to session
 		session.setAttribute("categoryList", categoryList);
 		session.setAttribute("category", category);
+		session.setAttribute("isUserLoggedIn", "false");
 
 		// Before calling save method, check whether category_id already exists in db
 		// if it does not exist, then only call save method.

@@ -17,12 +17,28 @@
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a href="Home" class="navbar-brand"><img src="<c:url value="/resources/images/logo.png"/>"  style="max-height:50px; margin-top: -15px;" alt="logo" /></a>
+				<a href="Home" class="navbar-brand">
+					<img src="<c:url value="/resources/images/logo.png"/>" style="max-height: 50px; margin-top: -15px;" alt="logo" />
+				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="RegistrationPage"> SignUp </a></li>
-					<li><a href="Login"> Login </a></li>
+					<c:if test="${isUserLoggedIn=='true'}"> 
+					
+						<li><a href="myCart"> My Cart </a></li>
+						<li><a href="SignOut"> Sign Out </a></li>
+
+					</c:if>
+					<c:if test="${isAdmin=='true'}"> --%>
+						<li><a href="SignOut"> Sign Out </a></li>
+
+					</c:if>
+					<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
+						<li><a href="RegistrationPage"> SignUp </a></li>
+						<li><a href="Login"> Login </a></li>
+					</c:if>
+
+
 				</ul>
 
 
@@ -61,7 +77,7 @@
 							</c:forEach>
 						</ul></li>
 					<%----%>
-					
+
 					<li><a href="ContactUs"> Contact Us </a></li>
 
 				</ul>

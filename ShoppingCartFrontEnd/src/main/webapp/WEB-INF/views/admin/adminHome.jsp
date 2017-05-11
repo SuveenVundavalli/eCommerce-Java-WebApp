@@ -7,27 +7,15 @@
 </head>
 <body>
 
-	<!-- <div class="btn-group-justified hidden-xs">
-		<a href="manageCategories" class="btn btn-warning">Manage Categories</a>
-		<a href="manageSuppliers" class="btn btn-warning">Manage Suppliers</a>
-		<a href="manageProducts" class="btn btn-warning">Manage Products</a>
-		<a href="manageContactUs" class="btn btn-warning">Manage Contact Us</a>
+	<div class="container">
+			<div class="navbar navbar-default">
+				<ul class="nav navbar-nav nav-tabs nav-justified">
+					<li><a href="manageCategories">Manage Categories</a></li>
+					<li><a href="manageSuppliers">Manage Suppliers</a></li>
+					<li><a href="manageProducts">Manage Products</a></li>
+					<li><a href="manageContactUs">Manage Contact Us</a></li>
+				</ul>
+			</div>
 	</div>
-	<div class="btn-group-vertical visible-xs">
-		<a href="manageCategories" class="btn btn-warning">Manage Categories</a>
-		<a href="manageSuppliers" class="btn btn-warning">Manage Suppliers</a>
-		<a href="manageProducts" class="btn btn-warning">Manage Products</a>
-		<a href="manageContactUs" class="btn btn-warning">Manage Contact Us</a>
-	</div>
- -->
-	<div class="navbar navbar-default">
-		<ul class="nav navbar-nav nav-tabs nav-justified">
-			<li><a href="manageCategories">Manage Categories</a></li>
-			<li><a href="manageSuppliers">Manage Suppliers</a></li>
-			<li><a href="manageProducts">Manage Products</a></li>
-			<li><a href="manageContactUs">Manage Contact Us</a></li>
-		</ul>
-	</div>
-
 </body>
 </html>

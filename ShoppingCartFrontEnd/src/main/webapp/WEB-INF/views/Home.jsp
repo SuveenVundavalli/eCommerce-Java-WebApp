@@ -30,7 +30,11 @@
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
 	
-	<c:if test="${isUserAtHomePage=='true'}">
+	<c:if test="${isUserClickedCart=='true'}">
+		<jsp:include page="user/myCart.jsp"></jsp:include>
+	</c:if>
+	
+	<c:if test="${isUserAtHomePage=='true' || isUserLoggedIn == 'true'}">
 		<jsp:include page="Carousel.jsp"></jsp:include>
 		<jsp:include page="AllProducts.jsp"></jsp:include>
 	</c:if>

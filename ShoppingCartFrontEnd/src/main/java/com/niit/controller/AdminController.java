@@ -45,6 +45,7 @@ public class AdminController {
 		mv.addObject("isAdmin", "true");
 		session.setAttribute("categoryList", categoryDAO.list());
 		session.setAttribute("category", category);
+		session.setAttribute("isUserLoggedIn", "false");
 		log.debug("Ending of the method manageCategories");
 		//mv.addObject("isAdminClickedManageCategoryEdit", "false");
 		return mv;
@@ -59,6 +60,7 @@ public class AdminController {
 		mv.addObject("isAdmin", "true");
 		session.setAttribute("supplierList", supplierDAO.list());
 		session.setAttribute("supplier", supplier);
+		session.setAttribute("isUserLoggedIn", "false");
 		log.debug("Ending of the method manageSuppliers");
 
 		return mv;

@@ -58,7 +58,7 @@ public class UserController {
 	// Whenever we configure spring security - we can remove this method
 
 	@RequestMapping("/validate")
-	public ModelAndView login(@RequestParam("username") String id, @RequestParam("password") String password) {
+	public ModelAndView login(@RequestParam("id") String id, @RequestParam("password") String password) {
 
 		ModelAndView mv = new ModelAndView("/Home");
 		log.debug("Starting of the method login");
@@ -75,7 +75,7 @@ public class UserController {
 			mv.addObject("supplierList", supplierDAO.list());
 			mv.addObject("supplier", supplierDAO);
 			
-			session.setAttribute("logedInUserID", id);
+			session.setAttribute("loggedInUserID", id);
 
 
 			// check whether user role is admin or user
@@ -89,6 +89,7 @@ public class UserController {
 				log.debug("You are a customer");
 				mv.addObject("isAdmin", "false");
 				session.setAttribute("role", "ROLE_USER");
+				session.setAttribute("isUserLoggedIn", "true");
 			}
 		} else {
 			log.debug("Invalid user");
