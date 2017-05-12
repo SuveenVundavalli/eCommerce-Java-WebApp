@@ -1,7 +1,5 @@
 package com.niit.controller;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import javax.servlet.http.HttpSession;
@@ -58,8 +56,8 @@ public class CartController {
 				model.addAttribute("totalAmount", myCartDAO.getTotalAmount(loggedInUserID));
 				long totalAmount = (long) myCartDAO.getTotalAmount(loggedInUserID);
 				session.setAttribute("totalAmount", totalAmount);
-				session.setAttribute("isAdmin", "false");
 				session.setAttribute("cartSize", cartSize);
+				session.setAttribute("isAdmin", "false");
 				// session.setAttribute("isUserAtHomePage", "false");
 				// System.out.println(totalAmount);
 			}
@@ -80,8 +78,6 @@ public class CartController {
 		myCart.setPrice(product.getPrice());
 
 		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
-
-		
 
 		myCart.setUser_id(loggedInUserID);
 		myCart.setStatus("N");
@@ -124,11 +120,15 @@ public class CartController {
 	public ModelAndView removeAllProductsFromCart(@PathVariable("user_id") String id) {
 		log.debug("Starting of removeAllProductsFromCart in CartController");
 
-		ModelAndView mv = new ModelAndView("redirect:/myCart");
+		ModelAndView mv = new ModelAndView("redirect:/Home");
 		// Check whether products are there for this category or not
 
 		if (myCartDAO.deleteAllProductsInCart(id) == true) {
 			mv.addObject("cartMessage", "Successfully deleted cart");
+			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+
+			int cartSize = myCartDAO.list(loggedInUserID).size();
+			session.setAttribute("cartSize", cartSize);
 		} else {
 			mv.addObject("cartMessage", "Failed to delete cart");
 		}
@@ -138,14 +138,16 @@ public class CartController {
 
 	}
 
-	@GetMapping("myCart/checkOut/{user_id}")
+	@RequestMapping("myCart/checkOut/{user_id}")
 	public ModelAndView cartCheckout(@PathVariable("user_id") String id) {
 		log.debug("Starting of cartCheckout in CartController");
 
 		ModelAndView mv = new ModelAndView("redirect:/Home");
 		// Check whether products are there for this category or not
 		if (myCartDAO.deleteAllProductsInCart(id) == true) {
+			session.setAttribute("isUserCheckedOut", "true");
 			mv.addObject("isUserCheckedOut", "true");
+			session.setAttribute("isUserAtHomePage", "false");
 			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
 
 			int cartSize = myCartDAO.list(loggedInUserID).size();

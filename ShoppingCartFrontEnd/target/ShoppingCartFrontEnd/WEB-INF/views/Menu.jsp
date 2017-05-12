@@ -12,17 +12,33 @@
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
-				<a href="Home" class="navbar-brand"><img src="<c:url value="/resources/images/logo.png"/>"  style="max-height:50px; margin-top: -15px;" alt="logo" /></a>
+				<a href="Home" class="navbar-brand">
+					<img src="<c:url value="/resources/images/logo.png"/>" style="max-height: 50px; margin-top: -15px;" alt="logo" />
+				</a>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="RegistrationPage"> SignUp </a></li>
-					<li><a href="Login"> Login </a></li>
+					<c:if test="${isUserLoggedIn=='true'}"> 
+						<!--<c:url var="Logout" value="/j_spring_security_Logout"/>--> 
+						<li><a href="myCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart <span class="label label-warning">${cartSize}</span></a></li>
+						<li><a href="secure_logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out </a></li>
+
+					</c:if>
+					<c:if test="${isAdmin=='true'}">
+						<li><a href="<c:url value="secure_logout" />"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out </a></li>
+
+					</c:if>
+					<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
+						<li><a href="RegistrationPage"><i class="fa fa-user-plus" aria-hidden="true"></i> SignUp </a></li>
+						<li><a href="Login"><i class="fa fa-sign-in" aria-hidden="true"></i> Login </a></li>
+					</c:if>
+
+
 				</ul>
 
 
@@ -33,7 +49,7 @@
 
 
 					<c:forEach var="category" items="${categoryList}">
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">${category.name}
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> ${category.name}
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu scrollable-menu" role="menu">
@@ -50,7 +66,7 @@
 					</c:forEach>
 
 					<%-- Toggle Product--%>
-					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<%-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
 							All Products <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu scrollable-menu">
@@ -59,10 +75,10 @@
 								<li><a href="#">${product.name}</a></li>
 
 							</c:forEach>
-						</ul></li>
+						</ul></li> --%>
 					<%----%>
-					
-					<li><a href="ContactUs"> Contact Us </a></li>
+
+					<li><a href="ContactUs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Contact Us </a></li>
 
 				</ul>
 			</div>

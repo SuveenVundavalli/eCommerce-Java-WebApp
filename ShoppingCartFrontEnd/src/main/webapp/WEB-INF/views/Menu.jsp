@@ -12,7 +12,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
@@ -49,7 +49,7 @@
 
 
 					<c:forEach var="category" items="${categoryList}">
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">${category.name}
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> ${category.name}
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu scrollable-menu" role="menu">
@@ -66,7 +66,7 @@
 					</c:forEach>
 
 					<%-- Toggle Product--%>
-					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<%-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
 							All Products <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu scrollable-menu">
@@ -75,10 +75,10 @@
 								<li><a href="#">${product.name}</a></li>
 
 							</c:forEach>
-						</ul></li>
+						</ul></li> --%>
 					<%----%>
 
-					<li><a href="ContactUs"> Contact Us </a></li>
+					<li><a href="ContactUs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Contact Us </a></li>
 
 				</ul>
 			</div>

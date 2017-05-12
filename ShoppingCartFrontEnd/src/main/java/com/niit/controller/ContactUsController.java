@@ -27,7 +27,7 @@ public class ContactUsController {
 	@RequestMapping("/saveContact")
 	public ModelAndView submitContact(@RequestParam("contactName") String name, @RequestParam("contactEmail") String email, @RequestParam("contactContact") String mobile, @RequestParam("contactMessage") String message){
 		log.debug("Starting to save Contact Us Request");
-		ModelAndView mv = new ModelAndView("/Home");
+		ModelAndView mv = new ModelAndView("Home");
 		
 		contact.setName(name);
 		contact.setEmail(email);

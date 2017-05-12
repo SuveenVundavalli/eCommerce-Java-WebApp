@@ -36,7 +36,7 @@
     <input type="hidden" name="${_csrf.parameterName}"
 			value="${_csrf.token}" />      
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-warning">Submit</button>
+        <button type="submit" class="btn btn-warning"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
       </div>
     </div>
   </form>

@@ -72,23 +72,24 @@
 		<c:if test="${isAdminClickedManageSupplierEdit=='true'}">
 			<div id="UpdateSupplier">
 			<div class="h3">Update Supplier</div>
+
 				<form class="form-horizontal" action="manage-supplier-update" method="post">
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Supplier Id:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cId" placeholder="Enter Supplier Id" name="cId" value="${selectedSupplier.id}" required>
+							<input type="text" class="form-control" id="cId" placeholder="Enter Supplier Id" name="cId" value="${selectedSupplier.id}" pattern=".{5,15}" title="Supplier Id must have 5 to 15 characters" required readonly>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cName">Supplier Name:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cName" placeholder="Enter Supplier Name" name="cName" value="${selectedSupplier.name}" required>
+							<input type="text" class="form-control" id="cName" placeholder="Enter Supplier Name" name="cName" value="${selectedSupplier.name}" pattern=".{5,40}" title="Supplier Name must have 5 to 40 characters" required>
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cDescription">Supplier Description:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cDescription" placeholder="Enter Supplier Description" name="cDescription" value="${selectedSupplier.description}" required>
+							<input type="text" class="form-control" id="cDescription" placeholder="Enter Supplier Description" name="cDescription" value="${selectedSupplier.description}" pattern=".{5,}" title="Supplier Description must have 5 characters minimum" required>
 						</div>
 					</div>
 
@@ -104,6 +105,7 @@
 		<c:if test="${!isAdminClickedManageSupplierEdit=='true'}">
 			<div id="CreateSupplier">
 			<div class="h3">Create Supplier</div>
+
 				<form class="form-horizontal" action="manage-supplier-add">
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="sId">Supplier Id:</label>

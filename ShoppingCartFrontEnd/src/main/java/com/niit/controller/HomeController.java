@@ -14,16 +14,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.shoppingcart.dao.CategoryDAO;
+import com.niit.shoppingcart.dao.My_CartDAO;
 import com.niit.shoppingcart.dao.ProductDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
 import com.niit.shoppingcart.domain.Category;
+import com.niit.shoppingcart.domain.My_Cart;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
 
 @Controller
 public class HomeController {
 	private static Logger log = LoggerFactory.getLogger(ProductController.class);
-
 
 	// @Autowired User
 
@@ -41,12 +42,18 @@ public class HomeController {
 
 	@Autowired
 	ProductDAO productDAO;
-	
+
 	@Autowired
 	Supplier supplier;
-	
+
 	@Autowired
 	SupplierDAO supplierDAO;
+
+	@Autowired
+	My_Cart myCart;
+
+	@Autowired
+	My_CartDAO myCartDAO;
 
 	@RequestMapping("/")
 	public ModelAndView goToHome() {
@@ -69,10 +76,29 @@ public class HomeController {
 		// attach products to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
-		
+
+		/*String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+
+		if (loggedInUserID != null) {
+			int cartSize = myCartDAO.list(loggedInUserID).size();
+
+			if (cartSize == 0) {
+				session.setAttribute("errorMessage", "You do not have any products in your cart!");
+			} else {
+				session.setAttribute("cart", myCart);
+				session.setAttribute("cartList", myCartDAO.list(loggedInUserID));
+				session.setAttribute("isUserClickedCart", "true");
+				session.setAttribute("totalAmount", myCartDAO.getTotalAmount(loggedInUserID));
+				long totalAmount = (long) myCartDAO.getTotalAmount(loggedInUserID);
+				session.setAttribute("totalAmount", totalAmount);
+				session.setAttribute("cartSize", cartSize);
+			}
+
+		}
+*/
 		// get products
 		List<Supplier> supplierList = supplierDAO.list();
-		
+
 		// attach supplier to session
 		session.setAttribute("supplierList", supplierList);
 		session.setAttribute("supplier", supplier);
@@ -82,17 +108,17 @@ public class HomeController {
 		return mv;
 		// return "Home";
 	}
-	
+
 	@RequestMapping("/SignOut")
-	public ModelAndView userSignOut(){
+	public ModelAndView userSignOut() {
 		log.debug("Signout Initiated");
 		ModelAndView mv = new ModelAndView("redirect:/");
 		session.setAttribute("isUserLoggedIn", "false");
 		session.setAttribute("isAdmin", "false");
-		
+
 		return mv;
 	}
-	
+
 	@RequestMapping("/Home")
 	public ModelAndView goToHomeButton() {
 		ModelAndView mv = new ModelAndView("Home");
@@ -114,10 +140,10 @@ public class HomeController {
 		// attach products to session
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
-		
+
 		// get products
 		List<Supplier> supplierList = supplierDAO.list();
-		
+
 		// attach supplier to session
 		session.setAttribute("supplierList", supplierList);
 		session.setAttribute("supplier", supplier);
@@ -148,10 +174,10 @@ public class HomeController {
 		model.addAttribute("isUserClickedMain", "true");
 		return "Home";
 	}
-	
+
 	@RequestMapping("/ContactUs")
 	public String contactUsPage(Model model) {
-		model.addAttribute("isUserClickedContactUs","true");
+		model.addAttribute("isUserClickedContactUs", "true");
 		model.addAttribute("isUserAtHomePage", "false");
 		return "Home";
 	}

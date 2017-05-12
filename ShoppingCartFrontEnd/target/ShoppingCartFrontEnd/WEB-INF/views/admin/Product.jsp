@@ -11,8 +11,7 @@
 <body>
 	<div class="container">
 		<div class="h2">Manage Products</div>
-
-		<c:url var="addAction" value="/manage_product_add?${_csrf.parameterName}=${_csrf.token}"></c:url>
+		<c:url var="addAction" value="/manage-product-add?${_csrf.parameterName}=${_csrf.token}"></c:url>
 		<form:form action="${addAction}" commandName="product" enctype="multipart/form-data" method="post" cssClass="form-horizontal">
 			<div class="form-group">
 				<form:label path="id" cssClass="control-label col-sm-3">
@@ -106,6 +105,7 @@
 			</div>
 
 			<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+
 		</form:form>
 		<br>
 
@@ -116,6 +116,7 @@
 			<table class="table table-striped">
 				<tr>
 					<th>Product ID</th>
+					<th>Product Image</th>
 					<th>Product Description</th>
 					<th>Product Name</th>
 					<th>Price</th>
@@ -126,12 +127,15 @@
 				<c:forEach items="${productList}" var="product">
 					<tr>
 						<td>${product.id}</td>
+						<td><img height="50px" width="75px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" /></td>
 						<td>${product.description}</td>
 						<td>${product.name}</td>
 						<td>${product.price}</td>
 						<td>${product.category.name}</td>
 						<td>${product.supplier.name}</td>
-						<td><a href="<c:url value='manage_product_edit/${product.id}' />" class="btn btn-info">Edit</a> <a href="<c:url value='manage_product_delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
+
+						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info">Edit</a> 
+						<a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>
