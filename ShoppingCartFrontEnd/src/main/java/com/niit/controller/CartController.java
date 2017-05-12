@@ -68,7 +68,7 @@ public class CartController {
 		return "Home";
 	}
 
-	@GetMapping("myCart/add/{id}")
+	@GetMapping("myCart-add/{id}")
 	public ModelAndView addToCart(@PathVariable("id") String id) {
 		log.debug("Starting of addToCart in CartController");
 
@@ -98,7 +98,7 @@ public class CartController {
 
 	}
 
-	@GetMapping("myCart/delete/{id}")
+	@GetMapping("myCart-delete/{id}")
 	public ModelAndView removeFromCart(@PathVariable("id") int id) {
 		log.debug("Starting of removeFromCart in CartController");
 
@@ -116,7 +116,7 @@ public class CartController {
 
 	}
 
-	@GetMapping("myCart/deleteAll/{user_id}")
+	@GetMapping("myCart-deleteAll/{user_id}")
 	public ModelAndView removeAllProductsFromCart(@PathVariable("user_id") String id) {
 		log.debug("Starting of removeAllProductsFromCart in CartController");
 
@@ -138,7 +138,7 @@ public class CartController {
 
 	}
 
-	@RequestMapping("myCart/checkOut/{user_id}")
+	@RequestMapping("myCart-checkOut/{user_id}")
 	public ModelAndView cartCheckout(@PathVariable("user_id") String id) {
 		log.debug("Starting of cartCheckout in CartController");
 

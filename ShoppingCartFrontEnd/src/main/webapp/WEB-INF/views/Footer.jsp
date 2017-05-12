@@ -19,7 +19,7 @@
 				<a href="https://twitter.com/kumarsuveen" target="_blank">
 					<i class="fa fa-twitter fa-2x"></i>
 				</a>
-				<a href="https://www.linkedin.com/in/svundavalli" target="_blank">
+				<a href="http://linkedin.com/in/svundavalli" target="_blank">
 					<i class="fa fa-linkedin fa-2x"></i>
 				</a>
 				<a href="https://plus.google.com/+SuveenkumarVundavalli" target="_blank">

@@ -30,7 +30,7 @@
           <hr /> --%>
 	          <div class="row">
 	          	<div class="col-md-5 col-sm-12 h5"><i class="fa fa-inr" aria-hidden="true"></i> ${product.price}</div>
-	          	<div class="col-md-7 col-sm-12"><a href="myCart/add/${product.id}" class="btn btn-success">Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i></a></div>
+	          	<div class="col-md-7 col-sm-12"><a href="myCart-add/${product.id}" class="btn btn-success">Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i></a></div>
 	          </div>
         </div>
       </div>      

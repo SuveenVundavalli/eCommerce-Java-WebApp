@@ -17,7 +17,7 @@
 						<div class="h3">My Cart</span></div>
 					</div>
 					<div class="col-md-4">
-						<td><a href="myCart/deleteAll/${cart.user_id}" class="btn btn-danger">Delete All Products</a></td>
+						<td><a href="myCart-deleteAll/${cart.user_id}" class="btn btn-danger">Delete All Products</a></td>
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@
 						<td>${cart.product_name}</td>
 						<td>${cart.quantity}</td>
 						<td>${cart.price}</td>
-						<td><a href="myCart/delete/${cart.id}" class="btn btn-danger">Delete</a></td>
+						<td><a href="myCart-delete/${cart.id}" class="btn btn-danger">Delete</a></td>
 					</tr>
 				</c:forEach>
 				<hr />
@@ -43,7 +43,7 @@
 					<td><a href="Home" class="btn btn-warning">Continue Shopping</a></td>
 					<td></td>
 					<td>Total Rs. ${totalAmount}</td>
-					<td><a href="myCart/checkOut/${cart.user_id}" class="btn btn-success">Check Out</a></td>
+					<td><a href="myCart-checkOut/${cart.user_id}" class="btn btn-success">Check Out</a></td>
 				</tr>
 
 			</table>

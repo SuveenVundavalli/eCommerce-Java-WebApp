@@ -10,7 +10,7 @@
 
 	<div class="container">
   <h2>Register</h2>
-  <form class="form-horizontal" action="Register" method="POST">
+  <form class="form-horizontal" action="Register" method="get">
     <div class="form-group">
       <label class="control-label col-sm-2" for="fName">Full Name:</label>
       <div class="col-sm-10">
@@ -35,7 +35,6 @@
         <input type="password" class="form-control" id="uPassword" placeholder="Enter Password" name="uPassword" pattern=".{5,15}" title="password must have 5 to 15 characters" required >
       </div>
     </div>
-   
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-warning"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</button>

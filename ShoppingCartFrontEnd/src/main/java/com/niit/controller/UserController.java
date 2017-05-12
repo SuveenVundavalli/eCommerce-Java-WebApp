@@ -119,7 +119,7 @@ public class UserController {
 		if (userDAO.save(user) == true) {
 			log.debug("saving credentials");
 			user = userDAO.get(id);
-			mv.addObject("message", "Welcome " + user.getName() + "!");
+			mv.addObject("message", "Welcome " + user.getName() + "! Please Login to Continue");
 
 			mv.addObject("categoryList", categoryDAO.list());
 			mv.addObject("category", categoryDAO);

@@ -26,6 +26,11 @@
 <body>
 	<!-- Display Menu -->
 	<jsp:include page="Menu.jsp"></jsp:include>
+	
+	<!-- Display messages -->
+	<div class="container-fluid">
+		<marquee>${message}</marquee>
+	</div>
 
 	<!-- Display Admin Control Panel -->
 	<c:if test="${isAdmin=='true'}">
@@ -89,10 +94,7 @@
 		<jsp:include page="AllProducts.jsp"></jsp:include>
 	</c:if>
 
-	<!-- Display messages -->
-	<div class="container">
-		${message}
-	</div>
+	
 	
 	<!-- Display Footer -->
 	<jsp:include page="Footer.jsp"></jsp:include>
