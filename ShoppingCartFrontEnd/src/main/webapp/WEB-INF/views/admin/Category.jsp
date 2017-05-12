@@ -79,7 +79,7 @@
 			<div id="UpdateCategory">
 				<div class="h3">Update Category</div>
 
-				<form class="form-horizontal" action="manage-category-update" method="post">
+				<form class="form-horizontal" action="manage-category-update" method="get">
 
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Category Id:</label>

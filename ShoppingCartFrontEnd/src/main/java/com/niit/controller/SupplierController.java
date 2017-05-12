@@ -121,7 +121,7 @@ public class SupplierController {
 		return mv;
 	}
 
-	@PostMapping("/manage-supplier-update")
+	@RequestMapping("/manage-supplier-update")
 	public ModelAndView updateSupplier(@RequestParam("cId") String id, @RequestParam("cName") String name,
 			@RequestParam("cDescription") String description) {
 		log.debug("Starting of updateSupplier");

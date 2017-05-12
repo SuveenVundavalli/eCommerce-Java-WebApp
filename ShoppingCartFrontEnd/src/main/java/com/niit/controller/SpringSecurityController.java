@@ -85,13 +85,13 @@ public class SpringSecurityController {
 		Authentication auth = SecurityContextHolder.getContext().getAuthentication();
 
 		mv.addObject("categoryList", categoryDAO.list());
-		mv.addObject("category", categoryDAO);
+		mv.addObject("category", category);
 
 		mv.addObject("supplierList", supplierDAO.list());
-		mv.addObject("supplier", supplierDAO);
+		mv.addObject("supplier", supplier);
 		
 		mv.addObject("productList", productDAO.list());
-		mv.addObject("product", productDAO);
+		mv.addObject("product", product);
 		
 		
 		String userID = auth.getName();
@@ -106,10 +106,10 @@ public class SpringSecurityController {
 
 		} else {
 
+			log.debug("You are a customer");
 			session.setAttribute("isAdmin", false);
 			session.setAttribute("isUserLoggedIn", "true");
 			session.setAttribute("myCart", myCart);
-			log.debug("You are a customer");
 			mv.addObject("isAdmin", "false");
 			session.setAttribute("role", "ROLE_USER");
 			session.setAttribute("isUserLoggedIn", "true");

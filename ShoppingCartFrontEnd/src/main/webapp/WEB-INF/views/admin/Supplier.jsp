@@ -73,7 +73,7 @@
 			<div id="UpdateSupplier">
 			<div class="h3">Update Supplier</div>
 
-				<form class="form-horizontal" action="manage-supplier-update" method="post">
+				<form class="form-horizontal" action="manage-supplier-update" method="get">
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Supplier Id:</label>
 						<div class="col-sm-9">
