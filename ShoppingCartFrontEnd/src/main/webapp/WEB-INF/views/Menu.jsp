@@ -55,7 +55,7 @@
 							<ul class="dropdown-menu scrollable-menu" role="menu">
 								<c:forEach var="product" items="${productList}">
 									<c:if test="${product.category_id == category.id}">
-										<li><a href="#">${product.name}</a></li>
+										<li><a href="viewProduct/${product.id}">${product.name}</a></li>
 									</c:if>
 
 									<!-- <li><a href="#">${product.name}</a></li> -->

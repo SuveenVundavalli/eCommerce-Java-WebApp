@@ -10,10 +10,10 @@
 	<div class="container">
 			<div class="navbar navbar-default">
 				<ul class="nav navbar-nav nav-tabs nav-justified">
-					<li><a href="manageCategories">Manage Categories</a></li>
-					<li><a href="manageSuppliers">Manage Suppliers</a></li>
-					<li><a href="manageProducts">Manage Products</a></li>
-					<li><a href="manageContactUs">Manage Contact Us</a></li>
+					<li><a href="manageCategories"><i class="fa fa-cog"></i> Manage Categories</a></li>
+					<li><a href="manageSuppliers"><i class="fa fa-cog"></i> Manage Suppliers</a></li>
+					<li><a href="manageProducts"><i class="fa fa-cog"></i> Manage Products</a></li>
+					<li><a href="manageContactUs"><i class="fa fa-cog"></i> Manage Contact Us</a></li>
 				</ul>
 			</div>
 	</div>

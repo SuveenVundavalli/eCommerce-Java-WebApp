@@ -18,10 +18,8 @@
 <!-- <link rel="stylesheet" href="resources/css/style.css">  -->
 
 <script src="<c:url value="/resources/js/jquery-3.2.0.js" />"></script>
-<script src="<c:url value="/resources/js/jquery.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.js" />"></script>
 <script src="<c:url value="/resources/js/CustomJS.js" />"></script>
-<script src="<c:url value="/resources/js/cloud-zoom.1.0.2.min.js" />"></script>
 
 <!-- <script src="resources/js/jquery-3.2.0.js"></script>
 <script src="resources/js/bootstrap.js"></script> -->
@@ -77,6 +75,10 @@
 		<jsp:include page="admin/AdminContactUs.jsp"></jsp:include>
 		<div class="container col-sm-offset-3 col-sm-9" style="color: green">${contactUsMessage}</div>
 	</c:if>
+	
+	<c:if test="${isUserSelectedProduct=='true'}">
+		<jsp:include page="ProductPage.jsp"></jsp:include>
+	</c:if>
 
 	<!-- Display user Contact us -->
 	<c:if test="${isUserClickedContactUs=='true' }">
@@ -94,7 +96,7 @@
 	</c:if>
 	
 	<!-- Display Carousel and Products -->
-	<c:if test="${isUserAtHomePage=='true' || isUserLoggedIn == 'true'}">
+	<c:if test="${isUserAtHomePage=='true'}">
 		<jsp:include page="Carousel.jsp"></jsp:include>
 		<jsp:include page="AllProducts.jsp"></jsp:include>
 	</c:if>

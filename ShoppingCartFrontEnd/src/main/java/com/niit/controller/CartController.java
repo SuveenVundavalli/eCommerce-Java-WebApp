@@ -40,7 +40,7 @@ public class CartController {
 	public String myCart(Model model) {
 		log.debug("Starting of myCart in CartController");
 
-		model.addAttribute("myCart", myCart);
+		//model.addAttribute("myCart", myCart);
 
 		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
 
@@ -58,6 +58,7 @@ public class CartController {
 				session.setAttribute("totalAmount", totalAmount);
 				session.setAttribute("cartSize", cartSize);
 				session.setAttribute("isAdmin", "false");
+				session.setAttribute("cart", myCart);
 				// session.setAttribute("isUserAtHomePage", "false");
 				// System.out.println(totalAmount);
 			}
@@ -68,7 +69,7 @@ public class CartController {
 		return "Home";
 	}
 
-	@GetMapping("myCart-add/{id}")
+	@RequestMapping("/myCart-add/{id}")
 	public ModelAndView addToCart(@PathVariable("id") String id) {
 		log.debug("Starting of addToCart in CartController");
 
@@ -98,7 +99,7 @@ public class CartController {
 
 	}
 
-	@GetMapping("myCart-delete/{id}")
+	@RequestMapping("/myCart-delete/{id}")
 	public ModelAndView removeFromCart(@PathVariable("id") int id) {
 		log.debug("Starting of removeFromCart in CartController");
 
@@ -120,7 +121,7 @@ public class CartController {
 
 	}
 
-	@GetMapping("myCart-deleteAll/{user_id}")
+	@RequestMapping("/myCart-deleteAll/{user_id}")
 	public ModelAndView removeAllProductsFromCart(@PathVariable("user_id") String id) {
 		log.debug("Starting of removeAllProductsFromCart in CartController");
 
@@ -141,12 +142,12 @@ public class CartController {
 		return mv;
 
 	}
-
+/*
 	@RequestMapping("myCart-checkOut/{user_id}")
 	public ModelAndView cartCheckout(@PathVariable("user_id") String id) {
 		log.debug("Starting of cartCheckout in CartController");
 
-		ModelAndView mv = new ModelAndView("redirect:/Home");
+		ModelAndView mv = new ModelAndView("redirect:/myCart-checkOut");
 		// Check whether products are there for this category or not
 		if (myCartDAO.deleteAllProductsInCart(id) == true) {
 			session.setAttribute("isUserCheckedOut", "true");
@@ -164,5 +165,34 @@ public class CartController {
 		return mv;
 
 	}
+	*/
+	@RequestMapping("/myCart-checkOut/{user_id}")
+	public String cartCheckout(@PathVariable("user_id") String id, Model model) {
+		log.debug("Starting of cartCheckout in CartController");
+
+		// Check whether products are there for this category or not
+		if (myCartDAO.deleteAllProductsInCart(id) == true) {
+			//session.setAttribute("isUserCheckedOut", "true");
+			model.addAttribute("isUserCheckedOut", "true");
+			session.setAttribute("isUserAtHomePage", "false");
+			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+
+			int cartSize = myCartDAO.list(loggedInUserID).size();
+			session.setAttribute("cartSize", cartSize);
+		} else {
+			model.addAttribute("cartMessage", "Failed to checkout");
+		}
+
+		log.debug("Ending of cartCheckout in CartController");
+		return "redirect:/checkout";
+	}
+	
+	@RequestMapping("/checkout")
+	public String viewProductHome(Model model) {
+		model.addAttribute("isUserCheckedOut", "true");
+		return "Home";
+		
+	}
+	
 
 }

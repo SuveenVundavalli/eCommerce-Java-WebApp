@@ -44,7 +44,7 @@ public class My_CartDAOTestCase {
 		
 	}
 	
-	//@Test
+	@Test
 	public void createCartTestCase() {
 		my_Cart.setUser_id("Suveen");
 		my_Cart.setPrice(10000);

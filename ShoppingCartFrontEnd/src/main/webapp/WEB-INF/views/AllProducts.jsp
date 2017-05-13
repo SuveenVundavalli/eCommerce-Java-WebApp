@@ -5,12 +5,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-
-<style>
-div #wrap {
-	z-index: auto !important;
-}
-</style>
 </head>
 <body>
 
@@ -28,26 +22,38 @@ div #wrap {
 						<div class="h3">${product.name}</div>
 					</div>
 					<div class="panel-body">
-						<div class="zoom-section">
-							<div class="zoom-small-image">
-								<a href="<c:url value="/resources/img/${product.id}.jpeg" />" class='cloud-zoom' id='zoom1' rel="adjustX:10, adjustY:-4">
-										<img class="center-block" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt='${product.name}' title="${product.name}" height="220px" width="250px" />
-								</a>
-							</div>
-						</div>
-						<%-- <img height="220px" width="250px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" /> --%>
+						<img height="220px" width="250px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" />
 					</div>
 					<div class="panel-footer">
 						<%-- <h3>${product.description}</h3>
           <hr /> --%>
 						<div class="row">
-							<div class="col-md-5 col-sm-12 h5">
+							<div class="h3">
 								<i class="fa fa-inr" aria-hidden="true"></i> ${product.price}
 							</div>
-							<div class="col-md-7 col-sm-12">
-								<a href="myCart-add/${product.id}" class="btn btn-success">
+						</div>
+						<div class="row">
+							<div>
+								<%-- <a href="myCart-add/${product.id}" class="btn btn-success">
 									Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+								</a> --%>
+								
+								<!-- Adding if condition -->
+								
+								<c:if test="${isUserLoggedIn=='true'}"> 
+									<a href="myCart-add/${product.id}" class="btn btn-success">Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
 								</a>
+								</c:if>
+								<c:if test="${isAdmin=='true'}">
+									<a href="secure_logout" class="btn btn-success">Login as user to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+								</a>
+								</c:if>
+								<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
+									<a href="Login" class="btn btn-success">Login to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+								</a>
+								
+								</c:if>
+								
 							</div>
 						</div>
 					</div>

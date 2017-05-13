@@ -6,5 +6,4 @@ $(document).ready(function(e) {
 	$('body').animate({
 		paddingTop : h
 	});
-
 });

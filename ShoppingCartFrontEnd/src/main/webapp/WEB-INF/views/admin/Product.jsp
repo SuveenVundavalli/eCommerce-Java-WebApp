@@ -95,11 +95,11 @@
 			<div class="form-group">
 				<td colspan="2"><c:if test="${!empty product.name}">
 						<div class="col-sm-offset-3 col-sm-9">
-							<button type="submit" value="<spring:message/>" class="btn btn-info">Update Product</button>
+							<button type="submit" value="<spring:message/>" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update Product</button>
 						</div>
 					</c:if> <c:if test="${empty product.name}">
 						<div class="col-sm-offset-3 col-sm-9">
-							<button type="submit" value="<spring:message/>" class="btn btn-info">Add Product</button>
+							<button type="submit" value="<spring:message/>" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Add Product</button>
 						</div>
 					</c:if>
 			</div>
@@ -134,8 +134,8 @@
 						<td>${product.category.name}</td>
 						<td>${product.supplier.name}</td>
 
-						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info">Edit</a> 
-						<a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger">Delete</a></td>
+						<td><a href="<c:url value='manage-product-edit/${product.id}' />" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</a> 
+						<a href="<c:url value='manage-product-delete/${product.id}' />" class="btn btn-danger"><i class="fa fa-trash-o fa-lg"></i> Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>

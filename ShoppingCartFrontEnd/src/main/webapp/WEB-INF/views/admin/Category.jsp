@@ -102,7 +102,7 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9">
-							<button type="submit" class="btn btn-info">Update Category</button>
+							<button type="submit" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update Category</button>
 						</div>
 					</div>
 				</form>
@@ -136,7 +136,7 @@
 
 						<div class="form-group">
 							<div class="col-sm-offset-3 col-sm-9">
-								<button type="submit" class="btn btn-success">Create Category</button>
+								<button type="submit" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Create Category</button>
 							</div>
 						</div>
 					</form>
@@ -162,7 +162,7 @@
 						<td>${category.description}</td>
 						<%-- <td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
 						<%-- <a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
-						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a> <a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td>
+						<td><a href="manage-category-delete/${category.id}" class="btn btn-danger"><i class="fa fa-trash-o fa-lg"></i> Delete</a> <a href="manage-category-edit/${category.id}" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</a></td>
 					</tr>
 				</c:forEach>
 			</table>

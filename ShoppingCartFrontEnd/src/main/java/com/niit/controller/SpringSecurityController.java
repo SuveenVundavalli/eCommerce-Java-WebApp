@@ -58,7 +58,7 @@ public class SpringSecurityController {
 	@RequestMapping(value = "/loginError", method = RequestMethod.GET)
 	public String loginError(Model model) {
 		log.debug("Starting of the method loginError");
-		model.addAttribute("errorLoginMessage", "Invalid Credentials.  Please try again.");
+		session.setAttribute("errorLoginMessage", "Invalid Credentials.  Please try again.");
 		// model.addAttribute("invalidCredentials", "true");
 		log.debug("Ending of the method loginError");
 		return "redirect:/Login";
@@ -92,6 +92,7 @@ public class SpringSecurityController {
 		
 		mv.addObject("productList", productDAO.list());
 		mv.addObject("product", product);
+		//mv.addObject("isUserAtHomePage", "true");
 		
 		
 		String userID = auth.getName();
@@ -103,6 +104,7 @@ public class SpringSecurityController {
 			mv.addObject("isAdmin", "true");
 			session.setAttribute("role", "ROLE_ADMIN");
 			session.setAttribute("isAdmin", true);
+			mv.addObject("isUserAtHomePage", "false");
 
 		} else {
 
@@ -117,6 +119,7 @@ public class SpringSecurityController {
 			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
 			int cartSize = cartDAO.list(loggedInUserID).size();
 			session.setAttribute("cartSize", cartSize);
+			mv.addObject("isUserAtHomePage", "true");
 			// Fetch the myCart list based on user ID
 			/*
 			 * List<MyCart> cartList = cartDAO.list(userID);

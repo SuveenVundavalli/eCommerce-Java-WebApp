@@ -8,3 +8,10 @@ create table My_Cart
 	date_added date default sysdate(),
 	quantity number default 1
 );
+
+CREATE TABLE ORDERTABLE(
+ID INT PRIMARY KEY AUTO_INCREMENT,
+USER_ID VARCHAR2 REFERENCES USER(ID),
+STATUS CHAR DEFAULT 'N',
+DATE_ORDERED DATE DEFAULT SYSDATE()
+);

@@ -105,10 +105,23 @@ public class ProductController {
 		log.debug("Ending of the method manageProducts");
 		return "Home";
 	}
+	
+	@RequestMapping("/viewProduct")
+	public String viewProductHome(Model model) {
+		model.addAttribute("isUserSelectedProduct", "true");
+		return "Home";
+		
+	}
+	
+	@RequestMapping("/viewProduct/{id}")
+	public String viewProduct(@PathVariable("id") String id, Model model) {
+		session.setAttribute("selectedProduct", productDAO.getProductById(id));
+		return "redirect:/viewProduct";
+	}
 
 	// Delete Product
 	@RequestMapping("/manage-product-delete/{id}")
-	public String deleteProduct(@PathVariable("id") String id, ModelMap model) {
+	public String deleteProduct(@PathVariable("id") String id, Model model) {
 		log.debug("Starting of the method deleteProduct");
 		try {
 			productDAO.delete(id);
@@ -122,6 +135,7 @@ public class ProductController {
 
 	}
 
+	
 	// Edit Products
 	@RequestMapping("/manage-product-edit/{id}")
 	public String editProduct(@PathVariable("id") String id, Model model) {

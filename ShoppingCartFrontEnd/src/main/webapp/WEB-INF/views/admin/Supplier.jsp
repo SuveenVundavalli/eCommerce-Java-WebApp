@@ -95,7 +95,7 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9">
-							<button type="submit" class="btn btn-info">Update Supplier</button>
+							<button type="submit" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update Supplier</button>
 						</div>
 					</div>
 				</form>
@@ -128,7 +128,7 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-3 col-sm-9">
-							<button type="submit" class="btn btn-success">Create Supplier</button>
+							<button type="submit" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Create Supplier</button>
 						</div>
 					</div>
 				</form>
@@ -154,7 +154,7 @@
 						<td>${supplier.id}</td>
 						<td>${supplier.name}</td>
 						<td>${supplier.description}</td>
-						<td><a href="manage-supplier-delete/${supplier.id}" class="btn btn-danger">Delete</a> <a href="manage-supplier-edit/${supplier.id}" class="btn btn-info">Update</a></td>
+						<td><a href="manage-supplier-delete/${supplier.id}" class="btn btn-danger"><i class="fa fa-trash-o fa-lg"></i> Delete</a> <a href="manage-supplier-edit/${supplier.id}" class="btn btn-info"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</a></td>
 					</tr>
 				</c:forEach>
 			</table>
