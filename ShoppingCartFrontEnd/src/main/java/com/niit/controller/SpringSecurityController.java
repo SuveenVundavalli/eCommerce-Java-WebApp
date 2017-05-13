@@ -58,10 +58,10 @@ public class SpringSecurityController {
 	@RequestMapping(value = "/loginError", method = RequestMethod.GET)
 	public String loginError(Model model) {
 		log.debug("Starting of the method loginError");
-		model.addAttribute("errorMessage", "Invalid Credentials.  Please try again.");
+		model.addAttribute("errorLoginMessage", "Invalid Credentials.  Please try again.");
 		// model.addAttribute("invalidCredentials", "true");
 		log.debug("Ending of the method loginError");
-		return "Home";
+		return "redirect:/Login";
 
 	}
 
@@ -113,7 +113,7 @@ public class SpringSecurityController {
 			mv.addObject("isAdmin", "false");
 			session.setAttribute("role", "ROLE_USER");
 			session.setAttribute("isUserLoggedIn", "true");
-			
+			session.setAttribute("loggedInUserID",userID);
 			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
 			int cartSize = cartDAO.list(loggedInUserID).size();
 			session.setAttribute("cartSize", cartSize);

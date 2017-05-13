@@ -13,12 +13,15 @@
 <link href="<c:url value="/resources/css/bootstrap.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/style.css" />" rel="stylesheet">
 <link href="<c:url value="/resources/css/font-awesome.css" />" rel="stylesheet">
+<link href="<c:url value="/resources/css/cloud-zoom.css" />" rel="stylesheet">
 
 <!-- <link rel="stylesheet" href="resources/css/style.css">  -->
 
 <script src="<c:url value="/resources/js/jquery-3.2.0.js" />"></script>
+<script src="<c:url value="/resources/js/jquery.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.js" />"></script>
 <script src="<c:url value="/resources/js/CustomJS.js" />"></script>
+<script src="<c:url value="/resources/js/cloud-zoom.1.0.2.min.js" />"></script>
 
 <!-- <script src="resources/js/jquery-3.2.0.js"></script>
 <script src="resources/js/bootstrap.js"></script> -->
@@ -31,6 +34,8 @@
 	<div class="container-fluid">
 		<marquee>${message}</marquee>
 	</div>
+
+	
 
 	<!-- Display Admin Control Panel -->
 	<c:if test="${isAdmin=='true'}">

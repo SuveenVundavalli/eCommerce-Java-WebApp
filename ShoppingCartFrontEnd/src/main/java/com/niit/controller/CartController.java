@@ -110,6 +110,10 @@ public class CartController {
 		} else {
 			mv.addObject("cartMessage", "Failed to delete from cart");
 		}
+		
+		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
+		int cartSize = myCartDAO.list(loggedInUserID).size();
+		session.setAttribute("cartSize", cartSize);
 
 		log.debug("Ending of removeFromCart in CartController");
 		return mv;

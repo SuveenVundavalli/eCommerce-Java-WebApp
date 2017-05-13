@@ -102,22 +102,14 @@ public class HomeController {
 		// attach supplier to session
 		session.setAttribute("supplierList", supplierList);
 		session.setAttribute("supplier", supplier);
-		session.setAttribute("isUserLoggedIn", "false");
-		session.setAttribute("isAdmin", "false");
+		//session.setAttribute("isUserLoggedIn", "false");
+		//session.setAttribute("isAdmin", "false");
 
 		return mv;
 		// return "Home";
 	}
 
-	@RequestMapping("/SignOut")
-	public ModelAndView userSignOut() {
-		log.debug("Signout Initiated");
-		ModelAndView mv = new ModelAndView("redirect:/");
-		session.setAttribute("isUserLoggedIn", "false");
-		session.setAttribute("isAdmin", "false");
-
-		return mv;
-	}
+	
 
 	@RequestMapping("/Home")
 	public ModelAndView goToHomeButton() {
@@ -161,7 +153,17 @@ public class HomeController {
 		Date currentDate = new Date(currentTime);
 		return "Home";
 	}
+	
+	@RequestMapping("/SignOut")
+	public ModelAndView userSignOut() {
+		log.debug("Signout Initiated");
+		ModelAndView mv = new ModelAndView("redirect:/");
+		session.setAttribute("isUserLoggedIn", "false");
+		session.setAttribute("isAdmin", "false");
 
+		return mv;
+	}
+	
 	@RequestMapping("/RegistrationPage")
 	public String registerPage(Model model) {
 		model.addAttribute("isUserClickedRegistration", "true");
