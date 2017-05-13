@@ -49,7 +49,7 @@
 
 
 					<c:forEach var="category" items="${categoryList}">
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> ${category.name}
+						<li class="dropdown"><a href="showProductByCategory/${category.id}"> ${category.name}
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu scrollable-menu" role="menu">

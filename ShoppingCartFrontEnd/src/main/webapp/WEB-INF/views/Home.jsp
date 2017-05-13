@@ -40,6 +40,11 @@
 		<jsp:include page="admin/adminHome.jsp"></jsp:include>
 	</c:if>
 	
+	<!-- Display Admin Control Panel -->
+	<c:if test="${isUserClickedProductByCategory=='true'}">
+		<jsp:include page="CategoryProducts.jsp"></jsp:include>
+	</c:if>
+	
 	<!-- Display Checkout Message -->
 	<c:if test="${isUserCheckedOut=='true'}"> 
 		<jsp:include page="user/checkOut.jsp"></jsp:include>

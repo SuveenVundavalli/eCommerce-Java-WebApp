@@ -155,5 +155,21 @@ public class ProductController {
 		log.debug("ending of method getSelectedProduct");
 		return mv;
 	}
+	
+	@RequestMapping("/showProductByCategory/{category_id}")
+	public String showProductByCategory(@PathVariable("category_id") String category_id, Model model){
+			session.setAttribute("selectedCategoryProducts", productDAO.getAllProductsByCategoryId(category_id));
+			session.setAttribute("product",product);
+			model.addAttribute("isUserClickedProductByCategory", "true");
+		return "redirect:/productByCategory";
+	}
+	
+	@RequestMapping("/productByCategory")
+	public String productByCategory(Model model){
+		model.addAttribute("isUserClickedProductByCategory", "true");
+		return "Home";
+
+	}
+	
 
 }

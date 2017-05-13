@@ -22,28 +22,28 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<a href="">
+							<a href="showProductByCategory/Canon">
 								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1">
 							</a>
 
 						</div>
 						<div class="item">
-							<a href="">
+							<a href="viewProduct/Canon1300D">
 								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2">
 							</a>
 						</div>
 						<div class="item">
-							<a href="">
+							<a href="showProductByCategory/Nikon">
 								<img src="<c:url value="/resources/images/3.jpg" />" alt="Image 3">
 							</a>
 						</div>
 						<div class="item">
-							<a href="">
+							<a href="showProductByCategory/Olympus">
 								<img src="<c:url value="/resources/images/4.jpg" />" alt="Image 4">
 							</a>
 						</div>
 						<div class="item">
-							<a href="">
+							<a href="showProductByCategory/Sony">
 								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5">
 							</a>
 						</div>
