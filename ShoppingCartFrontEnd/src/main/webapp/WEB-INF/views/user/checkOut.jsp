@@ -16,7 +16,8 @@
 		</div>
 
 		<div class="h2 text-success text-center">You are awesome!</div>
-		<div class="h2 text-center">Thank you for checking out. The amount of Rs. ${totalAmount} has been received. The order will be processed soon.</div>
+		<div class="h2 text-center">Thank you for checking out. The amount of Rs. ${totalAmount} has been received.</div>
+		<div class="h2 text-center">The product will be delivered in 2-3 business days.</div>
 
 		<img src="<c:url value="/resources/images/ThankYou.gif" />" alt="Thank You GIF" class="img-responsive center-block" />
 

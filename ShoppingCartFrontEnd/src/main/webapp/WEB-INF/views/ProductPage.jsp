@@ -9,35 +9,64 @@
 <body>
 	<div class="container">
 		<div class="well">
-			<table class="table">
+			<%-- <table class="table">
 				<tr>
 					<td><img width="400px" src="<c:url value="/resources/img/${selectedProduct.id}.jpeg" />" alt="${selectedProduct.name}" /></td>
-					<td>
+					<td><br />
+					<br />
 						<div class="h2">${selectedProduct.name}</div>
 						<div class="h3">Product description: ${selectedProduct.description}</div>
 						<div class="h4">Product category: ${selectedProduct.category_id}</div>
-						<div class="h4">Product seller: ${selectedProduct.supplier_id}</div>
-					</td>
+						<div class="h4">Product seller: ${selectedProduct.supplier_id}</div></td>
 					<td>
-						<div class="h2">${selectedProduct.price}</div> 
-						<c:if test="${isUserLoggedIn=='true'}">
+						<div class="h2">${selectedProduct.price}</div> <c:if test="${isUserLoggedIn=='true'}">
 							<a href="myCart-add/${selectedProduct.id}" class="btn btn-success">
 								Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
 							</a>
-						</c:if> 
-						<c:if test="${isAdmin=='true'}">
+						</c:if> <c:if test="${isAdmin=='true'}">
 							<a href="secure_logout" class="btn btn-success">
 								Login as user to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
 							</a>
-						</c:if> 
-						<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
+						</c:if> <c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
 							<a href="Login" class="btn btn-success">
 								Login to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
 							</a>
 						</c:if>
 					</td>
 				</tr>
-			</table>
+			</table> --%>
+
+			<div class="container">
+				<div class="col-md-4 col-sm-12">
+					<img class="img-responsive center-block" src="<c:url value="/resources/img/${selectedProduct.id}.jpeg" />" alt="${selectedProduct.name}" />
+				</div>
+				<div class="col-md-5 col-xs-7">
+					<div class="h2">${selectedProduct.name}</div>
+					<div class="h3">Product description: ${selectedProduct.description}</div>
+					<div class="h4">Product category: ${selectedProduct.category_id}</div>
+					<div class="h4">Product seller: ${selectedProduct.supplier_id}</div>
+				</div>
+				<div class="col-md-3 col-xs-5">
+					
+						<div class="h2">${selectedProduct.price}</div>
+						<c:if test="${isUserLoggedIn=='true'}">
+							<a href="myCart-add/${selectedProduct.id}" class="btn btn-success">
+								Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</a>
+						</c:if>
+						<c:if test="${isAdmin=='true'}">
+							<a href="secure_logout" class="btn btn-success">
+								Login as user to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</a>
+						</c:if>
+						<c:if test="${!isUserLoggedIn=='true' && !isAdmin =='true'}">
+							<a href="Login" class="btn btn-success">
+								Login to add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</a>
+						</c:if>
+				</div>
+			</div>
+
 		</div>
 	</div>
 </body>

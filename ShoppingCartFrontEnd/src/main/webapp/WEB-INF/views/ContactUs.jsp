@@ -25,7 +25,7 @@
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="contactContact"><i class="fa fa-mobile" aria-hidden="true"></i> Mobile:</label>
 				<div class="col-sm-10">
-					<input type="number" class="form-control" name="contactContact" id="contactContact" placeholder="Enter Mobile Number" pattern="[789][0-9]{9}" title="Mobile number should have 10 digits and should start with 7/8/9" required>
+					<input type="text" class="form-control" name="contactContact" id="contactContact" placeholder="Enter Mobile Number" pattern="[789][0-9]{9}" title="Mobile number should have 10 digits and should start with 7/8/9" required>
 				</div>
 			</div>
 			<div class="form-group">
