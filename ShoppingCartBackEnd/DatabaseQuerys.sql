@@ -16,14 +16,14 @@ create table user
 	password varchar2(40) not null,
 	contact varchar2(40) not null,
 	role varchar2(40) default "ROLE_USER" not null
-)
+);
 
 create table category
 (
 	id varchar2(20) primary key,
 	name varchar2(40) not null,
 	description varchar2(100) not null
-)
+);
 
 
 create table supplier
@@ -31,7 +31,7 @@ create table supplier
 	id varchar2(20) primary key,
 	name varchar2(40) not null,
 	description varchar2(100) not null
-)
+);
 
 create table product
 (
@@ -41,15 +41,15 @@ create table product
 	price number not null,
 	category_id varchar2(20) references TCategory(id) on delete cascade,
 	supplier_id varchar2(20) references TSupplier(id) on delete cascade,
-)
+);
 
 create table contact
 (
-id int primary key auto_increment, 
-name varchar2(40) not null,
-email varchar2(40) not null,
-contact varchar2(40) not null,
-message varchar2(255) not null,
-date_added date default sysdate(),
+	id int primary key auto_increment, 
+	name varchar2(40) not null,
+	email varchar2(40) not null,
+	contact varchar2(40) not null,
+	message varchar2(255) not null,
+	date_added date default sysdate()
 
-)
+);
