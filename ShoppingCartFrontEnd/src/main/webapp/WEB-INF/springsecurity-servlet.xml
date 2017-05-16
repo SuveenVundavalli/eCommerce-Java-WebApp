@@ -20,12 +20,8 @@ http://www.springframework.org/schema/security/spring-security-4.1.xsd">
 
     	<security:intercept-url pattern="/myCar**"
 			access="hasRole('ROLE_USER')" />
-    	<security:intercept-url pattern="/mycar**"
-			access="hasRole('ROLE_USER')" />
-    	<security:intercept-url pattern="/myC**"
-			access="hasRole('ROLE_USER')" />
 
-		<security:intercept-url pattern="/cart_checkout**"
+		<security:intercept-url pattern="/checkou**"
 			access="hasRole('ROLE_USER')" />
 <!--  intercept url Ending-->	
 			
