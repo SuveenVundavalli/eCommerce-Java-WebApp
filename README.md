@@ -10,7 +10,7 @@ Welcome to my github. I am Suveen.
  
  Admin - He will be able to add, delete, update any of the product, category, supplier and read, delete Contact Us requests by user.
  
- Customer -They will be able to browse all the products, perform cart operations ( add a product, remove or update their products ) and buy as well. Customer can also send a request for contact us with Name, Email, Mobile and message body.
+ Customer -They will be able to browse all the products, perform cart operations ( add a product, remove or update their products ) and buy as well. Customer can also send a request through contact us with Name, Email, Mobile and message body.
  
 ### Prerequisites
  - JDK 1.8
@@ -48,7 +48,6 @@ Example --
 ### Technologies used 
 - Spring framework
 - Hibernate ORM tool
-- Angular JS
 - Bootstrap 3
 - HTML 5
 - CSS 3
