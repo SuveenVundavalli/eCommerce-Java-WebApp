@@ -26,8 +26,6 @@
 							<img height="220px" width="250px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" />
 						</div>
 						<div class="panel-footer">
-							<%-- <h3>${product.description}</h3>
-          <hr /> --%>
 							<div class="row">
 								<div class="h3">
 									<i class="fa fa-inr" aria-hidden="true"></i> ${product.price}
@@ -62,29 +60,12 @@
 							</div>
 						</div>
 					</div>
-				</a>	
+				</a>
 			</div>
 		</c:forEach>
 	</div>
 
 
-	<%-- <div class="container">
-	<div class="h2">View All Products</div>
-	<hr>
-	<table>
-		<c:forEach var="product" items="${productList}">
-		<tr>
-			<td>
-				<img alt="${product.name}" width="25%" src="<c:url value="/resources/img/${product.id}.jpeg" />">
-			</td>
-			<td>
-				<a href="mycart/add/${product.id}">Add to Cart</a>
-			</td>
-		</tr>
-		</c:forEach>
-	</table>
-	
-</div> --%>
 
 </body>
 </html>

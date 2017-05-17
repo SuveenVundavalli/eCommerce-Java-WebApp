@@ -54,7 +54,6 @@ public class SpringSecurityController {
 	@Autowired
 	private My_Cart myCart;
 
-	// authentication-failure-forward-url="/loginError"
 	@RequestMapping(value = "/loginError", method = RequestMethod.GET)
 	public String loginError(Model model) {
 		log.debug("Starting of the method loginError");
@@ -65,7 +64,6 @@ public class SpringSecurityController {
 
 	}
 
-	// <security:access-denied-handler error-page="/accessDenied" />
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
 	public String accessDenied(Model model) {
 		log.debug("Starting of the method accessDenied");
@@ -76,7 +74,6 @@ public class SpringSecurityController {
 
 	}
 
-	// @RequestMapping(value = "validate", method = RequestMethod.GET)
 	@RequestMapping(value = "/checkRole", method = RequestMethod.GET)
 	public ModelAndView checkRole(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		log.debug("starting of the method validate");
@@ -120,14 +117,7 @@ public class SpringSecurityController {
 			int cartSize = cartDAO.list(loggedInUserID).size();
 			session.setAttribute("cartSize", cartSize);
 			mv.addObject("isUserAtHomePage", "true");
-			// Fetch the myCart list based on user ID
-			/*
-			 * List<MyCart> cartList = cartDAO.list(userID);
-			 * session.setAttribute("cartList", cartList);
-			 * session.setAttribute("cartSize", cartList.size());
-			 * session.setAttribute("totalAmount",
-			 * cartDAO.getTotalAmount(userID));
-			 */
+			
 
 		}
 		log.debug("Ending of the method validate");
@@ -136,16 +126,12 @@ public class SpringSecurityController {
 
 	@RequestMapping("/secure_logout")
 	public ModelAndView secureLogout() {
-		// what you attach to session at the time login need to remove.
-
-		// session.removeAttribute("loggedInUserID");
+		
 		session.invalidate();
 
 		ModelAndView mv = new ModelAndView("redirect:/Login");
 
-		// After logout also use should able to browse the categories and
-		// products
-		// as we invalidated the session, need to load these data again.
+		
 
 		session.setAttribute("category", category); // domain object names
 		session.setAttribute("product", product);
@@ -156,11 +142,6 @@ public class SpringSecurityController {
 		session.setAttribute("supplierList", supplierDAO.list());
 
 		session.setAttribute("productList", productDAO.list());
-
-		// OR Simpley remove only one attribute from the session.
-
-		// session.removeAttribute("loggedInUser"); // you no need to load
-		// categoriees,suppliers and products
 
 		return mv;
 

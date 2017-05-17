@@ -57,9 +57,7 @@ public class ProductController {
 
 	// Setting Path to store images
 	private String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
-	// private String path =
-	// "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";
-
+	
 	// Add or Update Product
 	@PostMapping("/manage-product-add")
 	public String addPorduct(@ModelAttribute("product") Product product, @RequestParam("image") MultipartFile file,

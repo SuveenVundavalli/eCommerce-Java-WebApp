@@ -51,11 +51,7 @@ public class UserController {
 	SupplierDAO supplierDAO;
 	@Autowired
 	Supplier supplier;
-	// Get the user id and password from login page
-	// Send these values to userDao.validate
-	// based on response, you can navigate to either login.jsp or home.jsp
-
-	// Whenever we configure spring security - we can remove this method
+	
 
 	@RequestMapping("/validate")
 	public ModelAndView login(@RequestParam("id") String id, @RequestParam("password") String password) {

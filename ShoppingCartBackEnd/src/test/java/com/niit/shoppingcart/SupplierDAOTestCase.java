@@ -19,64 +19,50 @@ public class SupplierDAOTestCase {
 	static SupplierDAO supplierDAO;
 	@Autowired
 	static Supplier supplier;
-	
+
 	@BeforeClass
-	public static void initialize()
-	{
+	public static void initialize() {
 		context = new AnnotationConfigApplicationContext();
 		context.scan("com.niit");
 		context.refresh();
-		
-		//get the categoryDAO from context
-		supplierDAO =  (SupplierDAO) context.getBean("supplierDAO");
-		
-		//get the category from context
-		
-		supplier = (Supplier)context.getBean("supplier");
-		
+
+		// get the categoryDAO from context
+		supplierDAO = (SupplierDAO) context.getBean("supplierDAO");
+
+		// get the category from context
+
+		supplier = (Supplier) context.getBean("supplier");
+
 	}
-	
+
 	@Test
-	public void createSupplierTestCase()
-	{
+	public void createSupplierTestCase() {
 		supplier.setId("BigC");
 		supplier.setName("Sangeetha Mobiles");
 		supplier.setDescription("Large Collection of Mobiles");
-		
-		boolean flag =  supplierDAO.save(supplier);
-		
-	
 
-		//error - if there is in runtime errors  -  Red mark
-		//success  - if expected and actual is same  - green mark
-		//fail  - if expected and actual is different  -  blue mark
-		assertEquals("createSupplierTestCase",true,flag);
-		
+		boolean flag = supplierDAO.save(supplier);
+
+		assertEquals("createSupplierTestCase", true, flag);
+
 	}
+
 	@Test
-	public void updateSupplierTestCase()
-	{
+	public void updateSupplierTestCase() {
 		supplier.setId("BigC");
 		supplier.setName("BigC Mobiles");
 		supplier.setDescription("Large Collection of Mobiles");
-		
-		boolean flag =  supplierDAO.update(supplier);
-		
-		
-		
-		//error - if there is in runtime errors  -  Red mark
-		//success  - if expected and actual is same  - green mark
-		//fail  - if expected and actual is different  -  blue mark
-		assertEquals("updateSupplierTestCase",true,flag);
-		
+
+		boolean flag = supplierDAO.update(supplier);
+
+		assertEquals("updateSupplierTestCase", true, flag);
+
 	}
-	
+
 	@Test
-	public void listAllSupplierTestCase()
-	{
+	public void listAllSupplierTestCase() {
 		int actualSize = supplierDAO.list().size();
 		assertEquals(6, actualSize);
-	} 
-	
-	
+	}
+
 }

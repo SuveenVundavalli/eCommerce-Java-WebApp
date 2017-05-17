@@ -27,20 +27,14 @@
 							<img height="220px" width="250px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" />
 						</div>
 						<div class="panel-footer">
-							<%-- <h3>${product.description}</h3>
-	          <hr /> --%>
-							<div class="row">
+													<div class="row">
 								<div class="h3">
 									<i class="fa fa-inr" aria-hidden="true"></i> ${product.price}
 								</div>
 							</div>
 							<div class="row">
 								<div>
-									<%-- <a href="myCart-add/${product.id}" class="btn btn-success">
-										Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
-									</a> --%>
 									
-									<!-- Adding if condition -->
 									
 									<c:if test="${isUserLoggedIn=='true'}"> 
 										<a href="myCart-add/${product.id}" class="btn btn-success">Add to cart <i class="fa fa-cart-plus" aria-hidden="true"></i>

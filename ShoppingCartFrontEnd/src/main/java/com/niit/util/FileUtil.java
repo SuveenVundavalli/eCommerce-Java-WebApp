@@ -28,10 +28,9 @@ public class FileUtil {
 				// Creating the directory to store file
 				File dir = new File(path);
 				if (!dir.exists())
-					dir.mkdirs(); // Make/create directory
+					dir.mkdirs();
 
-				// Create the file on server
-				// D:\\ShoppingCart\\Images\\fileName.jpg
+				
 				File serverFile = new File(dir.getAbsolutePath() + File.separator + fileName);
 
 				BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(serverFile));
@@ -57,7 +56,6 @@ public class FileUtil {
 		try {
 			Files.copy(sourcePath, destinationPath);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 

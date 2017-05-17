@@ -31,11 +31,7 @@ public class UserDAOImpl implements UserDAO {
 		this.sessionFactory = sessionFactory;
 	}
 	
-	/**
-	 * This save method create record in the User table.
-	 * If the record is created successfully, it will return true
-	 * else will return false
-	 */
+	
 
 	public boolean save(User user) {
 		try
@@ -49,11 +45,7 @@ public class UserDAOImpl implements UserDAO {
 		}
 		return true;
 	}
-	/**
-	 * This update method update record in the User table.
-	 * If the record is updated successfully, it will return true
-	 * else will return false
-	 */
+	
 	public boolean update(User user) {
 		try
 		{
@@ -66,19 +58,14 @@ public class UserDAOImpl implements UserDAO {
 		return true;
 	}
 
-	/**
-	 * validate method will return true if the credetails are correct
-	 * else will return false
-	 */
+	
 	public boolean validate(String id, String password) {
 		
 		
 	Query query=	 sessionFactory.getCurrentSession().createQuery(" from User where id = ? and password = ?");
 	query.setString(0, id);     //actually the index will start from zero  - will get once exception.
 	query.setString(1, password);
-	//in the User table with this id and password there will one or zero records will exist
-	//i.e., uniqueResult
-	//uniqueResult method will return object if a row exist, else it will return null
+	
 	 if(  query.uniqueResult()  == null)
 	 {
 		 //means no row exist i.e., invalid credentials
@@ -100,9 +87,7 @@ public class UserDAOImpl implements UserDAO {
 
 	public User get(String id) {
 		
-		//get method get the date from user table based on primary key i.e., id
-		// and set it to User class
-		//like select * from user where id = ?
+		
 	  return 	(User)  sessionFactory.getCurrentSession().get(User.class, id);
 		
 	}

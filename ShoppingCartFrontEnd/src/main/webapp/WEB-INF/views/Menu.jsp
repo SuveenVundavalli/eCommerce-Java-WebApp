@@ -6,9 +6,7 @@
 <title>Bootstrap Case</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top" id="my-navbar">
@@ -64,19 +62,6 @@
 
 							</ul></li>
 					</c:forEach>
-
-					<%-- Toggle Product--%>
-					<%-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">
-							All Products <span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu scrollable-menu">
-
-							<c:forEach var="product" items="${productList}">
-								<li><a href="#">${product.name}</a></li>
-
-							</c:forEach>
-						</ul></li> --%>
-					<%----%>
 
 					<li><a href="ContactUs"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Contact Us </a></li>
 

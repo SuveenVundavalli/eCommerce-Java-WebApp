@@ -39,7 +39,6 @@ public class My_CartDAOTestCase {
 		my_CartDAO =  (My_CartDAO) context.getBean("my_CartDAO");
 		
 		//get the category from context
-		
 		my_Cart = (My_Cart)context.getBean("my_Cart");
 		
 	}

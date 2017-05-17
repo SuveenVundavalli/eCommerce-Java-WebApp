@@ -24,13 +24,7 @@
 					<input type="password" class="form-control" name="password" id="password" placeholder="Enter password" pattern=".{5,15}" title="Password must have 5 to 15 characters" required>
 				</div>
 			</div>
-			<!-- <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-      </div>
-    </div> -->
+			
 			<div class="form-group">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 				<div class="col-sm-offset-2 col-sm-10">

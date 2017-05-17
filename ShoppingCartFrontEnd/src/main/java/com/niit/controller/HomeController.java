@@ -77,33 +77,13 @@ public class HomeController {
 		session.setAttribute("productList", productList);
 		session.setAttribute("product", product);
 
-		/*String loggedInUserID = (String) session.getAttribute("loggedInUserID");
-
-		if (loggedInUserID != null) {
-			int cartSize = myCartDAO.list(loggedInUserID).size();
-
-			if (cartSize == 0) {
-				session.setAttribute("errorMessage", "You do not have any products in your cart!");
-			} else {
-				session.setAttribute("cart", myCart);
-				session.setAttribute("cartList", myCartDAO.list(loggedInUserID));
-				session.setAttribute("isUserClickedCart", "true");
-				session.setAttribute("totalAmount", myCartDAO.getTotalAmount(loggedInUserID));
-				long totalAmount = (long) myCartDAO.getTotalAmount(loggedInUserID);
-				session.setAttribute("totalAmount", totalAmount);
-				session.setAttribute("cartSize", cartSize);
-			}
-
-		}
-*/
 		// get products
 		List<Supplier> supplierList = supplierDAO.list();
 
 		// attach supplier to session
 		session.setAttribute("supplierList", supplierList);
 		session.setAttribute("supplier", supplier);
-		//session.setAttribute("isUserLoggedIn", "false");
-		//session.setAttribute("isAdmin", "false");
+		
 
 		return mv;
 		// return "Home";
@@ -116,9 +96,7 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("message", "Thank you for visiting Shopping Cart! <br>");
 		mv.addObject("isUserAtHomePage", "true");
-		// model.addAttribute("message", "Thank you for visiting Shopping Cart!
-		// <br>");
-
+		
 		// get all categories
 		List<Category> categoryList = categoryDAO.list();
 

@@ -10,7 +10,6 @@ import javax.persistence.OneToMany;
 import org.springframework.stereotype.Component;
 
 @Entity
-//@Table(name = "CATEGORY")
 @Component
 public class Category {
 	@Id
@@ -18,16 +17,11 @@ public class Category {
 	private String name;
 	private String description;
 
-	// If the relation is one-to-many we need to use the following
 
 	@OneToMany(mappedBy = "category", fetch = FetchType.EAGER)
 	private Set<Product> products;
 
-	/*
-	 * Each category may have n number of products. We use Set instead of List
-	 * because Set does not have duplicates.
-	 */
-
+	
 	public Set<Product> getProducts() {
 		return products;
 	}

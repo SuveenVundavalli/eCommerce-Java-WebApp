@@ -35,7 +35,6 @@
 					<tr>
 						<td>${cart.product_name}</td>
 						<td><fmt:formatDate pattern="dd/MM/yyyy" value="${cart.date_added}" /></td>
-<%-- 						<td>${cart.date_added}</td> --%>
 						<td>${cart.price}</td>
 						<td><a href="myCart-delete/${cart.id}" class="btn btn-danger">Delete</a></td>
 					</tr>

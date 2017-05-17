@@ -12,90 +12,65 @@ import com.niit.shoppingcart.domain.User;
 
 public class UserDAOTestCase {
 
-	
-	@Autowired static AnnotationConfigApplicationContext context;
-	
-	@Autowired  static UserDAO  userDAO;
-	
-	@Autowired  static User user;
-	
-	
-	//The above objects need to initialize
-	/**
-	 * This method is going execute before calling any one of test case
-	 * and will execute only once
-	 */
+	@Autowired
+	static AnnotationConfigApplicationContext context;
+
+	@Autowired
+	static UserDAO userDAO;
+
+	@Autowired
+	static User user;
+
 	@BeforeClass
-	public static void initialize()
-	{
+	public static void initialize() {
 		context = new AnnotationConfigApplicationContext();
 		context.scan("com.niit");
 		context.refresh();
-		
-		//get the userDAO from context
-		userDAO =  (UserDAO) context.getBean("userDAO");
-		
-		//get the user from context
-		
-		user = (User)context.getBean("user");
-		
+
+		userDAO = (UserDAO) context.getBean("userDAO");
+
+		user = (User) context.getBean("user");
+
 	}
-	
+
 	@Test
-	public void createUserTestCase()
-	{
+	public void createUserTestCase() {
 		user.setId("s");
 		user.setName("s");
 		user.setPassword("s");
 		user.setRole("ROLE_USER");
 		user.setContact("8686");
-		boolean flag =  userDAO.save(user);
-		
-	
+		boolean flag = userDAO.save(user);
 
-		//error - if there is in runtime errors  -  Red mark
-		//success  - if expected and actual is same  - green mark
-		//fail  - if expected and actual is different  -  blue mark
-		assertEquals("createUserTestCase",true,flag);
-		
+		assertEquals("createUserTestCase", true, flag);
+
 	}
-	
+
 	@Test
-	public void updateUserTestCase()
-	{
+	public void updateUserTestCase() {
 		user.setId("Rakesh");
 		user.setName("Rakesh");
 		user.setPassword("Rakesh");
 		user.setRole("ROLE_USER");
 		user.setContact("8099748101");
-		boolean flag =  userDAO.update(user);
-		
-	
+		boolean flag = userDAO.update(user);
 
-		//error - if there is in runtime errors  -  Red mark
-		//success  - if expected and actual is same  - green mark
-		//fail  - if expected and actual is different  -  blue mark
-		assertEquals("updateUserTestCase",true,flag);
-		
+		assertEquals("updateUserTestCase", true, flag);
+
 	}
-	
+
 	@Test
-	public void validateUserTestCase()
-	{
-		
-		boolean flag =  userDAO.validate("Rakesh", "Rakesh");	
-		assertEquals(true,flag);
-		
+	public void validateUserTestCase() {
+
+		boolean flag = userDAO.validate("Rakesh", "Rakesh");
+		assertEquals(true, flag);
+
 	}
-	
+
 	@Test
-	public void listAllUserTestCase()
-	{
-		int actualSize =userDAO.list().size();
+	public void listAllUserTestCase() {
+		int actualSize = userDAO.list().size();
 		assertEquals(5, actualSize);
 	}
-	
-	
-	
-	
+
 }

@@ -8,17 +8,16 @@ import javax.persistence.Table;
 import org.springframework.stereotype.Component;
 
 
-//Need to create singleton instance of this class
+
 @Entity 
-//to map the database table
 @Table(name="User")
-@Component // context.scan("com.niit") will scan the package and create singleton instance
+@Component 
 public class User {
 	
 	@Id
 	private String id;
 	
-	@Column(name="name") //if the field name in table and property name in class are different, then we require specify column name otherwise no need specify
+	@Column(name="name") 
 	private String name;
 
 	private String password;

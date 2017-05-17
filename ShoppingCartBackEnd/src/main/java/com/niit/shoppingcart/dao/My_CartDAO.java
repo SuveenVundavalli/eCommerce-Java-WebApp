@@ -19,10 +19,5 @@ public interface My_CartDAO {
 	public double getTotalAmount(String userID);
 	
 	public My_Cart getCartById(int id);
-	
-	//no. of products also should display in UI
-	//This we can get from list().size()
-
-	//public My_Cart get(String id);
 
 }

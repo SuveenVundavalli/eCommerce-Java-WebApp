@@ -65,9 +65,7 @@ public class CategoryDAOImpl implements CategoryDAO{
 
 	public Category getCategoryById(String id) {
 		
-		//get method get the date from user table based on primary key i.e., id
-		// and set it to Category class
-		//like select * from category where id = ?
+		
 	  return 	(Category)  sessionFactory.getCurrentSession().get(Category.class, id);
 		
 	}
@@ -75,16 +73,9 @@ public class CategoryDAOImpl implements CategoryDAO{
 	
 	public Category getCategoryByName(String name) {
 		
-		//Since name is not a primary key, we cannot use the procedure used in getCategoryById(id).
-		//We write query as follow.
+		
 		return 	(Category)  sessionFactory.getCurrentSession().createQuery("from Category where name = ?").setString(0, name).uniqueResult();
-		/*
-		 * return 	(Category)  sessionFactory.getCurrentSession().createQuery("from Category where name = ?").setString(0, name).uniqueResult(); is same as
-		 * 
-		 * Query query = getCurrentSession().createQuery("from Category where name = ?");
-		 * query.setString(0,name);
-		 * query.uniqueResult();
-		 */
+		
 		
 		
 	}

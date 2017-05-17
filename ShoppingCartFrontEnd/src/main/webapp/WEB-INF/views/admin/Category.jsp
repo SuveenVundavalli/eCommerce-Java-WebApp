@@ -14,65 +14,6 @@
 	<div class="container">
 		<div class="h2">Manage Categories</div>
 
-		<!-- Add Category -->
-		<%-- <div id="CreateCategory">
-			<form class="form-horizontal" action="manage_category_add">
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cId">Customer Id:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cId" placeholder="Enter Customer Id" name="cId" required>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cName">Customer Name:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cName" placeholder="Enter Customer Name" name="cName" required>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cDescription">Customer Description:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cDescription" placeholder="Enter Customer Description" name="cDescription" required>
-					</div>
-				</div>
-
-				<div class="form-group">
-					<div class="col-sm-offset-3 col-sm-9">
-						<button type="submit" class="btn btn-success">Create Category</button>
-					</div>
-				</div>
-			</form>
-		</div>
-
-		<div id="UpdateCategory">
-			<form class="form-horizontal" action="manage_category_update" method="post">
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cId">Customer Id:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cId" placeholder="Enter Customer Id" name="cId" value="${selectedCategory.id}" required>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cName">Customer Name:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cName" placeholder="Enter Customer Name" name="cName" value="${selectedCategory.name}" required>
-					</div>
-				</div>
-				<div class="form-group">
-					<label class="control-label col-sm-3" for="cDescription">Customer Description:</label>
-					<div class="col-sm-9">
-						<input type="text" class="form-control" id="cDescription" placeholder="Enter Customer Description" name="cDescription" value="${selectedCategory.description}" required>
-					</div>
-				</div>
-
-				<div class="form-group">
-					<div class="col-sm-offset-3 col-sm-9">
-						<button type="submit" class="btn btn-info">Update Category</button>
-					</div>
-				</div>
-			</form>
-		</div> --%>
-
 		<!-- isAdminClickedManageCategoryEdit -->
 		<!-- Update Category -->
 		<c:if test="${isAdminClickedManageCategoryEdit=='true'}">
