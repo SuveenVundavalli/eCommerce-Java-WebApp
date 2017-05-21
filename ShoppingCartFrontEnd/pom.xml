@@ -9,8 +9,6 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<!-- <spring-version>4.3.7.RELEASE</spring-version> <dependency> <groupId>org.springframework</groupId> 
-			<artifactId>spring-core</artifactId> <version>4.3.8.RELEASE</version> </dependency> -->
 		<spring-version>4.3.3.RELEASE</spring-version>
 		<spring-security-version>4.1.4.RELEASE</spring-security-version>
 		<servlet-version>3.1.0</servlet-version>

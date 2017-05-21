@@ -1,5 +1,7 @@
 package com.niit.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +19,11 @@ import com.niit.shoppingcart.domain.Contact;
 @Controller
 public class ContactUsController {
 	
-	private static Logger log = LoggerFactory.getLogger(UserController.class);
+	private static Logger log = LoggerFactory.getLogger(ContactUsController.class);
 
 	@Autowired Contact contact;
 	@Autowired ContactDAO contactDAO;
+	@Autowired HttpSession session;
 	
 	
 	//@RequestMapping(value="saveContact", method=RequestMethod.POST)
@@ -36,10 +39,11 @@ public class ContactUsController {
 		
 		if(contactDAO.save(contact)==true){
 			log.debug("Contact request submitted successfully.");
-			mv.addObject("message", "Thank you for contacting us Mr./ Ms "+name+". We will get back to you ASAP.");
+			mv.addObject("message", "Thank you for contacting us Mr./ Ms "+name+". We will get back to you ASAP. ");
+			session.setAttribute("successMessage", "Thank you for contacting us Mr./ Ms "+name+". We will get back to you ASAP. ");
 		}
 		else {
-			mv.addObject("message", "Error submitting contact request. Please try again");
+			mv.addObject("message", "Error submitting contact request. Please try again. ");
 		}
 		return mv;
 	}
@@ -55,9 +59,11 @@ public class ContactUsController {
 			ModelAndView mv = new ModelAndView("redirect:/manageContactUs");
 			
 			if (contactDAO.delete(id) == true) {
-				mv.addObject("contactUsMessage", "Successfullly deleted");
+				mv.addObject("successMessage", "Successfullly deleted. ");
+				session.setAttribute("successMessage", "Successfullly deleted. ");
 			} else {
-				mv.addObject("contactUsMessage", "Failed to delete");
+				mv.addObject("errorMessage", "Failed to delete. ");
+				session.setAttribute("errorMessage", "Failed to delete. ");
 			}
 			log.debug("Ending of delete Contact Us Message");
 

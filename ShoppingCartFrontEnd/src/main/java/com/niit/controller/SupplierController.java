@@ -52,11 +52,13 @@ public class SupplierController {
 		session.setAttribute("isUserLoggedIn", "false");
 
 		if (supplierDAO.getSupplierById(id) != null) {
-			mv.addObject("sMessage", "Supplier already exists with id : " + id);
+			mv.addObject("errorMessage", "Supplier already exists with id : " + id);
+			session.setAttribute("errorMessage", "Supplier already exists with id : " + id);
 			return mv;
 		} else {
 			supplierDAO.save(supplier);
-			mv.addObject("sMessage", "Supplier creation success with id : " + id);
+			mv.addObject("successMessage", "Supplier creation success with id : " + id);
+			session.setAttribute("successMessage", "Supplier creation success with id : " + id);
 
 		}
 
@@ -82,13 +84,15 @@ public class SupplierController {
 		int noOfProducts = productDAO.getAllProductsBySupplierId(id).size();
 		if (noOfProducts != 0) {
 			log.debug("Few products are there by this seller, you cannot delete!");
-			session.setAttribute("supplierMessage", "There are " + noOfProducts + " products under this " + id + " seller, you cannot delete!");
+			session.setAttribute("errorMessage", "There are " + noOfProducts + " products under this " + id + " seller, you cannot delete!");
 			return mv;
 		}
 		if (supplierDAO.delete(id) == true) {
-			mv.addObject("message", "Successfullly deleted");
+			mv.addObject("successMessage", "Successfullly deleted. ");
+			session.setAttribute("successMessage", "Successfullly deleted. ");
 		} else {
-			mv.addObject("message", "Failed to delete");
+			mv.addObject("errorMessage", "Failed to delete. ");
+			session.setAttribute("errorMessage", "Failed to delete. ");
 		}
 		log.debug("Ending of delete Supplier");
 
@@ -127,11 +131,13 @@ public class SupplierController {
 		mv.addObject("isAdmin", "true");
 
 		if (supplierDAO.getSupplierById(id) == null) {
-			mv.addObject("cMessage", "Supplier does not exists with id : " + id);
+			mv.addObject("errorMessage", "Supplier does not exists with id : " + id);
+			session.setAttribute("errorMessage", "Supplier does not exists with id : " + id);
 			return mv;
 		} else {
 			supplierDAO.update(supplier);
-			mv.addObject("cMessage", "Supplier updated success with id : " + id);
+			mv.addObject("successMessage", "Supplier updated success with id : " + id);
+			session.setAttribute("successMessage", "Supplier updated success with id : " + id);
 
 		}
 

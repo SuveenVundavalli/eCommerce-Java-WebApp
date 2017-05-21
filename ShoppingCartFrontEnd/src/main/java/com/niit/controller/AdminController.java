@@ -15,10 +15,12 @@ import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.ContactDAO;
 import com.niit.shoppingcart.dao.ProductDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
+import com.niit.shoppingcart.dao.UserDAO;
 import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.Contact;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
+import com.niit.shoppingcart.domain.User;
 
 @Controller
 public class AdminController {
@@ -31,6 +33,8 @@ public class AdminController {
 	@Autowired ProductDAO productDAO;
 	@Autowired Contact contact;
 	@Autowired ContactDAO contactDAO;
+	@Autowired User user;
+	@Autowired UserDAO userDAO;
 	
 	//Logger Statements
 	//SLF4J - Simple Logging Facade for Java
@@ -65,27 +69,19 @@ public class AdminController {
 
 		return mv;
 	}
-
 	
-	
-	/*@RequestMapping("/manageProducts")
-	public String manageProducts(Model model) {
-		log.debug("Starting of the method manageProducts");
-		model.addAttribute("isAdminClickedProducts", "true");
-		model.addAttribute("isAdmin", "true");
-		model.addAttribute("product", product);
-		model.addAttribute("productList", productDAO.list());
-		model.addAttribute("supplier", supplier);
-		model.addAttribute("supplierList", supplierDAO.list());
-		model.addAttribute("category", category);
-		model.addAttribute("categoryList", categoryDAO.list());
-		log.debug("Ending of the method manageProducts");
-		return "Home";
-	}*/
-
-	
-	
-	
+	@RequestMapping("/manageUsers")
+	public ModelAndView manageUsers() {
+		log.debug("Starting of the method manageUsers");
+		ModelAndView mv = new ModelAndView("Home");
+		mv.addObject("isAdminClickedUsers", "true");
+		mv.addObject("isAdmin", "true");
+		session.setAttribute("userList", userDAO.list());
+		session.setAttribute("user", user);
+		log.debug("Ending of the method manageUsers");
+		
+		return mv;
+	}
 	@RequestMapping("/manageContactUs")
 	public ModelAndView manageContactUs() {
 		log.debug("Starting of the method manageContactUs");

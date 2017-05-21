@@ -19,10 +19,12 @@ import com.niit.shoppingcart.dao.CategoryDAO;
 import com.niit.shoppingcart.dao.My_CartDAO;
 import com.niit.shoppingcart.dao.ProductDAO;
 import com.niit.shoppingcart.dao.SupplierDAO;
+import com.niit.shoppingcart.dao.UserDAO;
 import com.niit.shoppingcart.domain.Category;
 import com.niit.shoppingcart.domain.My_Cart;
 import com.niit.shoppingcart.domain.Product;
 import com.niit.shoppingcart.domain.Supplier;
+import com.niit.shoppingcart.domain.User;
 
 @Controller
 public class SpringSecurityController {
@@ -53,12 +55,17 @@ public class SpringSecurityController {
 
 	@Autowired
 	private My_Cart myCart;
+	
+	@Autowired
+	private User user;
+	
+	@Autowired
+	private UserDAO userDAO;
 
 	@RequestMapping(value = "/loginError", method = RequestMethod.GET)
 	public String loginError(Model model) {
 		log.debug("Starting of the method loginError");
-		session.setAttribute("errorLoginMessage", "Invalid Credentials.  Please try again.");
-		// model.addAttribute("invalidCredentials", "true");
+		session.setAttribute("errorLoginMessage", "Invalid Credentials.  Please try again. ");
 		log.debug("Ending of the method loginError");
 		return "redirect:/Login";
 
@@ -67,7 +74,7 @@ public class SpringSecurityController {
 	@RequestMapping(value = "/accessDenied", method = RequestMethod.GET)
 	public String accessDenied(Model model) {
 		log.debug("Starting of the method accessDenied");
-		model.addAttribute("errorMessage", "You are not authorized to access this page");
+		model.addAttribute("errorMessage", "You are not authorized to access this page. ");
 
 		log.debug("Ending of the method accessDenied");
 		return "Home";
@@ -89,13 +96,16 @@ public class SpringSecurityController {
 		
 		mv.addObject("productList", productDAO.list());
 		mv.addObject("product", product);
+		mv.addObject("userList", userDAO.list());
+		mv.addObject("user", user);
 		//mv.addObject("isUserAtHomePage", "true");
 		
 		
 		String userID = auth.getName();
 		session.setAttribute("loggedInUser", userID);
 		session.setAttribute("loggedInUserID", userID);
-
+		mv.addObject("successMessage","Welcome "+userID+". ");
+		session.setAttribute("successMessage","Welcome "+userID+". ");
 		if (request.isUserInRole("ROLE_ADMIN")) {
 			log.debug("You are admin");
 			mv.addObject("isAdmin", "true");

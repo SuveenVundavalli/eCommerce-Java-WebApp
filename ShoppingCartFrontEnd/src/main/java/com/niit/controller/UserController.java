@@ -63,7 +63,7 @@ public class UserController {
 		if (userDAO.validate(id, password) == true) {
 			log.debug("Valid credentials");
 			user = userDAO.get(id);
-			mv.addObject("message", "Welcome " + user.getName() + "!");
+			mv.addObject("message", "Welcome " + user.getName() + "! ");
 
 			mv.addObject("categoryList", categoryDAO.list());
 			mv.addObject("category", categoryDAO);

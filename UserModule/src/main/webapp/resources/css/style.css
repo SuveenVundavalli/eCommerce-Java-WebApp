@@ -1,0 +1,28 @@
+body {
+	margin-bottom: 100px;
+}
+
+.noStyle>a {
+	color: inherit;
+	text-decoration: none;
+	padding: 10px;
+	/* 	border-right: 1px solid #f0ad4e */
+}
+
+.noStyle>a:hover {
+	color: white;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE4JzegESSJMkjzV3rg3BEzHWzoITW96xbfoWNmLzFfDLX7ui5jw');
+
+    /* Full height */
+    height: 1048px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

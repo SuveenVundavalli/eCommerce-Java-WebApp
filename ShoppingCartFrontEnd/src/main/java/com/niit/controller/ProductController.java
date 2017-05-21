@@ -123,9 +123,11 @@ public class ProductController {
 		log.debug("Starting of the method deleteProduct");
 		try {
 			productDAO.delete(id);
-			model.addAttribute("message", "Successfully deleted");
+			model.addAttribute("successMessage", "Successfully deleted. ");
+			session.setAttribute("successMessage", "Successfully deleted. ");
 		} catch (Exception e) {
-			model.addAttribute("message", e.getMessage());
+			model.addAttribute("errorMessage", e.getMessage());
+			session.setAttribute("errorMessage", e.getMessage());
 			e.printStackTrace();
 		}
 		log.debug("ending of method deleteProduct");

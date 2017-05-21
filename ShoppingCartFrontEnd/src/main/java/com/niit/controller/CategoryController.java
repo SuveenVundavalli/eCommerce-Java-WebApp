@@ -55,11 +55,11 @@ public class CategoryController {
 		mv.addObject("isAdmin", "true");
 
 		if (categoryDAO.getCategoryById(id) != null) {
-			mv.addObject("cMessage", "Category already exists with id : " + id);
+			mv.addObject("errorMessage", "Category already exists with id : " + id);
 			return mv;
 		} else {
 			categoryDAO.save(category);
-			mv.addObject("cMessage", "Category creation success with id : " + id);
+			mv.addObject("successMessage", "Category creation success with id : " + id);
 
 		}
 
@@ -90,15 +90,17 @@ public class CategoryController {
 		int noOfProducts = productDAO.getAllProductsByCategoryId(id).size();
 		if(noOfProducts != 0){
 			log.debug("Few products are there under this category, you cannot delete!");
-			session.setAttribute("categoryMessage", "There are "+noOfProducts+" products under this "+id+" category, you cannot delete!");
+			session.setAttribute("errorMessage", "There are "+noOfProducts+" products under this "+id+" category, you cannot delete! ");
 			return mv;
 		}
 		
 		
 		if (categoryDAO.delete(id) == true) {
-			mv.addObject("categoryMessage", "Successfullly deleted");
+			mv.addObject("successMessage", "Successfullly deleted. ");
+			session.setAttribute("successMessage", "Successfullly deleted. ");
 		} else {
-			mv.addObject("categoryMessage", "Failed to delete");
+			mv.addObject("errorMessage", "Failed to delete. ");
+			session.setAttribute("errorMessage", "Failed to delete. ");
 		}
 		log.debug("Ending of delete Category");
 		
@@ -141,17 +143,15 @@ public class CategoryController {
 		mv.addObject("isAdmin", "true");
 
 		if (categoryDAO.getCategoryById(id) == null) {
-			mv.addObject("cMessage", "Category does not exists with id : " + id);
+			mv.addObject("errorMessage", "Category does not exists with id : " + id+". ");
+			session.setAttribute("errorMessage", "Category does not exists with id : " + id+". ");
 			return mv;
 		} else {
 			categoryDAO.update(category);
-			mv.addObject("cMessage", "Category updated success with id : " + id);
+			mv.addObject("successMessage", "Category updated success with id : " + id+". ");
+			session.setAttribute("successMessage", "Category updated success with id : " + id+". ");
 
 		}
-		//session.setAttribute("selectedCategory", newCategory());
-		// Before calling save method, check whether category_id already exists
-		// in db
-		// if it does not exist, then only call save method.
 		
 		session.setAttribute("isAdminClickedManageCategoryEdit", "false");
 		log.debug("Ending of updateCategory");

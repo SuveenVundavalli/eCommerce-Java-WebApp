@@ -15,7 +15,7 @@ create table user
 	name varchar2(40) not null,
 	password varchar2(40) not null,
 	contact varchar2(40) not null,
-	role varchar2(40) default "ROLE_USER" not null
+	role varchar2(40) default 'ROLE_USER' not null
 );
 
 create table category

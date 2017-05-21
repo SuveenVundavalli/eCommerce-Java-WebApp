@@ -13,6 +13,7 @@
 					<li><a href="manageCategories"><i class="fa fa-cog"></i> Manage Categories</a></li>
 					<li><a href="manageSuppliers"><i class="fa fa-cog"></i> Manage Suppliers</a></li>
 					<li><a href="manageProducts"><i class="fa fa-cog"></i> Manage Products</a></li>
+					<li><a href="manageUsers"><i class="fa fa-cog"></i> Manage Users</a></li>
 					<li><a href="manageContactUs"><i class="fa fa-cog"></i> Manage Contact Us</a></li>
 				</ul>
 			</div>

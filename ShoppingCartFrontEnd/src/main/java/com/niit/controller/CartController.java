@@ -48,7 +48,7 @@ public class CartController {
 			int cartSize = myCartDAO.list(loggedInUserID).size();
 
 			if (cartSize == 0) {
-				model.addAttribute("errorMessage", "You do not have any products in your cart!");
+				model.addAttribute("errorMessage", "You do not have any products in your cart! ");
 			} else {
 				model.addAttribute("cart", myCart);
 				model.addAttribute("cartList", myCartDAO.list(loggedInUserID));
@@ -89,8 +89,8 @@ public class CartController {
 
 		// This way it will redirect to Home.jsp
 		ModelAndView mv = new ModelAndView("redirect:/Home");
-		mv.addObject("successMessage", "Successfully added product to your cart");
-		session.setAttribute("successMessage", "Successfully added product to your cart");
+		mv.addObject("successMessage", "Successfully added product to your cart. ");
+		session.setAttribute("successMessage", "Successfully added product to your cart. ");
 		int cartSize = myCartDAO.list(loggedInUserID).size();
 		session.setAttribute("cartSize", cartSize);
 
@@ -107,9 +107,9 @@ public class CartController {
 		// Check whether products are there for this category or not
 
 		if (myCartDAO.delete(id) == true) {
-			mv.addObject("cartMessage", "Successfullly deleted from cart");
+			mv.addObject("cartMessage", "Successfullly deleted from cart. ");
 		} else {
-			mv.addObject("cartMessage", "Failed to delete from cart");
+			mv.addObject("cartMessage", "Failed to delete from cart. ");
 		}
 		
 		String loggedInUserID = (String) session.getAttribute("loggedInUserID");
@@ -129,16 +129,16 @@ public class CartController {
 		// Check whether products are there for this category or not
 
 		if (myCartDAO.deleteAllProductsInCart(id) == true) {
-			mv.addObject("cartMessage", "Successfully deleted cart");
+			mv.addObject("cartMessage", "Successfully deleted cart. ");
 			String loggedInUserID = (String) session.getAttribute("loggedInUserID");
 
 			int cartSize = myCartDAO.list(loggedInUserID).size();
 			session.setAttribute("cartSize", cartSize);
 		} else {
-			mv.addObject("cartMessage", "Failed to delete cart");
+			mv.addObject("cartMessage", "Failed to delete cart. ");
 		}
 
-		log.debug("Ending of removeFromCart in CartController");
+		log.debug("Ending of removeFromCart in CartController. ");
 		return mv;
 
 	}
@@ -180,7 +180,7 @@ public class CartController {
 			int cartSize = myCartDAO.list(loggedInUserID).size();
 			session.setAttribute("cartSize", cartSize);
 		} else {
-			model.addAttribute("cartMessage", "Failed to checkout");
+			model.addAttribute("cartMessage", "Failed to checkout. ");
 		}
 
 		log.debug("Ending of cartCheckout in CartController");
