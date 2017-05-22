@@ -6,13 +6,18 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.niit.usermodule.dao.UserDAO;
 import com.niit.usermodule.model.User;
+import com.niit.usermodule.util.FileUtil;
 
 
 @Controller
@@ -43,7 +48,7 @@ public class UserController {
 		return mv;
 	}
 	
-	@RequestMapping("/JoinUs")
+	/*@RequestMapping("/JoinUs")
 	public ModelAndView joinUs(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact){
 		log.debug("Starting of method joinUs");
 		ModelAndView mv = new ModelAndView("redirect:/Login");
@@ -65,6 +70,33 @@ public class UserController {
 		
 		log.debug("Ending of method manageUserAdd");
 		return mv;
+	}*/
+	//@RequestMapping("/JoinUs")
+	@RequestMapping(value = "/JoinUs", method = RequestMethod.POST)
+	public String joinUs(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("image") MultipartFile file, Model model){
+		log.debug("Starting of method joinUs");
+		//ModelAndView mv = new ModelAndView("redirect:/Login");
+		log.info("User about to register");
+		
+		String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//UserModule//src//main//webapp//resources//img";
+		
+		user.setId(id);
+		user.setPassword(password);
+		user.setName(name);
+		user.setContact(contact);
+		user.setRole("ROLE_USER");
+		if (userDAO.save(user)) {
+			log.info("Registration Successful");
+			FileUtil.upload(path, file, id + ".jpeg");
+			session.setAttribute("successMessage","Registration Successful. Please login to continue. ");
+		} else {
+			log.info("Registration falied");
+			session.setAttribute("errorMessage","Failed to Register. ");
+		}
+		
+		
+		log.debug("Ending of method manageUserAdd");
+		return "redirect:/Login";
 	}
 	
 	@RequestMapping("/ViewUsers")
@@ -116,11 +148,15 @@ public class UserController {
 		log.debug("Ending of method manageUserEdit");
 		return mv;
 	}
-	@RequestMapping("/manage-user-update")
-	public ModelAndView manageUserUpdate(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role){
+	
+	//@PostMapping("/manage-user-update")
+	/*@RequestMapping(value = "/manage-user-update", method = RequestMethod.POST)
+	public ModelAndView manageUserUpdate(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role, @RequestParam("image") MultipartFile file){
 		log.debug("Starting of method manageUserUpdate");
 		ModelAndView mv = new ModelAndView("redirect:/manageUsers");
 		log.info("You are about to update user");
+		
+		String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//UserModule//src//main//webapp//resources//img";
 		
 		user.setId(id);
 		user.setPassword(password);
@@ -131,6 +167,7 @@ public class UserController {
 			log.info("Update user Successful");
 			session.setAttribute("successMessage","Update  user Successful. ");
 			session.setAttribute("isAdminClickedEditUser", "false");
+			FileUtil.upload(path, file, user.getId() + ".jpeg");
 		} else {
 			log.info("Update user falied");
 			session.setAttribute("errorMessage","Update  user failed. ");
@@ -139,21 +176,26 @@ public class UserController {
 		
 		log.debug("Ending of method manageUserUpdate");
 		return mv;
-	}
-	@RequestMapping("/manage-user-add")
-	public ModelAndView manageUserAdd(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role){
+	}*/
+	//@PostMapping("/manage-user-add")
+	/*@RequestMapping(value = "/manage-user-add", method = RequestMethod.POST)
+	public ModelAndView manageUserAdd(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role, @RequestParam("image") MultipartFile file){
 		log.debug("Starting of method manageUserAdd");
 		ModelAndView mv = new ModelAndView("redirect:/manageUsers");
 		log.info("You are about to add user");
+		
+		String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//UserModule//src//main//webapp//resources//img";
 		
 		user.setId(id);
 		user.setPassword(password);
 		user.setName(name);
 		user.setContact(contact);
 		user.setRole(role);
+		
 		if (userDAO.save(user)) {
 			log.info("Add user Successful");
 			session.setAttribute("successMessage","Add  user Successful. ");
+			FileUtil.upload(path, file, user.getId() + ".jpeg");
 		} else {
 			log.info("Add user falied");
 			session.setAttribute("errorMessage","Add  user failed. ");
@@ -162,5 +204,61 @@ public class UserController {
 		
 		log.debug("Ending of method manageUserAdd");
 		return mv;
+	}*/
+	
+	@RequestMapping(value = "/manage-user-update", method = RequestMethod.POST)
+	public String manageUserUpdate(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role, @RequestParam("image") MultipartFile file, Model model){
+		log.debug("Starting of method manageUserUpdate");
+		//ModelAndView mv = new ModelAndView("redirect:/manageUsers");
+		log.info("You are about to update user");
+		
+		String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//UserModule//src//main//webapp//resources//img";
+		
+		user.setId(id);
+		user.setPassword(password);
+		user.setName(name);
+		user.setContact(contact);
+		user.setRole(role);
+		if (userDAO.update(user)) {
+			log.info("Update user Successful");
+			session.setAttribute("successMessage","Update  user Successful. ");
+			session.setAttribute("isAdminClickedEditUser", "false");
+			FileUtil.upload(path, file, user.getId() + ".jpeg");
+		} else {
+			log.info("Update user falied");
+			session.setAttribute("errorMessage","Update  user failed. ");
+		}
+		
+		
+		log.debug("Ending of method manageUserUpdate");
+		return "redirect:/manageUsers";
+	}
+
+
+	@RequestMapping(value = "/manage-user-add", method = RequestMethod.POST)
+	public String manageUserAdd(@RequestParam("id") String id, @RequestParam("name") String name, @RequestParam("password") String password, @RequestParam("contact") String contact, @RequestParam("role") String role, @RequestParam("image") MultipartFile file, Model model) {
+		log.debug("Starting of method manageUserAdd");
+		//ModelAndView mv = new ModelAndView("redirect:/manageUsers");
+		log.info("You are about to add user");
+
+		String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//UserModule//src//main//webapp//resources//img";
+
+		user.setId(id);
+		user.setPassword(password);
+		user.setName(name);
+		user.setContact(contact);
+		user.setRole(role);
+
+		if (userDAO.save(user)) {
+			log.info("Add user Successful");
+			session.setAttribute("successMessage", "Add  user Successful. ");
+			FileUtil.upload(path, file, user.getId() + ".jpeg");
+		} else {
+			log.info("Add user falied");
+			session.setAttribute("errorMessage", "Add  user failed. ");
+		}
+
+		log.debug("Ending of method manageUserAdd");
+		return "redirect:/manageUsers";
 	}
 }

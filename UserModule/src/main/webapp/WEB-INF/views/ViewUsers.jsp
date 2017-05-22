@@ -13,6 +13,7 @@
 			<thead>
 				<tr>
 					<td>Name</td>
+					<td>Image</td>
 					<td>Contact</td>
 					<td>ID</td>
 					<!-- <td>Password</td> -->
@@ -22,6 +23,7 @@
 			<c:forEach var="user" items="${userList}">
 				<tr>
 					<td>${user.name}</td>
+					<td><img height="50px" width="75px" src="<c:url value="/resources/img/${user.id}.jpeg" />" alt="${user.name}" /></td>
 					<td>${user.contact}</td>
 					<td>${user.id}</td>
 					<%-- <td>${user.password}</td> --%>

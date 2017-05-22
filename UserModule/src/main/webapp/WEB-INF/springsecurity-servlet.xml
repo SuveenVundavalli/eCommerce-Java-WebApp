@@ -16,7 +16,7 @@ http://www.springframework.org/schema/security/spring-security-4.1.xsd">
 		<security:intercept-url pattern="/manage**"
 			access="hasRole('ROLE_ADMIN')" />
 			
-		<security:intercept-url pattern="/checkou**"
+		<security:intercept-url pattern="ViewU**"
 			access="hasRole('ROLE_USER')" />
 <!--  intercept url Ending-->	
 			

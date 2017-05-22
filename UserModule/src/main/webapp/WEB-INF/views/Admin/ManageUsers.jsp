@@ -13,7 +13,7 @@
 			<div class="h2">Update User</div>
 
 			<!-- Update User -->
-			<form action="manage-user-update" class="form-horizontal">
+			<form action="manage-user-update?${_csrf.parameterName}=${_csrf.token}" class="form-horizontal" method="post" enctype="multipart/form-data">
 				<div class="form-group">
 					<label class="control-label col-sm-2">Full Name:</label>
 					<div class="col-sm-10">
@@ -48,7 +48,15 @@
 					</div>
 				</div>
 				<div class="form-group">
+					<label class="control-label col-sm-2">Profile Pic:</label>
+					<div class="col-sm-10">
+						<input type="file" class="form-control" name="image" />
+					</div>
+				</div>
+				
+				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
+						<!-- <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> -->
 						<button type="submit" class="btn btn-warning">
 							<i class="fa fa-user-plus" aria-hidden="true"></i> Update User
 						</button>
@@ -60,7 +68,7 @@
 		<c:if test="${!isAdminClickedEditUser=='true'}">
 			<!-- Create User -->
 			<div class="h2">Add User</div>
-			<form action="manage-user-add" class="form-horizontal">
+			<form action="manage-user-add?${_csrf.parameterName}=${_csrf.token}" class="form-horizontal" method="post" enctype="multipart/form-data">
 				<div class="form-group">
 					<label class="control-label col-sm-2">Full Name:</label>
 					<div class="col-sm-10">
@@ -95,6 +103,14 @@
 					</div>
 				</div>
 				<div class="form-group">
+					<label class="control-label col-sm-2">Profile Pic:</label>
+					<div class="col-sm-10">
+						<input type="file" class="form-control" name="image" />
+					</div>
+				</div>
+				<!-- <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/> -->
+				
+				<div class="form-group">
 					<div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" class="btn btn-warning">
 							<i class="fa fa-user-plus" aria-hidden="true"></i> Add User
@@ -110,6 +126,7 @@
 			<thead>
 				<tr>
 					<td>Name</td>
+					<td>Image</td>
 					<td>Contact</td>
 					<td>ID</td>
 					<td>Password</td>
@@ -120,6 +137,7 @@
 			<c:forEach var="user" items="${userList}">
 				<tr>
 					<td>${user.name}</td>
+					<td><img height="50px" width="75px" src="<c:url value="/resources/img/${user.id}.jpeg" />" alt="${user.name}" /></td>
 					<td>${user.contact}</td>
 					<td>${user.id}</td>
 					<td>${user.password}</td>

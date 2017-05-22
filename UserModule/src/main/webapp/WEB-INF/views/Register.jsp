@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="well">
 			<div class="h2">Register</div>
-			<form action="JoinUs" class="form-horizontal">
+			<form action="JoinUs?${_csrf.parameterName}=${_csrf.token}" class="form-horizontal" method="post" enctype="multipart/form-data">
 				<div class="form-group">
 					<label class="control-label col-sm-2">Full Name:</label>
 					<div class="col-sm-10">
@@ -32,6 +32,12 @@
 					<label class="control-label col-sm-2">Password:</label>
 					<div class="col-sm-10">
 						<input type="password" class="form-control" name="password" placeholder="Password" pattern=".{5,15}" title="Password must have 5 to 15 characters" required/>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-sm-2">Profile Pic:</label>
+					<div class="col-sm-10">
+						<input type="file" class="form-control" name="image" />
 					</div>
 				</div>
 				<div class="form-group">

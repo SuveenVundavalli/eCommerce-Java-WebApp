@@ -18,7 +18,7 @@
 				<li><a href="ViewUsers">View Users</a></li>
 			</c:if>
 			<li><a href="AboutUs">About Us</a></li>
-			<li><a href="#">Page 2</a></li>
+			
 		</ul>
 		<ul class="nav navbar-nav navbar-right">
 			<c:if test="${!isUser=='true' && !isAdmin=='true'}">
