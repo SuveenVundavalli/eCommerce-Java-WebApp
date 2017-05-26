@@ -171,7 +171,7 @@ public class CartController {
 		log.debug("Starting of cartCheckout in CartController");
 
 		// Check whether products are there for this category or not
-		if (myCartDAO.deleteAllProductsInCart(id) == true) {
+		if (myCartDAO.checkOut(id) == true) {
 			//session.setAttribute("isUserCheckedOut", "true");
 			model.addAttribute("isUserCheckedOut", "true");
 			session.setAttribute("isUserAtHomePage", "false");

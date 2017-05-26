@@ -19,5 +19,7 @@ public interface My_CartDAO {
 	public double getTotalAmount(String userID);
 	
 	public My_Cart getCartById(int id);
+	
+	public boolean checkOut(String user_id);
 
 }
