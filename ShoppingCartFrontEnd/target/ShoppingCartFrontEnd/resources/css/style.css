@@ -13,6 +13,18 @@ body {
 	padding: 5px;
 }
 
+ul.nav li.dropdown:hover ul.dropdown-menu {
+	display: block;
+}
+
+a.blackText {
+	color:black;
+}
+a.blackText:hover {
+	text-decoration: none;
+}
+
+
 /*----------------------------------------------------------------------------------------------------------*/
 /*Navbar Styles*/
 .navbar-default {

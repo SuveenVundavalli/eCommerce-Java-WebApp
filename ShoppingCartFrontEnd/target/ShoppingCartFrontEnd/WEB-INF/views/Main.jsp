@@ -6,12 +6,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%-- <div class="container">
-		<div class="alert alert-danger fade in" >
-			<a href="#" class="close" data-dismiss="alert">&times;</a>
-			<strong>Message!</strong> ${message}
-		</div>
-	</div> --%>
+	
 
 	
 </body>

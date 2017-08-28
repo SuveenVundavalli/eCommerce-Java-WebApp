@@ -34,7 +34,7 @@
 						<td>${contact.message}</td>
 						<%-- <td><a href="manage-category-delete/${category.id}" class="btn btn-danger">Delete</a>  --%>
 						<%-- <a href="manage-category-edit/${category.id}" class="btn btn-info">Edit</a></td> --%>
-						<td><a href="manage-contactus-delete/${contact.id}" class="btn btn-danger">Delete</a></td>
+						<td><a href="manage-contactus-delete/${contact.id}" class="btn btn-danger"><i class="fa fa-trash-o fa-lg"></i> Delete</a></td>
 					</tr>
 				</c:forEach>
 			</table>

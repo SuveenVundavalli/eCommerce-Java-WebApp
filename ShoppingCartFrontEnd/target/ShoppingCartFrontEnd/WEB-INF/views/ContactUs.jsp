@@ -13,25 +13,37 @@
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="contactName">Name:</label>
 				<div class="col-sm-10">
-					<input type="text" class="form-control" name="contactName" id="contactName" placeholder="Enter Name" required>
+					<div class="input-group">
+  						<span class="input-group-addon"><i class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+						<input type="text" class="form-control" name="contactName" id="contactName" placeholder="Enter Name" required>
+					</div>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="contactEmail">Email:</label>
 				<div class="col-sm-10">
-					<input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="Enter Email" required>
+					<div class="input-group">
+  						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i></span>
+						<input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="Enter Email" required>
+					</div>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="contactContact">Mobile:</label>
 				<div class="col-sm-10">
-					<input type="number" class="form-control" name="contactContact" id="contactContact" placeholder="Enter Mobile Number" required>
+					<div class="input-group">
+  						<span class="input-group-addon"><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i></span>
+						<input type="text" class="form-control" name="contactContact" id="contactContact" placeholder="Enter Mobile Number" pattern="[789][0-9]{9}" title="Mobile number should have 10 digits and should start with 7/8/9" required>
+					</div>
 				</div>
 			</div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="contactMessage">Message:</label>
 				<div class="col-sm-10">
-					<textarea class="form-control" name="contactMessage" id="contactMessage" placeholder="Enter Your Message" required></textarea>
+					<div class="input-group">
+  						<span class="input-group-addon"><i class="glyphicon glyphicon-comment" aria-hidden="true"></i></span>
+						<textarea class="form-control" name="contactMessage" id="contactMessage" placeholder="Enter Your Message" required></textarea>
+					</div>
 				</div>
 			</div>
 			

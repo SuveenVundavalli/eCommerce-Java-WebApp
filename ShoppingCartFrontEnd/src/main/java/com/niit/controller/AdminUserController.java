@@ -35,7 +35,7 @@ public class AdminUserController {
 		log.debug("Starting of method manageUserDelete");
 		ModelAndView mv = new ModelAndView("redirect:/manageUsers");
 		log.info("You are about to delete user");
-		String loggedInUser = (String) session.getAttribute("loggedInUser"); 
+		String loggedInUser = (String) session.getAttribute("loggedInUserID"); 
 		log.debug("Logged in user id : "+loggedInUser);
 		log.debug("Delete user id : "+id);
 		int usercart = myCartDAO.list(id).size();
@@ -49,10 +49,10 @@ public class AdminUserController {
 			log.info("Tried to delete User Id with products in cart!");
 		}
 		else if(userDAO.delete(id)){
-				mv.addObject("successMessage", "Successfully deleted user with id: "+id+". ");
+				session.setAttribute("successMessage", "Successfully deleted user with id: "+id+". ");
 			} 
 		else {
-				mv.addObject("errorMessage", "Falied to delete user with id: "+id+". ");
+			session.setAttribute("errorMessage", "Falied to delete user with id: "+id+". ");
 			}
 		
 		
