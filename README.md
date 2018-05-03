@@ -1,4 +1,4 @@
-# SLTProject
+# eCommerce-Java-WebApp
 Hello there,
 
 Welcome to my github. I am Suveen.
